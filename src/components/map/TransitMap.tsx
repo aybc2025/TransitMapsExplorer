@@ -28,10 +28,9 @@ interface TransitMapProps {
   showFullMap?: boolean;
 }
 
-export function TransitMap({ 
-  system, 
-  height = '600px',
-  showFullMap = true 
+export function TransitMap({
+  system,
+  height = '600px'
 }: TransitMapProps) {
   const [activeTab, setActiveTab] = useState('full-map');
   const [isLoading, setIsLoading] = useState(true);

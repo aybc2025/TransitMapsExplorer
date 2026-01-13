@@ -81,11 +81,11 @@ export interface TransitLine {
   name: string;
   shortName: string;
   color: string;
-  coordinates: [number, number][];
+  coordinates: number[][];
 }
 
 export interface TransitSystemData {
-  center: [number, number];
+  center: number[];
   zoom: number;
   lines: TransitLine[];
 }
