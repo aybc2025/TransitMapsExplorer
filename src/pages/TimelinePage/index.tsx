@@ -1,9 +1,9 @@
 import { useState, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import {
   Clock, Filter, Play, Pause, SkipForward, SkipBack,
-  Train, ChevronLeft, ChevronRight, Calendar
+  Train, ChevronLeft, Calendar
 } from 'lucide-react';
 import { SEO } from '@/components/common/SEO';
 import { Button } from '@/components/ui/button';

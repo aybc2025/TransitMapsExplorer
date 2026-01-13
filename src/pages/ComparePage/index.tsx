@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import {
-  Search, X, Plus, ArrowLeftRight, Train,
+  X, Plus, ArrowLeftRight, Train,
   Ruler, Building2, Hash, Users, Calendar, TrendingUp
 } from 'lucide-react';
 import { SEO } from '@/components/common/SEO';
@@ -10,9 +10,7 @@ import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell
 } from 'recharts';
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import {
   Command,
@@ -28,7 +26,6 @@ import {
   PopoverTrigger,
 } from '@/components/ui/popover';
 import { dataService } from '@/services/dataService';
-import { SYSTEM_TYPES } from '@/config/constants';
 import type { TransitSystemSummary, TransitSystemFull } from '@/types';
 
 const CHART_COLORS = ['#3b82f6', '#ef4444', '#22c55e', '#f59e0b', '#8b5cf6'];
@@ -65,7 +62,7 @@ export function ComparePage() {
   const [searchParams, setSearchParams] = useSearchParams();
   const [allSystems, setAllSystems] = useState<TransitSystemSummary[]>([]);
   const [selectedSystems, setSelectedSystems] = useState<TransitSystemFull[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const [, setIsLoading] = useState(true);
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
 

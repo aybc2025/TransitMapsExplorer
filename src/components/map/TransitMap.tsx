@@ -50,7 +50,7 @@ export function TransitMap({
 
       // יצירת המפה
       const map = L.map(mapContainerRef.current, {
-        center: systemData.center,
+        center: systemData.center as [number, number],
         zoom: systemData.zoom,
         zoomControl: true,
         scrollWheelZoom: true

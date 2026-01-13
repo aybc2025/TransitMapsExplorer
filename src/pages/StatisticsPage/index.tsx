@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import {
-  BarChart3, PieChart as PieChartIcon, TrendingUp, Trophy,
+  BarChart3, TrendingUp, Trophy,
   Train, Ruler, Building2, Users, Globe, Hash, Calendar
 } from 'lucide-react';
 import { SEO } from '@/components/common/SEO';
@@ -353,7 +353,7 @@ export function StatisticsPage() {
                         cx="50%"
                         cy="50%"
                         labelLine={false}
-                        label={({ name, percent }) => `${name} (${(percent * 100).toFixed(0)}%)`}
+                        label={({ name, percent }) => `${name} (${((percent ?? 0) * 100).toFixed(0)}%)`}
                         outerRadius={100}
                         fill="#8884d8"
                         dataKey="value"
@@ -366,7 +366,7 @@ export function StatisticsPage() {
                     </PieChart>
                   </ResponsiveContainer>
                   <div className="grid grid-cols-2 gap-2 mt-4">
-                    {byContinent.map((item, i) => (
+                    {byContinent.map((item) => (
                       <div key={item.name} className="flex items-center gap-2 text-sm">
                         <div className="w-3 h-3 rounded-full" style={{ backgroundColor: item.color }} />
                         <span>{item.name}</span>
@@ -393,7 +393,7 @@ export function StatisticsPage() {
                         cx="50%"
                         cy="50%"
                         labelLine={false}
-                        label={({ name, percent }) => `${name} (${(percent * 100).toFixed(0)}%)`}
+                        label={({ name, percent }) => `${name} (${((percent ?? 0) * 100).toFixed(0)}%)`}
                         outerRadius={100}
                         fill="#8884d8"
                         dataKey="value"
@@ -406,7 +406,7 @@ export function StatisticsPage() {
                     </PieChart>
                   </ResponsiveContainer>
                   <div className="grid grid-cols-2 gap-2 mt-4">
-                    {byType.map((item, i) => (
+                    {byType.map((item) => (
                       <div key={item.name} className="flex items-center gap-2 text-sm">
                         <div className="w-3 h-3 rounded-full" style={{ backgroundColor: item.color }} />
                         <span>{item.name}</span>
