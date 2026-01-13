@@ -1,0 +1,119 @@
+{
+  "id": "dubai-metro",
+  "name": {
+    "he": "מטרו דובאי",
+    "en": "Dubai Metro",
+    "native": "مترو دبي"
+  },
+  "nicknames": [],
+  "city": {
+    "he": "דובאי",
+    "en": "Dubai"
+  },
+  "country": {
+    "he": "איחוד האמירויות",
+    "en": "UAE",
+    "code": "AE"
+  },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 90,
+    "stations": 53,
+    "lines": 2,
+    "annual_ridership": 180000000,
+    "daily_ridership": 490000,
+    "opened_year": 2009,
+    "avg_fare": {
+      "currency": "AED",
+      "symbol": "د.إ",
+      "min": 3,
+      "max": 7.5
+    },
+    "propulsion": "electric",
+    "operator": "Roads and Transport Authority"
+  },
+  "coordinates": {
+    "lat": 25.2048,
+    "lng": 55.2708
+  },
+  "description": {
+    "he": "מטרו דובאי היא מערכת מטרו אוטומטית חדשה, עם 53 תחנות ו-2 קווים המשתרעים על פני 90 ק\"מ. נפתחה בשנת 2009, והיא המערכת הראשונה בחצי האי הערבי.\n\nהמערכת היא אוטומטית לחלוטין (Driverless) וחדשה לחלוטין, עם טכנולוגיה מתקדמת. התחנות מעוצבות בסגנון מודרני ומפואר, עם דלתות בטיחות, מיזוג אוויר מתקדם, וקרונות יוקרה (Gold Class).\n\nהמערכת מתחברת למרכז העיר, לשדה התעופה, ולאזורים החדשים של דובאי. התחנות מעוצבות בסגנון מודרני ומפואר, עם סימון ברור בערבית ובאנגלית.",
+    "en": "Dubai Metro is a new fully automated metro system, with 53 stations and 2 lines spanning 90 km. Opened in 2009, it was the Arabian Peninsula's first metro system.\n\nThe system is fully automated (Driverless) and brand new, with advanced technology. Stations are designed in a modern, luxurious style, with platform screen doors, advanced air conditioning, and luxury cars (Gold Class).\n\nThe system connects to the city center, airport, and new areas of Dubai. Stations are designed in a modern, luxurious style, with clear signage in Arabic and English."
+  },
+  "lines": [
+    {
+      "id": "red",
+      "name": {
+        "he": "קו אדום",
+        "en": "Red Line"
+      },
+      "color": "#E31E24",
+      "stations": 35,
+      "length_km": 52.1,
+      "opened_year": 2009
+    },
+    {
+      "id": "green",
+      "name": {
+        "he": "קו ירוק",
+        "en": "Green Line"
+      },
+      "color": "#4CA524",
+      "stations": 20,
+      "length_km": 22.5,
+      "opened_year": 2011
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "המערכת הראשונה בחצי האי הערבי - נפתחה ב-2009",
+      "en": "Arabian Peninsula's first metro system - opened in 2009"
+    },
+    {
+      "he": "אוטומטית לחלוטין - ללא נהג",
+      "en": "Fully automated - driverless"
+    },
+    {
+      "he": "קרונות יוקרה (Gold Class)",
+      "en": "Luxury cars (Gold Class)"
+    },
+    {
+      "he": "תחנות מעוצבות בסגנון מודרני ומפואר",
+      "en": "Stations designed in modern, luxurious style"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 2009,
+      "event": {
+        "he": "פתיחת הקו הראשון - קו אדום",
+        "en": "First line opens - Red Line"
+      }
+    },
+    {
+      "year": 2011,
+      "event": {
+        "he": "פתיחת קו ירוק",
+        "en": "Green Line opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/dubai-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Dubai_Metro_map.svg/800px-Dubai_Metro_map.svg.png",
+    "transitMap": "/transit-maps/dubai-metro.png"
+  },
+  "map_url": "https://www.rta.ae/",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=55.1,25.1,55.4,25.3&layer=transport",
+  "official_website": "https://www.rta.ae/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/מטרו_דובאי",
+    "en": "https://en.wikipedia.org/wiki/Dubai_Metro"
+  },
+  "colors": [
+    "#E31E24",
+    "#4CA524"
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "id": "guangzhou-metro",
+  "name": {
+    "he": "מטרו גואנגג'ואו",
+    "en": "Guangzhou Metro",
+    "native": "广州地铁"
+  },
+  "nicknames": [
+    "GZM"
+  ],
+  "city": {
+    "he": "גואנגג'ואו",
+    "en": "Guangzhou"
+  },
+  "country": {
+    "he": "סין",
+    "en": "China",
+    "code": "CN"
+  },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 621,
+    "stations": 309,
+    "lines": 16,
+    "annual_ridership": 3200000000,
+    "daily_ridership": 9000000,
+    "opened_year": 1997,
+    "avg_fare": {
+      "currency": "CNY",
+      "symbol": "¥",
+      "min": 2,
+      "max": 14
+    },
+    "propulsion": "electric",
+    "operator": "Guangzhou Metro Corporation"
+  },
+  "coordinates": {
+    "lat": 23.1291,
+    "lng": 113.2644
+  },
+  "description": {
+    "he": "מטרו גואנגג'ואו הוא מערכת רכבת תחתית המשרתת את העיר השלישית בגודלה בסין. נפתחה ב-1997, והתרחבה במהירות להיות אחת מהגדולות בעולם.\n\nהמערכת ידועה בתחנותיה הנקיות והמודרניות, ובמערכת האוורור המתקדמת שלה. היא משתמשת בדלתות מסך ברציפים לבטיחות ונוחות.\n\nגואנגג'ואו היא מרכז כלכלי מוביל בדרום סין, והמטרו מחבר את כל האזורים העסקיים המרכזיים כולל קשר ישיר לנמל התעופה.",
+    "en": "Guangzhou Metro is a rapid transit system serving China's third largest city. Opened in 1997, it has rapidly expanded to become one of the world's largest systems.\n\nThe system is known for its clean, modern stations and advanced ventilation system. It uses platform screen doors for safety and comfort.\n\nGuangzhou is a leading economic center in southern China, and the metro connects all major business districts including direct service to the airport."
+  },
+  "lines": [
+    {
+      "id": "line1",
+      "name": {
+        "he": "קו 1",
+        "en": "Line 1"
+      },
+      "color": "#F5C700",
+      "stations": 16,
+      "length_km": 18.5,
+      "opened_year": 1997
+    },
+    {
+      "id": "line2",
+      "name": {
+        "he": "קו 2",
+        "en": "Line 2"
+      },
+      "color": "#0066B3",
+      "stations": 24,
+      "length_km": 31.4,
+      "opened_year": 2002
+    },
+    {
+      "id": "line3",
+      "name": {
+        "he": "קו 3",
+        "en": "Line 3"
+      },
+      "color": "#EF8200",
+      "stations": 30,
+      "length_km": 67.3,
+      "opened_year": 2005
+    },
+    {
+      "id": "line5",
+      "name": {
+        "he": "קו 5",
+        "en": "Line 5"
+      },
+      "color": "#C70019",
+      "stations": 24,
+      "length_km": 40,
+      "opened_year": 2009
+    },
+    {
+      "id": "line6",
+      "name": {
+        "he": "קו 6",
+        "en": "Line 6"
+      },
+      "color": "#71C5E8",
+      "stations": 32,
+      "length_km": 42,
+      "opened_year": 2013
+    },
+    {
+      "id": "line7",
+      "name": {
+        "he": "קו 7",
+        "en": "Line 7"
+      },
+      "color": "#641F5E",
+      "stations": 18,
+      "length_km": 22,
+      "opened_year": 2016
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "אחת ממערכות המטרו העמוסות ביותר בעולם",
+      "en": "One of the world's busiest metro systems"
+    },
+    {
+      "he": "מחברת ישירות לנמל התעופה הבינלאומי",
+      "en": "Direct connection to international airport"
+    },
+    {
+      "he": "יותר מ-600 ק\"מ של מסילות",
+      "en": "More than 600 km of track"
+    },
+    {
+      "he": "משרתת כ-9 מיליון נוסעים ביום",
+      "en": "Serves about 9 million passengers daily"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1997,
+      "event": {
+        "he": "פתיחת קו 1",
+        "en": "Line 1 opens"
+      }
+    },
+    {
+      "year": 2010,
+      "event": {
+        "he": "הרחבה משמעותית למשחקי אסיה",
+        "en": "Major expansion for Asian Games"
+      }
+    },
+    {
+      "year": 2018,
+      "event": {
+        "he": "עברה את רף 400 ק\"מ",
+        "en": "Surpassed 400 km mark"
+      }
+    },
+    {
+      "year": 2022,
+      "event": {
+        "he": "עברה 600 ק\"מ של מסילות",
+        "en": "Exceeded 600 km of track"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/guangzhou-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Guangzhou_Metro_Linemap.svg/800px-Guangzhou_Metro_Linemap.svg.png",
+    "transitMap": "/transit-maps/guangzhou-metro.png"
+  },
+  "map_url": "https://www.urbanrail.net/as/cn/guan/guangzhou.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/guangzhou/",
+  "official_website": "https://www.gzmtr.com/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/מטרו_גואנגג'ואו",
+    "en": "https://en.wikipedia.org/wiki/Guangzhou_Metro"
+  },
+  "colors": [
+    "#F5C700",
+    "#0066B3",
+    "#EF8200",
+    "#00843D",
+    "#C70019",
+    "#71C5E8",
+    "#641F5E",
+    "#008C95"
+  ]
+}

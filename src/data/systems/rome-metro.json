@@ -1,0 +1,140 @@
+{
+  "id": "rome-metro",
+  "name": {
+    "he": "מטרו רומא",
+    "en": "Rome Metro",
+    "native": "Metropolitana di Roma"
+  },
+  "nicknames": [
+    "La Metropolitana"
+  ],
+  "city": {
+    "he": "רומא",
+    "en": "Rome"
+  },
+  "country": {
+    "he": "איטליה",
+    "en": "Italy",
+    "code": "IT"
+  },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 60,
+    "stations": 73,
+    "lines": 3,
+    "annual_ridership": 340000000,
+    "daily_ridership": 930000,
+    "opened_year": 1955,
+    "avg_fare": {
+      "currency": "EUR",
+      "symbol": "€",
+      "min": 1.5,
+      "max": 7
+    },
+    "propulsion": "electric",
+    "operator": "ATAC"
+  },
+  "coordinates": {
+    "lat": 41.9028,
+    "lng": 12.4964
+  },
+  "description": {
+    "he": "מטרו רומא היא מערכת התחבורה התת-קרקעית של העיר הנצחית, עם 73 תחנות ו-3 קווים המשתרעים על פני 60 ק\"מ. נפתחה בשנת 1955, והפיתוח שלה הואט בגלל ממצאים ארכיאולוגיים רבים בעיר.\n\nהמערכת קטנה יחסית למערכת העיר הגדולה בגלל הקשיים הארכיאולוגיים בבנייה. כל פרויקט חדש דורש חפירות ארכיאולוגיות מקיפות. התחנות מעוצבות בסגנון מודרני ונקי, עם יצירות אמנות ייחודיות.\n\nהמערכת מתחברת לרכבת הפרברים (FS) ולאמצעי תחבורה נוספים. תחנות רבות מעוטרות בפסלים ויצירות אמנות, המשקפים את ההיסטוריה העשירה של רומא.",
+    "en": "The Rome Metro is the underground transportation system of the Eternal City, with 73 stations and 3 lines spanning 60 km. Opened in 1955, its development has been slowed by numerous archaeological findings in the city.\n\nThe system is relatively small for such a large city due to archaeological challenges in construction. Every new project requires extensive archaeological excavations. Stations are designed in a modern, clean style, with unique artworks.\n\nThe system connects to suburban rail (FS) and other transportation means. Many stations are decorated with sculptures and artworks, reflecting Rome's rich history."
+  },
+  "lines": [
+    {
+      "id": "A",
+      "name": {
+        "he": "קו A",
+        "en": "Line A"
+      },
+      "color": "#FF6A00",
+      "stations": 27,
+      "length_km": 18.4,
+      "opened_year": 1980
+    },
+    {
+      "id": "B",
+      "name": {
+        "he": "קו B",
+        "en": "Line B"
+      },
+      "color": "#0066CC",
+      "stations": 26,
+      "length_km": 22.9,
+      "opened_year": 1955
+    },
+    {
+      "id": "C",
+      "name": {
+        "he": "קו C",
+        "en": "Line C"
+      },
+      "color": "#41B54A",
+      "stations": 27,
+      "length_km": 19.4,
+      "opened_year": 2014
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "הפיתוח הואט בגלל ממצאים ארכיאולוגיים רבים",
+      "en": "Development slowed due to many archaeological findings"
+    },
+    {
+      "he": "תחנות מעוטרות בפסלים ויצירות אמנות",
+      "en": "Stations decorated with sculptures and artworks"
+    },
+    {
+      "he": "כל פרויקט חדש דורש חפירות ארכיאולוגיות",
+      "en": "Every new project requires archaeological excavations"
+    },
+    {
+      "he": "מערכת קטנה יחסית בגלל אתגרים ארכיאולוגיים",
+      "en": "Relatively small system due to archaeological challenges"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1955,
+      "event": {
+        "he": "פתיחת הקו הראשון - קו B",
+        "en": "First line opens - Line B"
+      }
+    },
+    {
+      "year": 1980,
+      "event": {
+        "he": "פתיחת קו A",
+        "en": "Line A opens"
+      }
+    },
+    {
+      "year": 2014,
+      "event": {
+        "he": "פתיחת קו C",
+        "en": "Line C opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/rome-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Roma_-_mappa_metropolitana_%28schematica%29.svg/800px-Roma_-_mappa_metropolitana_%28schematica%29.svg.png",
+    "transitMap": "/transit-maps/rome-metro.png"
+  },
+  "map_url": "https://www.atac.roma.it/",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=12.3,41.8,12.7,42.0&layer=transport",
+  "official_website": "https://www.atac.roma.it/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/המטרו_של_רומא",
+    "en": "https://en.wikipedia.org/wiki/Rome_Metro"
+  },
+  "colors": [
+    "#FF6A00",
+    "#0066CC",
+    "#41B54A"
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "id": "mexico-city-metro",
+  "name": {
+    "he": "מטרו מקסיקו סיטי",
+    "en": "Mexico City Metro",
+    "native": "Sistema de Transporte Colectivo Metro"
+  },
+  "nicknames": [
+    "Metro"
+  ],
+  "city": {
+    "he": "מקסיקו סיטי",
+    "en": "Mexico City"
+  },
+  "country": {
+    "he": "מקסיקו",
+    "en": "Mexico",
+    "code": "MX"
+  },
+  "continent": "northAmerica",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 226,
+    "stations": 195,
+    "lines": 12,
+    "annual_ridership": 1400000000,
+    "daily_ridership": 3800000,
+    "opened_year": 1969,
+    "avg_fare": {
+      "currency": "MXN",
+      "symbol": "$",
+      "min": 5,
+      "max": 5
+    },
+    "propulsion": "electric",
+    "operator": "Sistema de Transporte Colectivo"
+  },
+  "coordinates": {
+    "lat": 19.4326,
+    "lng": -99.1332
+  },
+  "description": {
+    "he": "מטרו מקסיקו סיטי היא מערכת המטרו של העיר הגדולה במקסיקו, עם 195 תחנות ו-12 קווים המשתרעים על פני 226 ק\"מ. נפתחה בשנת 1969, והיא המערכת הגדולה ביותר באמריקה הלטינית.\n\nהמערכת ידועה בסמלים הגרפיים של התחנות - כל תחנה מזוהה עם סמל ייחודי, מה שהופך את הניווט לקל יותר עבור אנשים שלא יודעים לקרוא. המערכת כוללת גם קרונות נשים וילדים בשעות העומס.\n\nהמערכת היא אחת העמוסות בעולם, ומובילה כ-3.8 מיליון נוסעים ביום. התחנות מעוצבות בסגנון מודרני ונקי, עם אמנות ציבורית ייחודית.",
+    "en": "The Mexico City Metro is the metro system of Mexico's largest city, with 195 stations and 12 lines spanning 226 km. Opened in 1969, it is the largest system in Latin America.\n\nThe system is known for its station pictograms - each station is identified with a unique symbol, making navigation easier for people who cannot read. The system also includes women and children cars during rush hours.\n\nThe system is one of the busiest in the world, carrying about 3.8 million passengers daily. Stations are designed in a modern, clean style, with unique public art."
+  },
+  "lines": [
+    {
+      "id": "1",
+      "name": {
+        "he": "קו 1",
+        "en": "Line 1"
+      },
+      "color": "#EB5DAA",
+      "stations": 20,
+      "length_km": 18.8,
+      "opened_year": 1969
+    },
+    {
+      "id": "2",
+      "name": {
+        "he": "קו 2",
+        "en": "Line 2"
+      },
+      "color": "#005DA5",
+      "stations": 24,
+      "length_km": 20.7,
+      "opened_year": 1970
+    },
+    {
+      "id": "3",
+      "name": {
+        "he": "קו 3",
+        "en": "Line 3"
+      },
+      "color": "#AF8E00",
+      "stations": 21,
+      "length_km": 23.6,
+      "opened_year": 1970
+    },
+    {
+      "id": "4",
+      "name": {
+        "he": "קו 4",
+        "en": "Line 4"
+      },
+      "color": "#69B23D",
+      "stations": 10,
+      "length_km": 10.7,
+      "opened_year": 1981
+    },
+    {
+      "id": "5",
+      "name": {
+        "he": "קו 5",
+        "en": "Line 5"
+      },
+      "color": "#FFDD00",
+      "stations": 13,
+      "length_km": 15.7,
+      "opened_year": 1981
+    },
+    {
+      "id": "6",
+      "name": {
+        "he": "קו 6",
+        "en": "Line 6"
+      },
+      "color": "#D3281E",
+      "stations": 11,
+      "length_km": 13.9,
+      "opened_year": 1983
+    },
+    {
+      "id": "7",
+      "name": {
+        "he": "קו 7",
+        "en": "Line 7"
+      },
+      "color": "#F77F00",
+      "stations": 14,
+      "length_km": 18.8,
+      "opened_year": 1984
+    },
+    {
+      "id": "8",
+      "name": {
+        "he": "קו 8",
+        "en": "Line 8"
+      },
+      "color": "#008E5B",
+      "stations": 19,
+      "length_km": 20.1,
+      "opened_year": 1994
+    },
+    {
+      "id": "9",
+      "name": {
+        "he": "קו 9",
+        "en": "Line 9"
+      },
+      "color": "#6D3C14",
+      "stations": 12,
+      "length_km": 15.4,
+      "opened_year": 1987
+    },
+    {
+      "id": "A",
+      "name": {
+        "he": "קו A",
+        "en": "Line A"
+      },
+      "color": "#A3277D",
+      "stations": 10,
+      "length_km": 14.9,
+      "opened_year": 1991
+    },
+    {
+      "id": "B",
+      "name": {
+        "he": "קו B",
+        "en": "Line B"
+      },
+      "color": "#B5B5B5",
+      "stations": 21,
+      "length_km": 23.7,
+      "opened_year": 2000
+    },
+    {
+      "id": "12",
+      "name": {
+        "he": "קו 12",
+        "en": "Line 12"
+      },
+      "color": "#BC9E6C",
+      "stations": 20,
+      "length_km": 24.3,
+      "opened_year": 2012
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "סמלים גרפיים ייחודיים לכל תחנה",
+      "en": "Unique pictograms for each station"
+    },
+    {
+      "he": "המערכת הגדולה ביותר באמריקה הלטינית",
+      "en": "Largest system in Latin America"
+    },
+    {
+      "he": "קרונות נשים וילדים בשעות העומס",
+      "en": "Women and children cars during rush hours"
+    },
+    {
+      "he": "מובילה כ-3.8 מיליון נוסעים ביום",
+      "en": "Carries about 3.8 million passengers daily"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1969,
+      "event": {
+        "he": "פתיחת הקו הראשון",
+        "en": "First line opens"
+      }
+    },
+    {
+      "year": 1981,
+      "event": {
+        "he": "פתיחת קווים 4 ו-5",
+        "en": "Lines 4 and 5 open"
+      }
+    },
+    {
+      "year": 2000,
+      "event": {
+        "he": "פתיחת קו B",
+        "en": "Line B opens"
+      }
+    },
+    {
+      "year": 2012,
+      "event": {
+        "he": "פתיחת קו 12",
+        "en": "Line 12 opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/mexico-city-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Mexico_City_Metro_map.svg/800px-Mexico_City_Metro_map.svg.png",
+    "transitMap": "/transit-maps/mexico-city-metro.png"
+  },
+  "map_url": "https://www.metro.cdmx.gob.mx/",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=-99.3,19.3,-99.0,19.5&layer=transport",
+  "official_website": "https://www.metro.cdmx.gob.mx/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/המטרו_של_מקסיקו_סיטי",
+    "en": "https://en.wikipedia.org/wiki/Mexico_City_Metro"
+  },
+  "colors": [
+    "#EB5DAA",
+    "#005DA5",
+    "#AF8E00",
+    "#69B23D",
+    "#FFDD00",
+    "#D3281E",
+    "#F77F00",
+    "#008E5B",
+    "#6D3C14",
+    "#A3277D",
+    "#B5B5B5",
+    "#BC9E6C"
+  ]
+}

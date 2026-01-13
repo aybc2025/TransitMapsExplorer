@@ -1,0 +1,32 @@
+{
+  "id": "buenos-aires-subte",
+  "name": { "he": "סובטה בואנוס איירס", "en": "Buenos Aires Subte", "native": "Subte de Buenos Aires" },
+  "nicknames": ["Subte"],
+  "city": { "he": "בואנוס איירס", "en": "Buenos Aires" },
+  "country": { "he": "ארגנטינה", "en": "Argentina", "code": "AR" },
+  "continent": "southAmerica",
+  "type": "metro",
+  "status": "active",
+  "stats": { "length_km": 56, "stations": 90, "lines": 6, "annual_ridership": 300000000, "daily_ridership": 820000, "opened_year": 1913, "avg_fare": { "currency": "ARS", "symbol": "$", "min": 110, "max": 110 }, "propulsion": "electric", "operator": "Metrovías" },
+  "coordinates": { "lat": -34.6037, "lng": -58.3816 },
+  "description": { "he": "הסובטה של בואנוס איירס הוא המטרו הראשון בחצי הכדור הדרומי ובעולם הדובר ספרדית.", "en": "Buenos Aires Subte is the first metro in the Southern Hemisphere and Spanish-speaking world." },
+  "lines": [
+    { "id": "a", "name": { "he": "קו A", "en": "Line A" }, "color": "#00A0E4", "stations": 18, "length_km": 9, "opened_year": 1913 },
+    { "id": "b", "name": { "he": "קו B", "en": "Line B" }, "color": "#E4002B", "stations": 17, "length_km": 12, "opened_year": 1930 },
+    { "id": "c", "name": { "he": "קו C", "en": "Line C" }, "color": "#0066B3", "stations": 9, "length_km": 4, "opened_year": 1934 },
+    { "id": "d", "name": { "he": "קו D", "en": "Line D" }, "color": "#009E49", "stations": 16, "length_km": 11, "opened_year": 1937 },
+    { "id": "e", "name": { "he": "קו E", "en": "Line E" }, "color": "#9B59B6", "stations": 15, "length_km": 10, "opened_year": 1944 },
+    { "id": "h", "name": { "he": "קו H", "en": "Line H" }, "color": "#FFD800", "stations": 12, "length_km": 8, "opened_year": 2007 }
+  ],
+  "fun_facts": [
+    { "he": "המטרו הראשון בחצי הכדור הדרומי (1913)", "en": "First metro in the Southern Hemisphere (1913)" },
+    { "he": "תחנות היסטוריות עם אמנות מקורית", "en": "Historic stations with original artwork" }
+  ],
+  "milestones": [{ "year": 1913, "event": { "he": "פתיחת קו A - הראשון בדרום אמריקה", "en": "Line A opens - first in South America" } }],
+  "images": { "header": "/transit-maps/buenos-aires-subte.png", "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Subterraneo_de_Buenos_Aires_mapa.svg/800px-Subterraneo_de_Buenos_Aires_mapa.svg.png", "transitMap": "/transit-maps/buenos-aires-subte.png" },
+  "map_url": "https://www.urbanrail.net/am/buen/buenos-aires.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/buenos-aires/",
+  "official_website": "https://www.buenosaires.gob.ar/subte",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/הרכבת_התחתית_של_בואנוס_איירס", "en": "https://en.wikipedia.org/wiki/Buenos_Aires_Underground" },
+  "colors": ["#00A0E4", "#E4002B", "#0066B3", "#009E49", "#9B59B6", "#795548"]
+}

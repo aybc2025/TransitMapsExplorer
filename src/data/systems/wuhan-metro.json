@@ -1,0 +1,30 @@
+{
+  "id": "wuhan-metro",
+  "name": { "he": "מטרו ווהאן", "en": "Wuhan Metro", "native": "武汉地铁" },
+  "nicknames": ["WMC"],
+  "city": { "he": "ווהאן", "en": "Wuhan" },
+  "country": { "he": "סין", "en": "China", "code": "CN" },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": { "length_km": 460, "stations": 282, "lines": 12, "annual_ridership": 1200000000, "daily_ridership": 3300000, "opened_year": 2004, "avg_fare": { "currency": "CNY", "symbol": "¥", "min": 2, "max": 9 }, "propulsion": "electric", "operator": "Wuhan Metro Group" },
+  "coordinates": { "lat": 30.5928, "lng": 114.3055 },
+  "description": { "he": "מטרו ווהאן משרת את העיר על שני נהרות - היאנגצה והאן. מערכת גדולה ומתרחבת.", "en": "Wuhan Metro serves the city at the confluence of Yangtze and Han rivers. A large, expanding system." },
+  "lines": [
+    { "id": "1", "name": { "he": "קו 1", "en": "Line 1" }, "color": "#0066B3", "stations": 32, "length_km": 34, "opened_year": 2004 },
+    { "id": "2", "name": { "he": "קו 2", "en": "Line 2" }, "color": "#E4002B", "stations": 32, "length_km": 60, "opened_year": 2012 },
+    { "id": "3", "name": { "he": "קו 3", "en": "Line 3" }, "color": "#009E49", "stations": 24, "length_km": 33, "opened_year": 2015 },
+    { "id": "4", "name": { "he": "קו 4", "en": "Line 4" }, "color": "#F9A51B", "stations": 28, "length_km": 40, "opened_year": 2014 }
+  ],
+  "fun_facts": [
+    { "he": "עוברת מתחת לשני נהרות", "en": "Crosses under two rivers" },
+    { "he": "יותר מ-450 ק\"מ של מסילות", "en": "Over 450 km of track" }
+  ],
+  "milestones": [{ "year": 2004, "event": { "he": "פתיחה", "en": "Opening" } }],
+  "images": { "header": "/transit-maps/wuhan-metro.png", "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Wuhan_Metro_Linemap.svg/800px-Wuhan_Metro_Linemap.svg.png", "transitMap": "/transit-maps/wuhan-metro.png" },
+  "map_url": "https://www.urbanrail.net/as/cn/wuha/wuhan.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/wuhan/",
+  "official_website": "https://www.wuhanrt.com/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/מטרו_ווהאן", "en": "https://en.wikipedia.org/wiki/Wuhan_Metro" },
+  "colors": ["#0066B3", "#E4002B", "#009E49", "#F9A51B", "#9B59B6", "#00A0E4"]
+}

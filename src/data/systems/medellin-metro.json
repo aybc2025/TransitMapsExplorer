@@ -1,0 +1,28 @@
+{
+  "id": "medellin-metro",
+  "name": { "he": "מטרו מדיין", "en": "Medellín Metro", "native": "Metro de Medellín" },
+  "nicknames": ["Metro", "Metrocable"],
+  "city": { "he": "מדיין", "en": "Medellín" },
+  "country": { "he": "קולומביה", "en": "Colombia", "code": "CO" },
+  "continent": "southAmerica",
+  "type": "metro",
+  "status": "active",
+  "stats": { "length_km": 32, "stations": 27, "lines": 2, "annual_ridership": 95000000, "daily_ridership": 260000, "opened_year": 1995, "avg_fare": { "currency": "COP", "symbol": "$", "min": 2800, "max": 2800 }, "propulsion": "electric", "operator": "Metro de Medellín" },
+  "coordinates": { "lat": 6.2442, "lng": -75.5812 },
+  "description": { "he": "מטרו מדיין כולל רכבת עילית ורכבלים (Metrocable) המגיעים לשכונות הר. חלוץ בתחבורה חברתית.", "en": "Medellín Metro includes elevated rail and cable cars (Metrocable) reaching hillside neighborhoods. Pioneer in social transportation." },
+  "lines": [
+    { "id": "a", "name": { "he": "קו A", "en": "Line A" }, "color": "#F9A51B", "stations": 21, "length_km": 26, "opened_year": 1995 },
+    { "id": "b", "name": { "he": "קו B", "en": "Line B" }, "color": "#009E49", "stations": 7, "length_km": 6, "opened_year": 1995 }
+  ],
+  "fun_facts": [
+    { "he": "כולל רכבלים המגיעים לשכונות הר", "en": "Includes cable cars to hillside neighborhoods" },
+    { "he": "חלוץ עולמי בתחבורה חברתית", "en": "World pioneer in social transportation" }
+  ],
+  "milestones": [{ "year": 1995, "event": { "he": "פתיחה", "en": "Opening" } }, { "year": 2004, "event": { "he": "רכבל ראשון", "en": "First cable car" } }],
+  "images": { "header": "/transit-maps/medellin-metro.png", "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Metro_de_Medell%C3%ADn_mapa.svg/800px-Metro_de_Medell%C3%ADn_mapa.svg.png", "transitMap": "/transit-maps/medellin-metro.png" },
+  "map_url": "https://www.urbanrail.net/am/mede/medellin.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/medellin/",
+  "official_website": "https://www.metrodemedellin.gov.co/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/מטרו_מדיין", "en": "https://en.wikipedia.org/wiki/Medell%C3%ADn_Metro" },
+  "colors": ["#F9A51B", "#009E49"]
+}

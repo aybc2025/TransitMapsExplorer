@@ -1,0 +1,370 @@
+{
+  "id": "shanghai-metro",
+  "name": {
+    "he": "מטרו שנחאי",
+    "en": "Shanghai Metro",
+    "native": "上海地铁"
+  },
+  "nicknames": [],
+  "city": {
+    "he": "שנחאי",
+    "en": "Shanghai"
+  },
+  "country": {
+    "he": "סין",
+    "en": "China",
+    "code": "CN"
+  },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 831,
+    "stations": 508,
+    "lines": 20,
+    "annual_ridership": 2300000000,
+    "daily_ridership": 6300000,
+    "opened_year": 1993,
+    "avg_fare": {
+      "currency": "CNY",
+      "symbol": "¥",
+      "min": 3,
+      "max": 15
+    },
+    "propulsion": "electric",
+    "operator": "Shanghai Shentong Metro Group"
+  },
+  "coordinates": {
+    "lat": 31.2304,
+    "lng": 121.4737
+  },
+  "description": {
+    "he": "מטרו שנחאי הוא רשת הרכבת התחתית הגדולה ביותר בעולם מבחינת אורך - 831 ק\"מ, עם 508 תחנות ו-20 קווים. נפתח בשנת 1993, והמערכת התפתחה במהירות מדהימה במהלך השנים.\n\nהמערכת ידועה בטכנולוגיה המתקדמת שלה, כולל מערכות אוטומטיות, דלתות בטיחות בתחנות, וסיגנלים מתקדמים. התחנות מעוצבות בסגנון מודרני ונקי, עם סימון ברור ונגישות טובה.\n\nהמערכת היא אחת המתקדמות ביותר מבחינה טכנולוגית, עם רכבות מגנטיות (Maglev) המחברות את נמל התעופה לעיר, ושעונים דיגיטליים המראים מתי יגיע הרכבת הבאה בכל תחנה.",
+    "en": "The Shanghai Metro is the world's largest metro network by length - 831 km, with 508 stations and 20 lines. Opened in 1993, the system has grown at an astonishing pace over the years.\n\nThe system is known for its advanced technology, including automated systems, platform screen doors, and advanced signaling. Stations are designed in a modern, clean style, with clear signage and good accessibility.\n\nThe system is one of the most technologically advanced, with Maglev trains connecting the airport to the city, and digital clocks showing when the next train will arrive at every station."
+  },
+  "lines": [
+    {
+      "id": "1",
+      "name": {
+        "he": "קו 1",
+        "en": "Line 1"
+      },
+      "color": "#E4002B",
+      "stations": 28,
+      "length_km": 36.4,
+      "opened_year": 1993
+    },
+    {
+      "id": "2",
+      "name": {
+        "he": "קו 2",
+        "en": "Line 2"
+      },
+      "color": "#9ACD32",
+      "stations": 30,
+      "length_km": 64,
+      "opened_year": 2000
+    },
+    {
+      "id": "3",
+      "name": {
+        "he": "קו 3",
+        "en": "Line 3"
+      },
+      "color": "#FFD700",
+      "stations": 29,
+      "length_km": 40.3,
+      "opened_year": 2000
+    },
+    {
+      "id": "4",
+      "name": {
+        "he": "קו 4",
+        "en": "Line 4"
+      },
+      "color": "#800080",
+      "stations": 26,
+      "length_km": 33.7,
+      "opened_year": 2005
+    },
+    {
+      "id": "5",
+      "name": {
+        "he": "קו 5",
+        "en": "Line 5"
+      },
+      "color": "#9B59B6",
+      "stations": 11,
+      "length_km": 17.2,
+      "opened_year": 2003
+    },
+    {
+      "id": "6",
+      "name": {
+        "he": "קו 6",
+        "en": "Line 6"
+      },
+      "color": "#E91E63",
+      "stations": 28,
+      "length_km": 32.3,
+      "opened_year": 2007
+    },
+    {
+      "id": "7",
+      "name": {
+        "he": "קו 7",
+        "en": "Line 7"
+      },
+      "color": "#FF9800",
+      "stations": 33,
+      "length_km": 44.4,
+      "opened_year": 2009
+    },
+    {
+      "id": "8",
+      "name": {
+        "he": "קו 8",
+        "en": "Line 8"
+      },
+      "color": "#00BCD4",
+      "stations": 30,
+      "length_km": 37.5,
+      "opened_year": 2007
+    },
+    {
+      "id": "9",
+      "name": {
+        "he": "קו 9",
+        "en": "Line 9"
+      },
+      "color": "#795548",
+      "stations": 26,
+      "length_km": 52.8,
+      "opened_year": 2007
+    },
+    {
+      "id": "10",
+      "name": {
+        "he": "קו 10",
+        "en": "Line 10"
+      },
+      "color": "#A5D6A7",
+      "stations": 31,
+      "length_km": 36,
+      "opened_year": 2010
+    },
+    {
+      "id": "11",
+      "name": {
+        "he": "קו 11",
+        "en": "Line 11"
+      },
+      "color": "#D81B60",
+      "stations": 38,
+      "length_km": 72,
+      "opened_year": 2013
+    },
+    {
+      "id": "12",
+      "name": {
+        "he": "קו 12",
+        "en": "Line 12"
+      },
+      "color": "#FDD835",
+      "stations": 32,
+      "length_km": 40.4,
+      "opened_year": 2013
+    },
+    {
+      "id": "13",
+      "name": {
+        "he": "קו 13",
+        "en": "Line 13"
+      },
+      "color": "#CDDC39",
+      "stations": 31,
+      "length_km": 38.8,
+      "opened_year": 2012
+    },
+    {
+      "id": "14",
+      "name": {
+        "he": "קו 14",
+        "en": "Line 14"
+      },
+      "color": "#80DEEA",
+      "stations": 31,
+      "length_km": 38.5,
+      "opened_year": 2021
+    },
+    {
+      "id": "15",
+      "name": {
+        "he": "קו 15",
+        "en": "Line 15"
+      },
+      "color": "#673AB7",
+      "stations": 9,
+      "length_km": 42.3,
+      "opened_year": 2021
+    },
+    {
+      "id": "16",
+      "name": {
+        "he": "קו 16",
+        "en": "Line 16"
+      },
+      "color": "#0097A7",
+      "stations": 13,
+      "length_km": 58.9,
+      "opened_year": 2013
+    },
+    {
+      "id": "17",
+      "name": {
+        "he": "קו 17",
+        "en": "Line 17"
+      },
+      "color": "#7B1FA2",
+      "stations": 8,
+      "length_km": 35.3,
+      "opened_year": 2017
+    },
+    {
+      "id": "18",
+      "name": {
+        "he": "קו 18",
+        "en": "Line 18"
+      },
+      "color": "#D32F2F",
+      "stations": 8,
+      "length_km": 36.8,
+      "opened_year": 2020
+    },
+    {
+      "id": "pujiang",
+      "name": {
+        "he": "קו פוג'יאנג",
+        "en": "Pujiang Line"
+      },
+      "color": "#999999",
+      "stations": 6,
+      "length_km": 6.7,
+      "opened_year": 2018
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "הרשת הארוכה ביותר בעולם - 831 ק\"מ",
+      "en": "Longest network in the world - 831 km"
+    },
+    {
+      "he": "המערכת הצעירה הגדולה ביותר - נפתחה ב-1993 וצמחה במהירות",
+      "en": "The largest young system - opened in 1993 and grew rapidly"
+    },
+    {
+      "he": "יש רכבת Maglev מהירה המחברת את נמל התעופה לעיר",
+      "en": "Features a fast Maglev train connecting the airport to the city"
+    },
+    {
+      "he": "דלתות בטיחות בכל התחנות המונעות נפילות למסילה",
+      "en": "Platform screen doors at all stations prevent falls onto tracks"
+    },
+    {
+      "he": "כל תחנה מציגה שעונים דיגיטליים עם זמן הגעה מדויק",
+      "en": "Every station displays digital clocks with precise arrival times"
+    },
+    {
+      "he": "מובילה יותר מ-6 מיליון נוסעים ביום",
+      "en": "Carries over 6 million passengers daily"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1993,
+      "event": {
+        "he": "פתיחת הקו הראשון - 16 תחנות",
+        "en": "First line opens - 16 stations"
+      }
+    },
+    {
+      "year": 2000,
+      "event": {
+        "he": "פתיחת קווים 2 ו-3",
+        "en": "Lines 2 and 3 open"
+      }
+    },
+    {
+      "year": 2010,
+      "event": {
+        "he": "הגעה ל-10 קווים",
+        "en": "Reaches 10 lines"
+      }
+    },
+    {
+      "year": 2013,
+      "event": {
+        "he": "הגעה ל-400 ק\"מ",
+        "en": "Reaches 400 km"
+      }
+    },
+    {
+      "year": 2021,
+      "event": {
+        "he": "הגעה ל-800 ק\"מ - הרשת הארוכה בעולם",
+        "en": "Reaches 800 km - longest network in the world"
+      }
+    },
+    {
+      "year": 2023,
+      "event": {
+        "he": "הגעה ל-831 ק\"מ ו-508 תחנות",
+        "en": "Reaches 831 km and 508 stations"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/shanghai-metro.jpg",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Shanghai_Metro.svg/800px-Shanghai_Metro.svg.png",
+    "transitMap": "/transit-maps/shanghai-metro.jpg",
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Shanghai_Metro_Line_2_train_at_Jing%27an_Temple_station.jpg/1280px-Shanghai_Metro_Line_2_train_at_Jing%27an_Temple_station.jpg",
+        "caption": {
+          "he": "תחנת מקדש ג'ינגאן",
+          "en": "Jing'an Temple Station"
+        }
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Shanghai_Metro_platform_screen_doors.jpg/1280px-Shanghai_Metro_platform_screen_doors.jpg",
+        "caption": {
+          "he": "דלתות בטיחות בפלטפורמה",
+          "en": "Platform screen doors"
+        }
+      }
+    ]
+  },
+  "map_url": "https://service.shmetro.com/en/hcskb/index.htm",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=121.3,31.1,121.6,31.3&layer=transport",
+  "official_website": "https://www.shmetro.com/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/המטרו_של_שנחאי",
+    "en": "https://en.wikipedia.org/wiki/Shanghai_Metro"
+  },
+  "colors": [
+    "#E4002B",
+    "#9ACD32",
+    "#FFD700",
+    "#800080",
+    "#9B59B6",
+    "#E91E63",
+    "#FF9800",
+    "#00BCD4",
+    "#795548",
+    "#A5D6A7",
+    "#D81B60",
+    "#FDD835",
+    "#CDDC39",
+    "#80DEEA"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "warsaw-metro",
+  "name": {
+    "he": "מטרו ורשה",
+    "en": "Warsaw Metro",
+    "native": "Metro Warszawskie"
+  },
+  "nicknames": [
+    "Metro"
+  ],
+  "city": {
+    "he": "ורשה",
+    "en": "Warsaw"
+  },
+  "country": {
+    "he": "פולין",
+    "en": "Poland",
+    "code": "PL"
+  },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 37,
+    "stations": 36,
+    "lines": 2,
+    "annual_ridership": 200000000,
+    "daily_ridership": 550000,
+    "opened_year": 1995,
+    "avg_fare": {
+      "currency": "PLN",
+      "symbol": "zł",
+      "min": 4.40,
+      "max": 7.00
+    },
+    "propulsion": "electric",
+    "operator": "Metro Warszawskie Sp. z o.o."
+  },
+  "coordinates": {
+    "lat": 52.2297,
+    "lng": 21.0122
+  },
+  "description": {
+    "he": "מטרו ורשה הוא מערכת רכבת תחתית המשרתת את בירת פולין. נפתחה ב-1995 אחרי עיכובים רבים, והיא ממשיכה להתרחב.\n\nהמערכת עברה תחת נהר הוויסלה והיא מחברת את מזרח העיר למערבה. התחנות מודרניות ומרווחות.\n\nורשה היא עיר שנבנתה מחדש אחרי החורבן של מלחמת העולם השנייה, והמטרו הוא חלק מהתשתית המודרנית שלה.",
+    "en": "Warsaw Metro is a rapid transit system serving Poland's capital. Opened in 1995 after many delays, it continues to expand.\n\nThe system crosses under the Vistula River and connects the city's east and west. Stations are modern and spacious.\n\nWarsaw is a city rebuilt after WWII destruction, and the metro is part of its modern infrastructure."
+  },
+  "lines": [
+    {
+      "id": "m1",
+      "name": {
+        "he": "M1 (כחול)",
+        "en": "M1 (Blue)"
+      },
+      "color": "#0066B3",
+      "stations": 21,
+      "length_km": 23,
+      "opened_year": 1995
+    },
+    {
+      "id": "m2",
+      "name": {
+        "he": "M2 (אדום)",
+        "en": "M2 (Red)"
+      },
+      "color": "#E4002B",
+      "stations": 15,
+      "length_km": 14,
+      "opened_year": 2015
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "לקח 40 שנה מהתכנון לפתיחה",
+      "en": "Took 40 years from planning to opening"
+    },
+    {
+      "he": "עובר מתחת לנהר הוויסלה",
+      "en": "Crosses under the Vistula River"
+    },
+    {
+      "he": "תחנות בעומק של עד 30 מטר",
+      "en": "Stations up to 30 meters deep"
+    },
+    {
+      "he": "קו M3 מתוכנן לעתיד",
+      "en": "M3 Line planned for the future"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1995,
+      "event": {
+        "he": "פתיחת קו M1",
+        "en": "M1 Line opens"
+      }
+    },
+    {
+      "year": 2015,
+      "event": {
+        "he": "פתיחת קו M2",
+        "en": "M2 Line opens"
+      }
+    },
+    {
+      "year": 2019,
+      "event": {
+        "he": "הרחבת M2 למזרח",
+        "en": "M2 extended east"
+      }
+    },
+    {
+      "year": 2022,
+      "event": {
+        "he": "הרחבת M2 למערב",
+        "en": "M2 extended west"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/warsaw-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Warsaw_Metro_map.svg/800px-Warsaw_Metro_map.svg.png",
+    "transitMap": "/transit-maps/warsaw-metro.png"
+  },
+  "map_url": "https://www.urbanrail.net/eu/pl/war/warszawa.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/warsaw/",
+  "official_website": "https://www.metro.waw.pl/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/מטרו_ורשה",
+    "en": "https://en.wikipedia.org/wiki/Warsaw_Metro"
+  },
+  "colors": [
+    "#0066B3",
+    "#E4002B"
+  ]
+}

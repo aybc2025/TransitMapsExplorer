@@ -1,0 +1,33 @@
+{
+  "id": "istanbul-metro",
+  "name": { "he": "מטרו איסטנבול", "en": "Istanbul Metro", "native": "İstanbul Metrosu" },
+  "nicknames": ["Metro"],
+  "city": { "he": "איסטנבול", "en": "Istanbul" },
+  "country": { "he": "טורקיה", "en": "Turkey", "code": "TR" },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": { "length_km": 130, "stations": 100, "lines": 9, "annual_ridership": 580000000, "daily_ridership": 1600000, "opened_year": 1989, "avg_fare": { "currency": "TRY", "symbol": "₺", "min": 15, "max": 15 }, "propulsion": "electric", "operator": "Metro Istanbul" },
+  "coordinates": { "lat": 41.0082, "lng": 28.9784 },
+  "description": { "he": "מטרו איסטנבול משרת את העיר הגדולה ביותר בטורקיה, המתפרשת על שתי יבשות.", "en": "Istanbul Metro serves Turkey's largest city, spanning two continents." },
+  "lines": [
+    { "id": "m1", "name": { "he": "M1", "en": "M1" }, "color": "#E4002B", "stations": 18, "length_km": 20, "opened_year": 1989 },
+    { "id": "m2", "name": { "he": "M2", "en": "M2" }, "color": "#009E49", "stations": 16, "length_km": 21, "opened_year": 2000 },
+    { "id": "m3", "name": { "he": "M3", "en": "M3" }, "color": "#0066B3", "stations": 11, "length_km": 16, "opened_year": 2013 },
+    { "id": "m4", "name": { "he": "M4", "en": "M4" }, "color": "#F9A51B", "stations": 19, "length_km": 27, "opened_year": 2012 }
+  ],
+  "fun_facts": [
+    { "he": "מחבר בין אירופה לאסיה", "en": "Connects Europe to Asia" },
+    { "he": "מנהרת מרמריי עוברת מתחת לבוספורוס", "en": "Marmaray tunnel runs under the Bosphorus" }
+  ],
+  "milestones": [
+    { "year": 1989, "event": { "he": "פתיחת M1", "en": "M1 opens" } },
+    { "year": 2013, "event": { "he": "מנהרת מרמריי", "en": "Marmaray tunnel opens" } }
+  ],
+  "images": { "header": "/transit-maps/istanbul-metro.png", "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Istanbul_Metro_Network_Map.svg/800px-Istanbul_Metro_Network_Map.svg.png", "transitMap": "/transit-maps/istanbul-metro.png" },
+  "map_url": "https://www.urbanrail.net/as/tr/istanbul/istanbul.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/istanbul/",
+  "official_website": "https://www.metro.istanbul/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/מטרו_איסטנבול", "en": "https://en.wikipedia.org/wiki/Istanbul_Metro" },
+  "colors": ["#E4002B", "#009E49", "#0066B3", "#F9A51B", "#9B59B6", "#795548"]
+}

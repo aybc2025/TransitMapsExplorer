@@ -1,0 +1,261 @@
+{
+  "id": "hong-kong-mtr",
+  "name": {
+    "he": "MTR הונג קונג",
+    "en": "Hong Kong MTR",
+    "native": "港鐵"
+  },
+  "nicknames": [
+    "MTR"
+  ],
+  "city": {
+    "he": "הונג קונג",
+    "en": "Hong Kong"
+  },
+  "country": {
+    "he": "הונג קונג",
+    "en": "Hong Kong",
+    "code": "HK"
+  },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 271,
+    "stations": 98,
+    "lines": 11,
+    "annual_ridership": 1200000000,
+    "daily_ridership": 3300000,
+    "opened_year": 1979,
+    "avg_fare": {
+      "currency": "HKD",
+      "symbol": "HK$",
+      "min": 4.5,
+      "max": 65
+    },
+    "propulsion": "electric",
+    "operator": "MTR Corporation"
+  },
+  "coordinates": {
+    "lat": 22.3193,
+    "lng": 114.1694
+  },
+  "description": {
+    "he": "MTR הונג קונג היא אחת המערכות היעילות והרווחיות ביותר בעולם, עם 98 תחנות ו-11 קווים המשתרעים על פני 271 ק\"מ. נפתחה בשנת 1979, והמערכת ידועה בדיוק המדהים שלה - אחוז ההצלחה בזמן הוא מעל 99.9%.\n\nהמערכת משלבת רכבת תחתית עירונית עם רכבות מהירות לשדות תעופה ולסין. התחנות מעוצבות בסגנון מודרני ונקי, עם סימון ברור בסינית ובאנגלית, ודלתות בטיחות בכל התחנות.\n\nMTR ידועה גם במודל העסקי הייחודי שלה - החברה מפתחת נכסים סביב התחנות, מה שמממן את ההרחבות והשיפורים. המערכת כוללת גם רכבות מהירות (Airport Express) לשדה התעופה.",
+    "en": "Hong Kong MTR is one of the world's most efficient and profitable systems, with 98 stations and 11 lines spanning 271 km. Opened in 1979, the system is known for its amazing punctuality - on-time performance is over 99.9%.\n\nThe system combines urban metro with express trains to airports and China. Stations are designed in a modern, clean style, with clear signage in Chinese and English, and platform screen doors at all stations.\n\nMTR is also known for its unique business model - the company develops properties around stations, which funds expansions and improvements. The system also includes express trains (Airport Express) to the airport."
+  },
+  "lines": [
+    {
+      "id": "island",
+      "name": {
+        "he": "קו האי",
+        "en": "Island Line"
+      },
+      "color": "#0077C8",
+      "stations": 17,
+      "length_km": 16.3,
+      "opened_year": 1985
+    },
+    {
+      "id": "tseung-kwan-o",
+      "name": {
+        "he": "קו צ'ונג קוון או",
+        "en": "Tseung Kwan O Line"
+      },
+      "color": "#5EB3E6",
+      "stations": 8,
+      "length_km": 12.5,
+      "opened_year": 2002
+    },
+    {
+      "id": "south-island",
+      "name": {
+        "he": "קו האי הדרומי",
+        "en": "South Island Line"
+      },
+      "color": "#5EB3E6",
+      "stations": 5,
+      "length_km": 7.4,
+      "opened_year": 2016
+    },
+    {
+      "id": "kwun-tong",
+      "name": {
+        "he": "קו קוון טונג",
+        "en": "Kwun Tong Line"
+      },
+      "color": "#1A8F87",
+      "stations": 17,
+      "length_km": 16.9,
+      "opened_year": 1979
+    },
+    {
+      "id": "tuen-ma",
+      "name": {
+        "he": "קו טואן מה",
+        "en": "Tuen Ma Line"
+      },
+      "color": "#A9238C",
+      "stations": 27,
+      "length_km": 56.2,
+      "opened_year": 2004
+    },
+    {
+      "id": "tung-chung",
+      "name": {
+        "he": "קו טונג צ'ונג",
+        "en": "Tung Chung Line"
+      },
+      "color": "#D5A900",
+      "stations": 8,
+      "length_km": 31.1,
+      "opened_year": 1998
+    },
+    {
+      "id": "disneyland-resort",
+      "name": {
+        "he": "קו דיסנילנד",
+        "en": "Disneyland Resort Line"
+      },
+      "color": "#FECF00",
+      "stations": 2,
+      "length_km": 3.5,
+      "opened_year": 2005
+    },
+    {
+      "id": "airport-express",
+      "name": {
+        "he": "רכבת שדה התעופה",
+        "en": "Airport Express"
+      },
+      "color": "#0098D4",
+      "stations": 5,
+      "length_km": 35.2,
+      "opened_year": 1998
+    },
+    {
+      "id": "east-rail",
+      "name": {
+        "he": "קו הרכבת המזרחי",
+        "en": "East Rail Line"
+      },
+      "color": "#1A8F87",
+      "stations": 16,
+      "length_km": 42,
+      "opened_year": 1910
+    },
+    {
+      "id": "tseung-kwan-o-south",
+      "name": {
+        "he": "קו צ'ונג קוון או דרום",
+        "en": "Tseung Kwan O Line South"
+      },
+      "color": "#5EB3E6",
+      "stations": 8,
+      "length_km": 12.5,
+      "opened_year": 2002
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "אחוז ההצלחה בזמן הוא מעל 99.9% - מהגבוהים בעולם",
+      "en": "On-time performance is over 99.9% - among the highest in the world"
+    },
+    {
+      "he": "המערכת הרווחית ביותר בעולם",
+      "en": "The most profitable system in the world"
+    },
+    {
+      "he": "מודל עסקי ייחודי - פיתוח נכסים סביב התחנות",
+      "en": "Unique business model - property development around stations"
+    },
+    {
+      "he": "דלתות בטיחות בכל התחנות",
+      "en": "Platform screen doors at all stations"
+    },
+    {
+      "he": "קו Airport Express מחבר את שדה התעופה למרכז העיר",
+      "en": "Airport Express line connects the airport to the city center"
+    },
+    {
+      "he": "מובילה יותר מ-3.3 מיליון נוסעים ביום",
+      "en": "Carries over 3.3 million passengers daily"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1979,
+      "event": {
+        "he": "פתיחת הקו הראשון - קו קוון טונג",
+        "en": "First line opens - Kwun Tong Line"
+      }
+    },
+    {
+      "year": 1985,
+      "event": {
+        "he": "פתיחת קו האי",
+        "en": "Island Line opens"
+      }
+    },
+    {
+      "year": 1998,
+      "event": {
+        "he": "פתיחת קו Airport Express ו-Tung Chung",
+        "en": "Airport Express and Tung Chung lines open"
+      }
+    },
+    {
+      "year": 2005,
+      "event": {
+        "he": "פתיחת קו דיסנילנד",
+        "en": "Disneyland Resort Line opens"
+      }
+    },
+    {
+      "year": 2007,
+      "event": {
+        "he": "מיזוג עם רשת KCR",
+        "en": "Merger with KCR network"
+      }
+    },
+    {
+      "year": 2016,
+      "event": {
+        "he": "פתיחת קו האי הדרומי",
+        "en": "South Island Line opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/hong-kong-mtr.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/MTR_System_Map_2024.svg/800px-MTR_System_Map_2024.svg.png",
+    "transitMap": "/transit-maps/hong-kong-mtr.png",
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/MTR_Train_At_Sheung_Wan_Station.jpg/1280px-MTR_Train_At_Sheung_Wan_Station.jpg",
+        "caption": {
+          "he": "תחנת שונג ואן",
+          "en": "Sheung Wan Station"
+        }
+      }
+    ]
+  },
+  "map_url": "https://www.mtr.com.hk/en/customer/services/system_map.html",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=114.0,22.2,114.3,22.4&layer=transport",
+  "official_website": "https://www.mtr.com.hk/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/ה-MTR_של_הונג_קונג",
+    "en": "https://en.wikipedia.org/wiki/MTR"
+  },
+  "colors": [
+    "#D2232A",
+    "#F7943E",
+    "#00A040",
+    "#1A8F87",
+    "#0077C8",
+    "#923011",
+    "#6B208B",
+    "#D5A900",
+    "#7B858C"
+  ]
+}

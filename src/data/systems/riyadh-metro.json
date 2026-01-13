@@ -1,0 +1,32 @@
+{
+  "id": "riyadh-metro",
+  "name": { "he": "מטרו ריאד", "en": "Riyadh Metro", "native": "مترو الرياض" },
+  "nicknames": ["Riyadh Public Transport"],
+  "city": { "he": "ריאד", "en": "Riyadh" },
+  "country": { "he": "ערב הסעודית", "en": "Saudi Arabia", "code": "SA" },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": { "length_km": 176, "stations": 85, "lines": 6, "annual_ridership": 40000000, "daily_ridership": 110000, "opened_year": 2023, "avg_fare": { "currency": "SAR", "symbol": "ر.س", "min": 4, "max": 12 }, "propulsion": "electric", "operator": "Royal Commission for Riyadh City" },
+  "coordinates": { "lat": 24.7136, "lng": 46.6753 },
+  "description": { "he": "מטרו ריאד הוא פרויקט ענק שנפתח ב-2023, אחת המערכות הגדולות ביותר שנבנו בבת אחת.", "en": "Riyadh Metro opened in 2023, one of the largest systems built at once." },
+  "lines": [
+    { "id": "1", "name": { "he": "קו 1 (כחול)", "en": "Line 1 (Blue)" }, "color": "#0066B3", "stations": 22, "length_km": 38, "opened_year": 2023 },
+    { "id": "2", "name": { "he": "קו 2 (אדום)", "en": "Line 2 (Red)" }, "color": "#E4002B", "stations": 13, "length_km": 25, "opened_year": 2023 },
+    { "id": "3", "name": { "he": "קו 3 (כתום)", "en": "Line 3 (Orange)" }, "color": "#F9A51B", "stations": 22, "length_km": 41, "opened_year": 2023 },
+    { "id": "4", "name": { "he": "קו 4 (צהוב)", "en": "Line 4 (Yellow)" }, "color": "#FFD800", "stations": 10, "length_km": 30, "opened_year": 2023 },
+    { "id": "5", "name": { "he": "קו 5 (ירוק)", "en": "Line 5 (Green)" }, "color": "#009E49", "stations": 12, "length_km": 13, "opened_year": 2023 },
+    { "id": "6", "name": { "he": "קו 6 (סגול)", "en": "Line 6 (Purple)" }, "color": "#9B59B6", "stations": 6, "length_km": 29, "opened_year": 2023 }
+  ],
+  "fun_facts": [
+    { "he": "אחת המערכות הגדולות שנבנו בבת אחת", "en": "One of the largest systems built at once" },
+    { "he": "כולל 6 קווים שנפתחו יחד", "en": "6 lines opened together" }
+  ],
+  "milestones": [{ "year": 2023, "event": { "he": "פתיחה של כל המערכת", "en": "Full system opens" } }],
+  "images": { "header": "/transit-maps/riyadh-metro.png", "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Riyadh_Metro_Map.svg/800px-Riyadh_Metro_Map.svg.png", "transitMap": "/transit-maps/riyadh-metro.png" },
+  "map_url": "https://www.urbanrail.net/as/sa/riyadh/riyadh.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/riyadh/",
+  "official_website": "https://www.riyadhmetro.sa/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/מטרו_ריאד", "en": "https://en.wikipedia.org/wiki/Riyadh_Metro" },
+  "colors": ["#0066B3", "#E4002B", "#F9A51B", "#9B59B6", "#009E49", "#795548"]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "oslo-metro",
+  "name": {
+    "he": "מטרו אוסלו",
+    "en": "Oslo Metro",
+    "native": "T-banen"
+  },
+  "nicknames": ["T-banen"],
+  "city": { "he": "אוסלו", "en": "Oslo" },
+  "country": { "he": "נורווגיה", "en": "Norway", "code": "NO" },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 85,
+    "stations": 101,
+    "lines": 5,
+    "annual_ridership": 120000000,
+    "daily_ridership": 330000,
+    "opened_year": 1966,
+    "avg_fare": { "currency": "NOK", "symbol": "kr", "min": 40, "max": 40 },
+    "propulsion": "electric",
+    "operator": "Sporveien T-banen"
+  },
+  "coordinates": { "lat": 59.9139, "lng": 10.7522 },
+  "description": {
+    "he": "מטרו אוסלו הוא מערכת רכבת המשרתת את בירת נורווגיה. נפתחה ב-1966 והיא מחברת את מרכז העיר ליערות ולאזורי הסקי.",
+    "en": "Oslo Metro is a rail system serving Norway's capital. Opened in 1966, it connects the city center to forests and ski areas."
+  },
+  "lines": [
+    { "id": "1", "name": { "he": "קו 1", "en": "Line 1" }, "color": "#F9A51B", "stations": 21, "length_km": 17, "opened_year": 1966 },
+    { "id": "2", "name": { "he": "קו 2", "en": "Line 2" }, "color": "#E4002B", "stations": 18, "length_km": 14, "opened_year": 1966 },
+    { "id": "3", "name": { "he": "קו 3", "en": "Line 3" }, "color": "#0066B3", "stations": 19, "length_km": 15, "opened_year": 1966 },
+    { "id": "4", "name": { "he": "קו 4", "en": "Line 4" }, "color": "#009E49", "stations": 22, "length_km": 18, "opened_year": 1966 },
+    { "id": "5", "name": { "he": "קו 5", "en": "Line 5" }, "color": "#9B59B6", "stations": 21, "length_km": 21, "opened_year": 1966 }
+  ],
+  "fun_facts": [
+    { "he": "מגיע ישירות לאזורי סקי", "en": "Reaches ski areas directly" },
+    { "he": "עובר דרך יערות צפוניים", "en": "Passes through northern forests" }
+  ],
+  "milestones": [
+    { "year": 1966, "event": { "he": "פתיחת המערכת", "en": "System opens" } }
+  ],
+  "images": {
+    "header": "/transit-maps/oslo-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Oslo_Metro_and_trams.svg/800px-Oslo_Metro_and_trams.svg.png",
+    "transitMap": "/transit-maps/oslo-metro.png"
+  },
+  "map_url": "https://www.urbanrail.net/eu/no/oslo/oslo.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/oslo/",
+  "official_website": "https://ruter.no/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/מטרו_אוסלו", "en": "https://en.wikipedia.org/wiki/Oslo_Metro" },
+  "colors": ["#F9A51B", "#E4002B", "#0066B3", "#009E49", "#9B59B6"]
+}

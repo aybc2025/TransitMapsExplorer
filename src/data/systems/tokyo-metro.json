@@ -1,0 +1,203 @@
+{
+  "id": "tokyo-metro",
+  "name": {
+    "he": "מטרו טוקיו",
+    "en": "Tokyo Metro",
+    "native": "東京メトロ"
+  },
+  "nicknames": [],
+  "city": {
+    "he": "טוקיו",
+    "en": "Tokyo"
+  },
+  "country": {
+    "he": "יפן",
+    "en": "Japan",
+    "code": "JP"
+  },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 285,
+    "stations": 285,
+    "lines": 13,
+    "annual_ridership": 3700000000,
+    "daily_ridership": 10000000,
+    "opened_year": 1927,
+    "avg_fare": {
+      "currency": "JPY",
+      "symbol": "¥",
+      "min": 170,
+      "max": 320
+    },
+    "propulsion": "electric",
+    "operator": "Tokyo Metro + Toei"
+  },
+  "coordinates": {
+    "lat": 35.6762,
+    "lng": 139.6503
+  },
+  "description": {
+    "he": "מטרו טוקיו הוא מערכת התחבורה העמוסה ביותר בעולם, עם כ-3.7 מיליארד נוסעים בשנה. המערכת מורכבת משתי רשתות עיקריות: Tokyo Metro ו-Toei Subway, שיחד יוצרות אחת ממערכות התחבורה המורכבות והיעילות בעולם.\n\nהמערכת ידועה בדיוק המדהים שלה - רכבות מגיעות בדיוק בזמן, ואיחור של דקה נחשב לאירוע יוצא דופן. בשעות העומס, דוחפים מקצועיים ('אושיה') דוחפים נוסעים לקרונות כדי למקסם את הקיבולת.",
+    "en": "The Tokyo Metro is the world's busiest transit system, with about 3.7 billion riders per year. The system consists of two main networks: Tokyo Metro and Toei Subway, which together create one of the most complex and efficient transit systems in the world.\n\nThe system is known for its incredible punctuality - trains arrive exactly on time, and a one-minute delay is considered an unusual event. During rush hours, professional pushers ('oshiya') push passengers into cars to maximize capacity."
+  },
+  "lines": [
+    {
+      "id": "ginza",
+      "name": {
+        "he": "גינזה",
+        "en": "Ginza"
+      },
+      "color": "#F39700",
+      "stations": 19,
+      "length_km": 14.3,
+      "opened_year": 1927
+    },
+    {
+      "id": "marunouchi",
+      "name": {
+        "he": "מרונאוצ'י",
+        "en": "Marunouchi"
+      },
+      "color": "#E60012",
+      "stations": 25,
+      "length_km": 27.4,
+      "opened_year": 1954
+    },
+    {
+      "id": "hibiya",
+      "name": {
+        "he": "היביה",
+        "en": "Hibiya"
+      },
+      "color": "#9CAEB7",
+      "stations": 21,
+      "length_km": 20.3,
+      "opened_year": 1961
+    },
+    {
+      "id": "tozai",
+      "name": {
+        "he": "טוזאי",
+        "en": "Tozai"
+      },
+      "color": "#00A7DB",
+      "stations": 23,
+      "length_km": 30.8,
+      "opened_year": 1964
+    },
+    {
+      "id": "chiyoda",
+      "name": {
+        "he": "צ'יודה",
+        "en": "Chiyoda"
+      },
+      "color": "#009944",
+      "stations": 20,
+      "length_km": 24,
+      "opened_year": 1969
+    },
+    {
+      "id": "yurakucho",
+      "name": {
+        "he": "יורקוצ'ו",
+        "en": "Yurakucho"
+      },
+      "color": "#C9910D",
+      "stations": 24,
+      "length_km": 28.3,
+      "opened_year": 1974
+    },
+    {
+      "id": "hanzomon",
+      "name": {
+        "he": "הנזומון",
+        "en": "Hanzomon"
+      },
+      "color": "#8F76D6",
+      "stations": 14,
+      "length_km": 16.8,
+      "opened_year": 1978
+    },
+    {
+      "id": "namboku",
+      "name": {
+        "he": "נמבוקו",
+        "en": "Namboku"
+      },
+      "color": "#00A29A",
+      "stations": 19,
+      "length_km": 21.3,
+      "opened_year": 1991
+    },
+    {
+      "id": "fukutoshin",
+      "name": {
+        "he": "פוקוטושין",
+        "en": "Fukutoshin"
+      },
+      "color": "#9B7CB6",
+      "stations": 16,
+      "length_km": 11.9,
+      "opened_year": 2008
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "המערכת העמוסה ביותר בעולם - 3.7 מיליארד נוסעים בשנה",
+      "en": "Busiest system in the world - 3.7 billion riders per year"
+    },
+    {
+      "he": "דיוק מופתי - איחור של דקה נחשב לאירוע חריג",
+      "en": "Exemplary punctuality - a one-minute delay is considered unusual"
+    },
+    {
+      "he": "יש 'דוחפים' מקצועיים (אושיה) בשעות העומס",
+      "en": "Professional 'pushers' (oshiya) work during rush hours"
+    },
+    {
+      "he": "קו גינזה היה הקו הראשון במזרח אסיה (1927)",
+      "en": "Ginza line was the first in East Asia (1927)"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1927,
+      "event": {
+        "he": "פתיחת קו גינזה - הראשון במזרח אסיה",
+        "en": "Ginza line opens - first in East Asia"
+      }
+    },
+    {
+      "year": 2008,
+      "event": {
+        "he": "פתיחת קו פוקוטושין",
+        "en": "Fukutoshin line opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/tokyo-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Tokyo_metro_map_en.png/800px-Tokyo_metro_map_en.png",
+    "transitMap": "/transit-maps/tokyo-metro.png"
+  },
+  "map_url": "https://www.tokyometro.jp/en/subwaymap/",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=139.5,35.5,139.8,35.8&layer=transport",
+  "official_website": "https://www.tokyometro.jp/en/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/הרכבת_התחתית_של_טוקיו",
+    "en": "https://en.wikipedia.org/wiki/Tokyo_Metro"
+  },
+  "colors": [
+    "#F39700",
+    "#E60012",
+    "#9CAEB7",
+    "#00A7DB",
+    "#009944",
+    "#C9242F",
+    "#0079C2",
+    "#9B7CB6",
+    "#00A29A"
+  ]
+}

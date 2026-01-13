@@ -1,0 +1,26 @@
+{
+  "id": "hyderabad-metro",
+  "name": { "he": "מטרו היידראבאד", "en": "Hyderabad Metro", "native": "హైదరాబాద్ మెట్రో" },
+  "nicknames": ["L&T Metro"],
+  "city": { "he": "היידראבאד", "en": "Hyderabad" },
+  "country": { "he": "הודו", "en": "India", "code": "IN" },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": { "length_km": 69, "stations": 57, "lines": 3, "annual_ridership": 130000000, "daily_ridership": 355000, "opened_year": 2017, "avg_fare": { "currency": "INR", "symbol": "₹", "min": 10, "max": 60 }, "propulsion": "electric", "operator": "L&T Metro Rail Hyderabad" },
+  "coordinates": { "lat": 17.385, "lng": 78.4867 },
+  "description": { "he": "מטרו היידראבאד הוא פרויקט PPP גדול, עילי ברובו.", "en": "Hyderabad Metro is a large PPP project, mostly elevated." },
+  "lines": [
+    { "id": "red", "name": { "he": "קו אדום", "en": "Red Line" }, "color": "#E4002B", "stations": 24, "length_km": 29, "opened_year": 2017 },
+    { "id": "blue", "name": { "he": "קו כחול", "en": "Blue Line" }, "color": "#0066B3", "stations": 16, "length_km": 14, "opened_year": 2018 },
+    { "id": "green", "name": { "he": "קו ירוק", "en": "Green Line" }, "color": "#009E49", "stations": 17, "length_km": 26, "opened_year": 2020 }
+  ],
+  "fun_facts": [{ "he": "אחד מפרויקטי ה-PPP הגדולים בעולם", "en": "One of the world's largest PPP projects" }],
+  "milestones": [{ "year": 2017, "event": { "he": "פתיחה", "en": "Opening" } }],
+  "images": { "header": "/transit-maps/hyderabad-metro.png", "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Hyderabad_Metro_Map.svg/800px-Hyderabad_Metro_Map.svg.png", "transitMap": "/transit-maps/hyderabad-metro.png" },
+  "map_url": "https://www.urbanrail.net/as/in/hyde/hyderabad.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/hyderabad/",
+  "official_website": "https://www.ltmetro.com/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/מטרו_היידראבאד", "en": "https://en.wikipedia.org/wiki/Hyderabad_Metro" },
+  "colors": ["#E4002B", "#0066B3", "#009E49"]
+}

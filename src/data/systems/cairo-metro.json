@@ -1,0 +1,134 @@
+{
+  "id": "cairo-metro",
+  "name": {
+    "he": "מטרו קהיר",
+    "en": "Cairo Metro",
+    "native": "مترو أنفاق القاهرة"
+  },
+  "nicknames": [],
+  "city": {
+    "he": "קהיר",
+    "en": "Cairo"
+  },
+  "country": {
+    "he": "מצרים",
+    "en": "Egypt",
+    "code": "EG"
+  },
+  "continent": "africa",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 90,
+    "stations": 77,
+    "lines": 3,
+    "annual_ridership": 1500000000,
+    "daily_ridership": 4100000,
+    "opened_year": 1987,
+    "avg_fare": {
+      "currency": "EGP",
+      "symbol": "E£",
+      "min": 5,
+      "max": 10
+    },
+    "propulsion": "electric",
+    "operator": "National Authority for Tunnels"
+  },
+  "coordinates": {
+    "lat": 30.0444,
+    "lng": 31.2357
+  },
+  "description": {
+    "he": "מטרו קהיר היא מערכת המטרו של בירת מצרים, עם 77 תחנות ו-3 קווים המשתרעים על פני 90 ק\"מ. נפתחה בשנת 1987, והיא המערכת הראשונה באפריקה.\n\nהמערכת ידועה כאחת העמוסות בעולם, ומובילה כ-4.1 מיליון נוסעים ביום. המערכת כוללת קרונות נשים בלבד, מה שמספק ביטחון ונוחות לנוסעות. התחנות מעוצבות בסגנון מודרני ונקי.\n\nהמערכת מתחברת לכל האזורים המרכזיים של קהיר, כולל נמל התעופה. התחנות מעוצבות בסגנון נקי ופונקציונלי, עם סימון ברור בערבית ובאנגלית.",
+    "en": "The Cairo Metro is the metro system of Egypt's capital, with 77 stations and 3 lines spanning 90 km. Opened in 1987, it was Africa's first metro system.\n\nThe system is known as one of the busiest in the world, carrying about 4.1 million passengers daily. The system includes women-only cars, providing security and comfort for female passengers. Stations are designed in a modern, clean style.\n\nThe system connects all central areas of Cairo, including the airport. Stations are designed in a clean, functional style, with clear signage in Arabic and English."
+  },
+  "lines": [
+    {
+      "id": "1",
+      "name": {
+        "he": "קו 1",
+        "en": "Line 1"
+      },
+      "color": "#E31E24",
+      "stations": 35,
+      "length_km": 44.3,
+      "opened_year": 1987
+    },
+    {
+      "id": "2",
+      "name": {
+        "he": "קו 2",
+        "en": "Line 2"
+      },
+      "color": "#FFB300",
+      "stations": 20,
+      "length_km": 21.6,
+      "opened_year": 1996
+    },
+    {
+      "id": "3",
+      "name": {
+        "he": "קו 3",
+        "en": "Line 3"
+      },
+      "color": "#00AA4F",
+      "stations": 22,
+      "length_km": 24.1,
+      "opened_year": 2012
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "המערכת הראשונה באפריקה - נפתחה ב-1987",
+      "en": "Africa's first metro system - opened in 1987"
+    },
+    {
+      "he": "קרונות נשים בלבד",
+      "en": "Women-only cars"
+    },
+    {
+      "he": "אחת העמוסות בעולם - מובילה כ-4.1 מיליון נוסעים ביום",
+      "en": "One of the busiest in the world - carries about 4.1 million passengers daily"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1987,
+      "event": {
+        "he": "פתיחת הקו הראשון",
+        "en": "First line opens"
+      }
+    },
+    {
+      "year": 1996,
+      "event": {
+        "he": "פתיחת קו 2",
+        "en": "Line 2 opens"
+      }
+    },
+    {
+      "year": 2012,
+      "event": {
+        "he": "פתיחת קו 3",
+        "en": "Line 3 opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/cairo-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Cairo_Metro_Map_%28including_Phase_3_of_Line_3%29.svg/800px-Cairo_Metro_Map_%28including_Phase_3_of_Line_3%29.svg.png",
+    "transitMap": "/transit-maps/cairo-metro.png"
+  },
+  "map_url": "https://www.cairometro.gov.eg/",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=31.1,30.0,31.4,30.1&layer=transport",
+  "official_website": "https://www.cairometro.gov.eg/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/המטרו_של_קהיר",
+    "en": "https://en.wikipedia.org/wiki/Cairo_Metro"
+  },
+  "colors": [
+    "#E31E24",
+    "#FFB300",
+    "#00AA4F"
+  ]
+}

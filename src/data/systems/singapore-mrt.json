@@ -1,0 +1,194 @@
+{
+  "id": "singapore-mrt",
+  "name": {
+    "he": "MRT סינגפור",
+    "en": "Singapore MRT",
+    "native": "Singapore MRT"
+  },
+  "nicknames": [
+    "MRT"
+  ],
+  "city": {
+    "he": "סינגפור",
+    "en": "Singapore"
+  },
+  "country": {
+    "he": "סינגפור",
+    "en": "Singapore",
+    "code": "SG"
+  },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 240,
+    "stations": 145,
+    "lines": 6,
+    "annual_ridership": 1100000000,
+    "daily_ridership": 3000000,
+    "opened_year": 1987,
+    "avg_fare": {
+      "currency": "SGD",
+      "symbol": "S$",
+      "min": 0.83,
+      "max": 2.5
+    },
+    "propulsion": "electric",
+    "operator": "SMRT Corporation + SBS Transit"
+  },
+  "coordinates": {
+    "lat": 1.3521,
+    "lng": 103.8198
+  },
+  "description": {
+    "he": "MRT סינגפור היא מערכת הרכבת התחתית של העיר-מדינה, עם 145 תחנות ו-6 קווים המשתרעים על פני 240 ק\"מ. נפתחה בשנת 1987 והיא אחת המערכות הנקיות והיעילות ביותר בעולם.\n\nהמערכת ידועה בנקיון המופתי שלה, בדיוק גבוה, ובתחנות מעוצבות בסגנון מודרני ונקי. דלתות בטיחות בכל התחנות, מיזוג אוויר מתקדם, ותצוגות דיגיטליות עם מידע בזמן אמת.\n\nהמערכת מתחברת לשדות תעופה, לנמלים, ולכל האזורים המרכזיים של סינגפור. התחנות מעוצבות בסגנון נקי ומודרני, עם סימון ברור באנגלית, מנדרינית, מלאית וטמילית.",
+    "en": "The Singapore MRT is the metro system of the city-state, with 145 stations and 6 lines spanning 240 km. Opened in 1987, it is one of the cleanest and most efficient systems in the world.\n\nThe system is known for its impeccable cleanliness, high punctuality, and stations designed in a modern, clean style. Platform screen doors at all stations, advanced air conditioning, and digital displays with real-time information.\n\nThe system connects to airports, ports, and all central areas of Singapore. Stations are designed in a clean, modern style, with clear signage in English, Mandarin, Malay, and Tamil."
+  },
+  "lines": [
+    {
+      "id": "nsl",
+      "name": {
+        "he": "קו צפון-דרום",
+        "en": "North South Line"
+      },
+      "color": "#009645",
+      "stations": 27,
+      "length_km": 45,
+      "opened_year": 1987
+    },
+    {
+      "id": "ewl",
+      "name": {
+        "he": "קו מזרח-מערב",
+        "en": "East West Line"
+      },
+      "color": "#D42E12",
+      "stations": 35,
+      "length_km": 57.2,
+      "opened_year": 1987
+    },
+    {
+      "id": "nel",
+      "name": {
+        "he": "קו צפון-מזרח",
+        "en": "North East Line"
+      },
+      "color": "#9900AA",
+      "stations": 16,
+      "length_km": 20,
+      "opened_year": 2003
+    },
+    {
+      "id": "ccl",
+      "name": {
+        "he": "קו המעגל",
+        "en": "Circle Line"
+      },
+      "color": "#FA9E0D",
+      "stations": 29,
+      "length_km": 35.7,
+      "opened_year": 2009
+    },
+    {
+      "id": "dtl",
+      "name": {
+        "he": "קו דאונטאון",
+        "en": "Downtown Line"
+      },
+      "color": "#005EB8",
+      "stations": 34,
+      "length_km": 41.9,
+      "opened_year": 2013
+    },
+    {
+      "id": "tel",
+      "name": {
+        "he": "קו תומסון-מזרח חוף",
+        "en": "Thomson-East Coast Line"
+      },
+      "color": "#784008",
+      "stations": 32,
+      "length_km": 43,
+      "opened_year": 2019
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "אחת המערכות הנקיות ביותר בעולם",
+      "en": "One of the cleanest systems in the world"
+    },
+    {
+      "he": "דלתות בטיחות בכל התחנות",
+      "en": "Platform screen doors at all stations"
+    },
+    {
+      "he": "דיוק גבוה מאוד - מעל 99%",
+      "en": "Very high punctuality - over 99%"
+    },
+    {
+      "he": "מיזוג אוויר מתקדם בכל הרכבות",
+      "en": "Advanced air conditioning on all trains"
+    },
+    {
+      "he": "מובילה כ-3 מיליון נוסעים ביום",
+      "en": "Carries about 3 million passengers daily"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1987,
+      "event": {
+        "he": "פתיחת הקו הראשון",
+        "en": "First line opens"
+      }
+    },
+    {
+      "year": 2003,
+      "event": {
+        "he": "פתיחת קו צפון-מזרח",
+        "en": "North East Line opens"
+      }
+    },
+    {
+      "year": 2009,
+      "event": {
+        "he": "פתיחת קו המעגל",
+        "en": "Circle Line opens"
+      }
+    },
+    {
+      "year": 2013,
+      "event": {
+        "he": "פתיחת קו דאונטאון",
+        "en": "Downtown Line opens"
+      }
+    },
+    {
+      "year": 2019,
+      "event": {
+        "he": "פתיחת קו תומסון-מזרח חוף",
+        "en": "Thomson-East Coast Line opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/singapore-mrt.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/MRT_System_Map.svg/800px-MRT_System_Map.svg.png",
+    "transitMap": "/transit-maps/singapore-mrt.png"
+  },
+  "map_url": "https://www.smrt.com.sg/",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=103.6,1.2,104.0,1.5&layer=transport",
+  "official_website": "https://www.smrt.com.sg/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/MRT_סינגפור",
+    "en": "https://en.wikipedia.org/wiki/Mass_Rapid_Transit_(Singapore)"
+  },
+  "colors": [
+    "#009645",
+    "#D42E12",
+    "#9900AA",
+    "#FA9E0D",
+    "#005EB8",
+    "#784008"
+  ]
+}

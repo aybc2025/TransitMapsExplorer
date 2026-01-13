@@ -1,0 +1,148 @@
+{
+  "id": "vancouver-skytrain",
+  "name": {
+    "he": "סקייטריין ונקובר",
+    "en": "Vancouver SkyTrain",
+    "native": "SkyTrain"
+  },
+  "nicknames": [
+    "SkyTrain",
+    "The Train"
+  ],
+  "city": {
+    "he": "ונקובר",
+    "en": "Vancouver"
+  },
+  "country": {
+    "he": "קנדה",
+    "en": "Canada",
+    "code": "CA"
+  },
+  "continent": "northAmerica",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 80,
+    "stations": 53,
+    "lines": 3,
+    "annual_ridership": 145000000,
+    "daily_ridership": 400000,
+    "opened_year": 1985,
+    "avg_fare": {
+      "currency": "CAD",
+      "symbol": "C$",
+      "min": 2.55,
+      "max": 6.05
+    },
+    "propulsion": "electric",
+    "operator": "TransLink"
+  },
+  "coordinates": {
+    "lat": 49.2827,
+    "lng": -123.1207
+  },
+  "description": {
+    "he": "סקייטריין ונקובר הוא מערכת רכבת אוטומטית עילית ותת-קרקעית המשרתת את מטרו ונקובר בקולומביה הבריטית, קנדה. נפתחה ב-1985 לקראת תערוכת עולם Expo 86, והיא אחת ממערכות הרכבות האוטומטיות הארוכות בעולם.\n\nהמערכת כוללת שלושה קווים: קו Expo (הראשון והעמוס ביותר), קו Millennium, וקו Canada. המערכת ידועה בכך שהיא פועלת ללא נהגים - רכבות אוטומטיות לחלוטין. התחנות נקיות ומודרניות, ורבות מהן מציעות נוף מרהיב של העיר וההרים.\n\nהסקייטריין הוא חלק ממערכת TransLink הכוללת גם אוטובוסים, SeaBus (מעבורות), ו-West Coast Express. המערכת נחשבת לאחת היעילות והבטיחותיות בצפון אמריקה.",
+    "en": "Vancouver SkyTrain is an automated light metro system serving Metro Vancouver in British Columbia, Canada. Opened in 1985 for Expo 86 World's Fair, it is one of the longest automated light rail systems in the world.\n\nThe system consists of three lines: the Expo Line (the first and busiest), the Millennium Line, and the Canada Line. The system is known for being fully automated - driverless trains operate throughout. Stations are clean and modern, with many offering stunning views of the city and mountains.\n\nSkyTrain is part of the TransLink system which also includes buses, SeaBus (ferries), and West Coast Express. The system is considered one of the most efficient and safest in North America."
+  },
+  "lines": [
+    {
+      "id": "expo",
+      "name": {
+        "he": "קו Expo",
+        "en": "Expo Line"
+      },
+      "color": "#0060A9",
+      "stations": 25,
+      "length_km": 29.2,
+      "opened_year": 1985
+    },
+    {
+      "id": "millennium",
+      "name": {
+        "he": "קו Millennium",
+        "en": "Millennium Line"
+      },
+      "color": "#FDB813",
+      "stations": 18,
+      "length_km": 25.3,
+      "opened_year": 2002
+    },
+    {
+      "id": "canada",
+      "name": {
+        "he": "קו Canada",
+        "en": "Canada Line"
+      },
+      "color": "#009AC8",
+      "stations": 16,
+      "length_km": 19.2,
+      "opened_year": 2009
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "אחת ממערכות הרכבת האוטומטיות הארוכות בעולם",
+      "en": "One of the longest automated light rail systems in the world"
+    },
+    {
+      "he": "נבנתה במקור לקראת תערוכת Expo 86",
+      "en": "Originally built for Expo 86 World's Fair"
+    },
+    {
+      "he": "פועלת ללא נהגים - רכבות אוטומטיות לחלוטין",
+      "en": "Operates without drivers - fully automated trains"
+    },
+    {
+      "he": "תחנת Waterfront מחברת לנמל ים ולמעבורות SeaBus",
+      "en": "Waterfront Station connects to the seaport and SeaBus ferries"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1985,
+      "event": {
+        "he": "פתיחת קו Expo",
+        "en": "Expo Line opens"
+      }
+    },
+    {
+      "year": 2002,
+      "event": {
+        "he": "פתיחת קו Millennium",
+        "en": "Millennium Line opens"
+      }
+    },
+    {
+      "year": 2009,
+      "event": {
+        "he": "פתיחת קו Canada לקראת אולימפיאדת החורף",
+        "en": "Canada Line opens for Winter Olympics"
+      }
+    },
+    {
+      "year": 2016,
+      "event": {
+        "he": "הרחבת קו Evergreen",
+        "en": "Evergreen Extension opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/vancouver-skytrain.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/TransLink_SkyTrain_System_Map.svg/800px-TransLink_SkyTrain_System_Map.svg.png",
+    "transitMap": "/transit-maps/vancouver-skytrain.png"
+  },
+  "map_url": "https://www.urbanrail.net/am/vanc/vancouver.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/vancouver/",
+  "official_website": "https://www.translink.ca/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/סקייטריין",
+    "en": "https://en.wikipedia.org/wiki/SkyTrain_(Vancouver)"
+  },
+  "colors": [
+    "#0060A9",
+    "#FDB813",
+    "#009AC8"
+  ]
+}

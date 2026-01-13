@@ -1,0 +1,160 @@
+{
+  "id": "hamburg-ubahn",
+  "name": {
+    "he": "U-Bahn המבורג",
+    "en": "Hamburg U-Bahn",
+    "native": "U-Bahn Hamburg"
+  },
+  "nicknames": [
+    "U-Bahn",
+    "HVV Metro"
+  ],
+  "city": {
+    "he": "המבורג",
+    "en": "Hamburg"
+  },
+  "country": {
+    "he": "גרמניה",
+    "en": "Germany",
+    "code": "DE"
+  },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 106,
+    "stations": 93,
+    "lines": 4,
+    "annual_ridership": 250000000,
+    "daily_ridership": 680000,
+    "opened_year": 1912,
+    "avg_fare": {
+      "currency": "EUR",
+      "symbol": "€",
+      "min": 3.50,
+      "max": 3.50
+    },
+    "propulsion": "electric",
+    "operator": "Hamburger Hochbahn"
+  },
+  "coordinates": {
+    "lat": 53.5511,
+    "lng": 9.9937
+  },
+  "description": {
+    "he": "U-Bahn המבורג הוא מערכת רכבת תחתית ועילית המשרתת את עיר הנמל השנייה בגודלה בגרמניה. נפתחה ב-1912.\n\nהמערכת כוללת קטעים עיליים יפים המציעים נוף לנמל ולאזור האגמים. תחנת Jungfernstieg היא המרכזית.\n\nהמבורג היא עיר נמל חשובה, והמטרו מחבר את הנמל, את אזור Speicherstadt ההיסטורי, ואת אזור הבילוי של Reeperbahn.",
+    "en": "Hamburg U-Bahn is an underground and elevated rail system serving Germany's second largest port city. Opened in 1912.\n\nThe system includes beautiful elevated sections offering views of the port and lake area. Jungfernstieg is the central station.\n\nHamburg is an important port city, and the metro connects the port, historic Speicherstadt area, and the Reeperbahn entertainment district."
+  },
+  "lines": [
+    {
+      "id": "u1",
+      "name": {
+        "he": "U1 (כחול)",
+        "en": "U1 (Blue)"
+      },
+      "color": "#0072BC",
+      "stations": 46,
+      "length_km": 55,
+      "opened_year": 1912
+    },
+    {
+      "id": "u2",
+      "name": {
+        "he": "U2 (אדום)",
+        "en": "U2 (Red)"
+      },
+      "color": "#E4002B",
+      "stations": 25,
+      "length_km": 22,
+      "opened_year": 1912
+    },
+    {
+      "id": "u3",
+      "name": {
+        "he": "U3 (צהוב)",
+        "en": "U3 (Yellow)"
+      },
+      "color": "#FFC800",
+      "stations": 26,
+      "length_km": 21,
+      "opened_year": 1912
+    },
+    {
+      "id": "u4",
+      "name": {
+        "he": "U4 (ירוק)",
+        "en": "U4 (Green)"
+      },
+      "color": "#48A88C",
+      "stations": 11,
+      "length_km": 12,
+      "opened_year": 2012
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "קטעים עיליים מציעים נוף לנמל",
+      "en": "Elevated sections offer port views"
+    },
+    {
+      "he": "מהוותיקים בגרמניה - מ-1912",
+      "en": "One of Germany's oldest - from 1912"
+    },
+    {
+      "he": "מחבר לאזור Speicherstadt ההיסטורי",
+      "en": "Connects to historic Speicherstadt"
+    },
+    {
+      "he": "קו U3 עובר על גשר מעל האגם הפנימי",
+      "en": "U3 crosses bridge over Inner Alster Lake"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1912,
+      "event": {
+        "he": "פתיחת הקווים הראשונים",
+        "en": "First lines open"
+      }
+    },
+    {
+      "year": 1943,
+      "event": {
+        "he": "נזק כבד במלחמה, שיקום",
+        "en": "Heavy war damage, reconstruction"
+      }
+    },
+    {
+      "year": 2012,
+      "event": {
+        "he": "פתיחת קו U4",
+        "en": "U4 Line opens"
+      }
+    },
+    {
+      "year": 2018,
+      "event": {
+        "he": "הרחבת U4 ל-Elbbrücken",
+        "en": "U4 extended to Elbbrücken"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/hamburg-ubahn.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Hamburg_U-Bahn_Plan.svg/800px-Hamburg_U-Bahn_Plan.svg.png",
+    "transitMap": "/transit-maps/hamburg-ubahn.png"
+  },
+  "map_url": "https://www.urbanrail.net/eu/de/hh/hamburg.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/hamburg/",
+  "official_website": "https://www.hochbahn.de/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/רכבת_תחתית_המבורג",
+    "en": "https://en.wikipedia.org/wiki/Hamburg_U-Bahn"
+  },
+  "colors": [
+    "#0072BC",
+    "#E4002B",
+    "#FFC800",
+    "#48A88C"
+  ]
+}

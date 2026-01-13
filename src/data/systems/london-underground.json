@@ -1,0 +1,305 @@
+{
+  "id": "london-underground",
+  "name": {
+    "he": "רכבת התחתית של לונדון",
+    "en": "London Underground",
+    "native": "London Underground"
+  },
+  "nicknames": [
+    "The Tube",
+    "Underground"
+  ],
+  "city": {
+    "he": "לונדון",
+    "en": "London"
+  },
+  "country": {
+    "he": "בריטניה",
+    "en": "United Kingdom",
+    "code": "GB"
+  },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 402,
+    "stations": 272,
+    "lines": 11,
+    "annual_ridership": 1300000000,
+    "daily_ridership": 3500000,
+    "opened_year": 1863,
+    "avg_fare": {
+      "currency": "GBP",
+      "symbol": "£",
+      "min": 2.8,
+      "max": 5.5
+    },
+    "propulsion": "electric",
+    "operator": "Transport for London (TfL)"
+  },
+  "coordinates": {
+    "lat": 51.5074,
+    "lng": -0.1278
+  },
+  "description": {
+    "he": "רכבת התחתית של לונדון, הידועה גם בשם 'The Tube', היא מערכת התחבורה התת-קרקעית הראשונה בעולם. נפתחה ב-10 בינואר 1863, והיא משמשת כיום כעורק תחבורתי מרכזי בלונדון הגדולה. המערכת כוללת 11 קווים המשרתים 272 תחנות על פני 402 ק\"מ של מסילות, ומובילה כ-5 מיליון נוסעים ביום.\n\nהמפה האייקונית של המערכת עוצבה על ידי הארי בק (Harry Beck) ב-1931, והפכה לסטנדרט עולמי לעיצוב מפות תחבורה. המפה הסכמטית שלו, שהתעלמה מהגיאוגרפיה המדויקת לטובת בהירות, שינתה את האופן שבו מערכות תחבורה מכל העולם מציגות את עצמן.",
+    "en": "The London Underground, also known as 'The Tube', is the world's first underground railway system. Opened on January 10, 1863, it now serves as a central transportation artery in Greater London. The system includes 11 lines serving 272 stations across 402 km of track, carrying about 5 million passengers daily.\n\nThe iconic map of the system was designed by Harry Beck in 1931 and became a worldwide standard for transit map design. His schematic map, which ignored exact geography in favor of clarity, changed how transit systems around the world present themselves."
+  },
+  "lines": [
+    {
+      "id": "bakerloo",
+      "name": {
+        "he": "בייקרלו",
+        "en": "Bakerloo"
+      },
+      "color": "#B36305",
+      "stations": 25,
+      "length_km": 23.2,
+      "opened_year": 1906,
+      "terminus": {
+        "north": {
+          "he": "הארו ועלדסטון",
+          "en": "Harrow & Wealdstone"
+        },
+        "south": {
+          "he": "אלפנט אנד קאסל",
+          "en": "Elephant & Castle"
+        }
+      }
+    },
+    {
+      "id": "central",
+      "name": {
+        "he": "סנטרל",
+        "en": "Central"
+      },
+      "color": "#DC241F",
+      "stations": 49,
+      "length_km": 74,
+      "opened_year": 1900,
+      "terminus": {
+        "west": {
+          "he": "איילינג ברודווי",
+          "en": "Ealing Broadway"
+        },
+        "east": {
+          "he": "אפינג",
+          "en": "Epping"
+        }
+      }
+    },
+    {
+      "id": "circle",
+      "name": {
+        "he": "סרקל",
+        "en": "Circle"
+      },
+      "color": "#FFD300",
+      "stations": 36,
+      "length_km": 27,
+      "opened_year": 1884,
+      "terminus": {
+        "note": "קו מעגלי - Circular line"
+      }
+    },
+    {
+      "id": "district",
+      "name": {
+        "he": "דיסטריקט",
+        "en": "District"
+      },
+      "color": "#007D32",
+      "stations": 60,
+      "length_km": 64,
+      "opened_year": 1868
+    },
+    {
+      "id": "hammersmith",
+      "name": {
+        "he": "המרסמית וסיטי",
+        "en": "Hammersmith & City"
+      },
+      "color": "#F3A9BB",
+      "stations": 29,
+      "length_km": 25.5,
+      "opened_year": 1863
+    },
+    {
+      "id": "jubilee",
+      "name": {
+        "he": "יובל",
+        "en": "Jubilee"
+      },
+      "color": "#A0A5A9",
+      "stations": 27,
+      "length_km": 36.2,
+      "opened_year": 1979
+    },
+    {
+      "id": "metropolitan",
+      "name": {
+        "he": "מטרופוליטן",
+        "en": "Metropolitan"
+      },
+      "color": "#9B0056",
+      "stations": 34,
+      "length_km": 66.7,
+      "opened_year": 1863
+    },
+    {
+      "id": "northern",
+      "name": {
+        "he": "צפוני",
+        "en": "Northern"
+      },
+      "color": "#000000",
+      "stations": 52,
+      "length_km": 58,
+      "opened_year": 1890
+    },
+    {
+      "id": "piccadilly",
+      "name": {
+        "he": "פיקדילי",
+        "en": "Piccadilly"
+      },
+      "color": "#0098D4",
+      "stations": 53,
+      "length_km": 71,
+      "opened_year": 1906
+    },
+    {
+      "id": "victoria",
+      "name": {
+        "he": "ויקטוריה",
+        "en": "Victoria"
+      },
+      "color": "#0019A8",
+      "stations": 16,
+      "length_km": 21,
+      "opened_year": 1968
+    },
+    {
+      "id": "waterloo",
+      "name": {
+        "he": "ווטרלו וסיטי",
+        "en": "Waterloo & City"
+      },
+      "color": "#95CDBA",
+      "stations": 2,
+      "length_km": 2.4,
+      "opened_year": 1898
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "מערכת התחבורה התת-קרקעית הראשונה בעולם - נפתחה ב-1863",
+      "en": "World's first underground railway system - opened in 1863"
+    },
+    {
+      "he": "התחנה העמוקה ביותר: המפסטד - 58.5 מטר מתחת לפני הקרקע",
+      "en": "Deepest station: Hampstead - 58.5 meters below ground level"
+    },
+    {
+      "he": "המשפט 'Mind the gap' הפך לסמל תרבותי בריטי",
+      "en": "The phrase 'Mind the gap' has become a British cultural icon"
+    },
+    {
+      "he": "המפה האייקונית עוצבה על ידי הארי בק ב-1931",
+      "en": "The iconic map was designed by Harry Beck in 1931"
+    },
+    {
+      "he": "הקו הארוך ביותר: Central Line - 74 ק\"מ",
+      "en": "Longest line: Central Line - 74 km"
+    },
+    {
+      "he": "מובילה כ-5 מיליון נוסעים ביום",
+      "en": "Carries about 5 million passengers per day"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1863,
+      "event": {
+        "he": "פתיחת המערכת - הקו הראשון",
+        "en": "System opening - first line"
+      }
+    },
+    {
+      "year": 1890,
+      "event": {
+        "he": "פתיחת הרכבת החשמלית הראשונה",
+        "en": "First electric underground railway opens"
+      }
+    },
+    {
+      "year": 1908,
+      "event": {
+        "he": "הלוגו האייקוני (הרונדל) מופיע לראשונה",
+        "en": "Iconic logo (roundel) first appears"
+      }
+    },
+    {
+      "year": 1931,
+      "event": {
+        "he": "מפת בק מתפרסמת לראשונה",
+        "en": "Beck's map first published"
+      }
+    },
+    {
+      "year": 1979,
+      "event": {
+        "he": "פתיחת קו יובל",
+        "en": "Jubilee line opens"
+      }
+    },
+    {
+      "year": 2003,
+      "event": {
+        "he": "הרחבת קו יובל למזרח לונדון",
+        "en": "Jubilee line extension to East London"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/london-underground.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/London_Underground_Overground_DLR_Crossrail_map.svg/800px-London_Underground_Overground_DLR_Crossrail_map.svg.png",
+    "transitMap": "/transit-maps/london-underground.png",
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Westminster_tube_station_MMB_06.jpg/1280px-Westminster_tube_station_MMB_06.jpg",
+        "caption": {
+          "he": "תחנת ווסטמינסטר",
+          "en": "Westminster Station"
+        }
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Baker_Street_tube_station_MMB_20.jpg/1280px-Baker_Street_tube_station_MMB_20.jpg",
+        "caption": {
+          "he": "תחנת בייקר סטריט",
+          "en": "Baker Street Station"
+        }
+      }
+    ]
+  },
+  "map_url": "https://tfl.gov.uk/maps/track/tube",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=-0.5,51.3,0.2,51.7&layer=transport",
+  "official_website": "https://tfl.gov.uk",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/רכבת_התחתית_של_לונדון",
+    "en": "https://en.wikipedia.org/wiki/London_Underground"
+  },
+  "colors": [
+    "#B36305",
+    "#DC241F",
+    "#FFD300",
+    "#007D32",
+    "#F3A9BB",
+    "#A0A5A9",
+    "#9B0056",
+    "#000000",
+    "#0098D4",
+    "#0019A8",
+    "#95CDBA"
+  ]
+}

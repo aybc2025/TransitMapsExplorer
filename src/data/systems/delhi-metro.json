@@ -1,0 +1,239 @@
+{
+  "id": "delhi-metro",
+  "name": {
+    "he": "מטרו דלהי",
+    "en": "Delhi Metro",
+    "native": "दिल्ली मेट्रो"
+  },
+  "nicknames": [],
+  "city": {
+    "he": "דלהי",
+    "en": "Delhi"
+  },
+  "country": {
+    "he": "הודו",
+    "en": "India",
+    "code": "IN"
+  },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 393,
+    "stations": 288,
+    "lines": 12,
+    "annual_ridership": 1100000000,
+    "daily_ridership": 3000000,
+    "opened_year": 2002,
+    "avg_fare": {
+      "currency": "INR",
+      "symbol": "₹",
+      "min": 10,
+      "max": 60
+    },
+    "propulsion": "electric",
+    "operator": "Delhi Metro Rail Corporation"
+  },
+  "coordinates": {
+    "lat": 28.6139,
+    "lng": 77.209
+  },
+  "description": {
+    "he": "מטרו דלהי היא מערכת המטרו של בירת הודו, עם 288 תחנות ו-12 קווים המשתרעים על פני 393 ק\"מ. נפתחה בשנת 2002, והמערכת התפתחה במהירות מדהימה.\n\nהמערכת ידועה בנקיון, בדיוק, ובתחנות מעוצבות בסגנון מודרני. דלתות בטיחות בכל התחנות, מיזוג אוויר מתקדם, ותצוגות דיגיטליות. המערכת כוללת גם קרונות נשים בלבד.\n\nהמערכת מתוכננת היטב ומתחברת לכל האזורים המרכזיים של דלהי. התחנות מעוצבות בסגנון נקי ומודרני, עם סימון ברור בהינדי ובאנגלית.",
+    "en": "The Delhi Metro is the metro system of India's capital, with 288 stations and 12 lines spanning 393 km. Opened in 2002, the system has grown at an astonishing pace.\n\nThe system is known for its cleanliness, punctuality, and stations designed in a modern style. Platform screen doors at all stations, advanced air conditioning, and digital displays. The system also includes women-only cars.\n\nThe system is well-planned and connects all central areas of Delhi. Stations are designed in a clean, modern style, with clear signage in Hindi and English."
+  },
+  "lines": [
+    {
+      "id": "red",
+      "name": {
+        "he": "קו אדום",
+        "en": "Red Line"
+      },
+      "color": "#E21F26",
+      "stations": 29,
+      "length_km": 34.5,
+      "opened_year": 2002
+    },
+    {
+      "id": "yellow",
+      "name": {
+        "he": "קו צהוב",
+        "en": "Yellow Line"
+      },
+      "color": "#FFCA05",
+      "stations": 37,
+      "length_km": 49.3,
+      "opened_year": 2004
+    },
+    {
+      "id": "blue",
+      "name": {
+        "he": "קו כחול",
+        "en": "Blue Line"
+      },
+      "color": "#009846",
+      "stations": 50,
+      "length_km": 56.6,
+      "opened_year": 2005
+    },
+    {
+      "id": "green",
+      "name": {
+        "he": "קו ירוק",
+        "en": "Green Line"
+      },
+      "color": "#005EB8",
+      "stations": 21,
+      "length_km": 29.6,
+      "opened_year": 2010
+    },
+    {
+      "id": "violet",
+      "name": {
+        "he": "קו סגול",
+        "en": "Violet Line"
+      },
+      "color": "#E6007E",
+      "stations": 34,
+      "length_km": 46.3,
+      "opened_year": 2010
+    },
+    {
+      "id": "orange",
+      "name": {
+        "he": "קו כתום",
+        "en": "Orange Line"
+      },
+      "color": "#FFA500",
+      "stations": 6,
+      "length_km": 23.9,
+      "opened_year": 2006
+    },
+    {
+      "id": "pink",
+      "name": {
+        "he": "קו ורוד",
+        "en": "Pink Line"
+      },
+      "color": "#E6007E",
+      "stations": 38,
+      "length_km": 58.6,
+      "opened_year": 2018
+    },
+    {
+      "id": "magenta",
+      "name": {
+        "he": "קו מגנטה",
+        "en": "Magenta Line"
+      },
+      "color": "#E6007E",
+      "stations": 25,
+      "length_km": 37.4,
+      "opened_year": 2017
+    },
+    {
+      "id": "grey",
+      "name": {
+        "he": "קו אפור",
+        "en": "Grey Line"
+      },
+      "color": "#808080",
+      "stations": 15,
+      "length_km": 5.2,
+      "opened_year": 2019
+    },
+    {
+      "id": "aqua",
+      "name": {
+        "he": "קו אקווה",
+        "en": "Aqua Line"
+      },
+      "color": "#02A7A7",
+      "stations": 21,
+      "length_km": 19.2,
+      "opened_year": 2019
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "המערכת התפתחה במהירות מדהימה מאז 2002",
+      "en": "System has grown at astonishing pace since 2002"
+    },
+    {
+      "he": "דלתות בטיחות בכל התחנות",
+      "en": "Platform screen doors at all stations"
+    },
+    {
+      "he": "קרונות נשים בלבד",
+      "en": "Women-only cars"
+    },
+    {
+      "he": "נקי, מדויק, ומודרני",
+      "en": "Clean, punctual, and modern"
+    },
+    {
+      "he": "מובילה כ-3 מיליון נוסעים ביום",
+      "en": "Carries about 3 million passengers daily"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 2002,
+      "event": {
+        "he": "פתיחת הקו הראשון - קו אדום",
+        "en": "First line opens - Red Line"
+      }
+    },
+    {
+      "year": 2004,
+      "event": {
+        "he": "פתיחת קו צהוב",
+        "en": "Yellow Line opens"
+      }
+    },
+    {
+      "year": 2005,
+      "event": {
+        "he": "פתיחת קו כחול",
+        "en": "Blue Line opens"
+      }
+    },
+    {
+      "year": 2010,
+      "event": {
+        "he": "פתיחת קווים ירוק וסגול",
+        "en": "Green and Violet lines open"
+      }
+    },
+    {
+      "year": 2019,
+      "event": {
+        "he": "הגעה ל-12 קווים",
+        "en": "Reaches 12 lines"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/delhi-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Delhi_Metro_map.svg/800px-Delhi_Metro_map.svg.png",
+    "transitMap": "/transit-maps/delhi-metro.png"
+  },
+  "map_url": "https://www.delhimetrorail.com/",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=77.0,28.4,77.4,28.8&layer=transport",
+  "official_website": "https://www.delhimetrorail.com/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/המטרו_של_דלהי",
+    "en": "https://en.wikipedia.org/wiki/Delhi_Metro"
+  },
+  "colors": [
+    "#E21F26",
+    "#FFCA05",
+    "#009846",
+    "#005EB8",
+    "#E6007E",
+    "#02A7A7",
+    "#808080",
+    "#C4D600",
+    "#FDD835"
+  ]
+}

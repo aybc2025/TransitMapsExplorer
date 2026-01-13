@@ -1,0 +1,272 @@
+{
+  "id": "paris-metro",
+  "name": {
+    "he": "מטרו פריז",
+    "en": "Paris Métro",
+    "native": "Métro de Paris"
+  },
+  "nicknames": [
+    "Le Métro"
+  ],
+  "city": {
+    "he": "פריז",
+    "en": "Paris"
+  },
+  "country": {
+    "he": "צרפת",
+    "en": "France",
+    "code": "FR"
+  },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 225,
+    "stations": 308,
+    "lines": 16,
+    "annual_ridership": 1500000000,
+    "daily_ridership": 4100000,
+    "opened_year": 1900,
+    "avg_fare": {
+      "currency": "EUR",
+      "symbol": "€",
+      "min": 1.9,
+      "max": 4.1
+    },
+    "propulsion": "electric",
+    "operator": "RATP"
+  },
+  "coordinates": {
+    "lat": 48.8566,
+    "lng": 2.3522
+  },
+  "description": {
+    "he": "מטרו פריז הוא מערכת התחבורה הציבורית הנפוצה ביותר בעיר האורות. נפתח ב-19 ביולי 1900, בדיוק בזמן לתערוכה העולמית בפריז. המערכת ידועה בעיצוב הכניסות שלה בסגנון אר-נובו, שעוצבו על ידי הקטור גימאר, והפכו לסמל של העיר.\n\nהמערכת כוללת 16 קווים ו-308 תחנות, והיא אחת הצפופות ביותר בעולם מבחינת כיסוי גיאוגרפי - כמעט בכל מקום בפריז יש תחנת מטרו במרחק הליכה. התחנות האיקוניות כוללות כניסות מעוצבות היסטוריות ואומנות ציבורית ייחודית.",
+    "en": "The Paris Métro is the most widely used public transport system in the City of Lights. It opened on July 19, 1900, just in time for the Paris World's Fair. The system is known for its Art Nouveau entrance designs by Hector Guimard, which have become symbols of the city.\n\nThe system includes 16 lines and 308 stations, and is one of the densest in the world in terms of geographic coverage - almost anywhere in Paris has a metro station within walking distance. The iconic stations include historically designed entrances and unique public art."
+  },
+  "lines": [
+    {
+      "id": "1",
+      "name": {
+        "he": "קו 1",
+        "en": "Line 1"
+      },
+      "color": "#FFCD00",
+      "stations": 25,
+      "length_km": 16.6,
+      "opened_year": 1900
+    },
+    {
+      "id": "2",
+      "name": {
+        "he": "קו 2",
+        "en": "Line 2"
+      },
+      "color": "#003CA6",
+      "stations": 25,
+      "length_km": 12.3,
+      "opened_year": 1900
+    },
+    {
+      "id": "3",
+      "name": {
+        "he": "קו 3",
+        "en": "Line 3"
+      },
+      "color": "#837902",
+      "stations": 25,
+      "length_km": 11.7,
+      "opened_year": 1904
+    },
+    {
+      "id": "4",
+      "name": {
+        "he": "קו 4",
+        "en": "Line 4"
+      },
+      "color": "#CF009E",
+      "stations": 27,
+      "length_km": 12.1,
+      "opened_year": 1908
+    },
+    {
+      "id": "5",
+      "name": {
+        "he": "קו 5",
+        "en": "Line 5"
+      },
+      "color": "#FF7E2E",
+      "stations": 22,
+      "length_km": 14.6,
+      "opened_year": 1906
+    },
+    {
+      "id": "6",
+      "name": {
+        "he": "קו 6",
+        "en": "Line 6"
+      },
+      "color": "#6ECA97",
+      "stations": 28,
+      "length_km": 13.6,
+      "opened_year": 1906
+    },
+    {
+      "id": "7",
+      "name": {
+        "he": "קו 7",
+        "en": "Line 7"
+      },
+      "color": "#FA9ABA",
+      "stations": 38,
+      "length_km": 22.4,
+      "opened_year": 1910
+    },
+    {
+      "id": "8",
+      "name": {
+        "he": "קו 8",
+        "en": "Line 8"
+      },
+      "color": "#E19BDF",
+      "stations": 37,
+      "length_km": 23.4,
+      "opened_year": 1913
+    },
+    {
+      "id": "9",
+      "name": {
+        "he": "קו 9",
+        "en": "Line 9"
+      },
+      "color": "#B6BD00",
+      "stations": 37,
+      "length_km": 19.6,
+      "opened_year": 1922
+    },
+    {
+      "id": "10",
+      "name": {
+        "he": "קו 10",
+        "en": "Line 10"
+      },
+      "color": "#C9910D",
+      "stations": 23,
+      "length_km": 11.7,
+      "opened_year": 1923
+    },
+    {
+      "id": "11",
+      "name": {
+        "he": "קו 11",
+        "en": "Line 11"
+      },
+      "color": "#704B1C",
+      "stations": 13,
+      "length_km": 6.3,
+      "opened_year": 1935
+    },
+    {
+      "id": "12",
+      "name": {
+        "he": "קו 12",
+        "en": "Line 12"
+      },
+      "color": "#007852",
+      "stations": 29,
+      "length_km": 15.3,
+      "opened_year": 1910
+    },
+    {
+      "id": "13",
+      "name": {
+        "he": "קו 13",
+        "en": "Line 13"
+      },
+      "color": "#6EC4E8",
+      "stations": 32,
+      "length_km": 24.3,
+      "opened_year": 1911
+    },
+    {
+      "id": "14",
+      "name": {
+        "he": "קו 14",
+        "en": "Line 14"
+      },
+      "color": "#62259D",
+      "stations": 14,
+      "length_km": 14,
+      "opened_year": 1998
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "נפתח ב-1900 לקראת התערוכה העולמית בפריז",
+      "en": "Opened in 1900 for the Paris World's Fair"
+    },
+    {
+      "he": "כניסות בסגנון אר-נובו של הקטור גימאר הפכו לסמל העיר",
+      "en": "Hector Guimard's Art Nouveau entrances became city symbols"
+    },
+    {
+      "he": "צפיפות התחנות הגבוהה ביותר בעולם - תחנה כל 548 מטר בממוצע",
+      "en": "Highest station density in the world - a station every 548 meters on average"
+    },
+    {
+      "he": "קו 14 היה הקו האוטומטי המלא הראשון בפריז",
+      "en": "Line 14 was the first fully automatic line in Paris"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1900,
+      "event": {
+        "he": "פתיחת המערכת",
+        "en": "System opening"
+      }
+    },
+    {
+      "year": 1998,
+      "event": {
+        "he": "פתיחת קו 14 - הקו האוטומטי הראשון",
+        "en": "Line 14 opens - first automatic line"
+      }
+    },
+    {
+      "year": 2011,
+      "event": {
+        "he": "קו 1 הופך לאוטומטי לחלוטין",
+        "en": "Line 1 becomes fully automatic"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/paris-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Paris_Metro_RER_tram_map.svg/800px-Paris_Metro_RER_tram_map.svg.png",
+    "transitMap": "/transit-maps/paris-metro.png"
+  },
+  "map_url": "https://www.ratp.fr/plan-metro",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=2.2,48.8,2.5,48.9&layer=transport",
+  "official_website": "https://www.ratp.fr",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/המטרו_של_פריז",
+    "en": "https://en.wikipedia.org/wiki/Paris_M%C3%A9tro"
+  },
+  "colors": [
+    "#FFCD00",
+    "#003CA6",
+    "#837902",
+    "#CF009E",
+    "#FF7E2E",
+    "#6ECA97",
+    "#FA9ABA",
+    "#E19BDF",
+    "#B6BD00",
+    "#C9910D",
+    "#704B1C",
+    "#007852",
+    "#6EC4E8",
+    "#62259D"
+  ]
+}

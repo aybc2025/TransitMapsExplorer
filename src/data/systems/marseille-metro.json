@@ -1,0 +1,25 @@
+{
+  "id": "marseille-metro",
+  "name": { "he": "מטרו מרסיי", "en": "Marseille Metro", "native": "Métro de Marseille" },
+  "nicknames": ["RTM Metro"],
+  "city": { "he": "מרסיי", "en": "Marseille" },
+  "country": { "he": "צרפת", "en": "France", "code": "FR" },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": { "length_km": 22, "stations": 30, "lines": 2, "annual_ridership": 90000000, "daily_ridership": 246000, "opened_year": 1977, "avg_fare": { "currency": "EUR", "symbol": "€", "min": 1.70, "max": 1.70 }, "propulsion": "electric", "operator": "RTM" },
+  "coordinates": { "lat": 43.2965, "lng": 5.3698 },
+  "description": { "he": "מטרו מרסיי משרת את עיר הנמל הגדולה בצרפת.", "en": "Marseille Metro serves France's largest port city." },
+  "lines": [
+    { "id": "m1", "name": { "he": "M1 (כחול)", "en": "M1 (Blue)" }, "color": "#0066B3", "stations": 18, "length_km": 12, "opened_year": 1977 },
+    { "id": "m2", "name": { "he": "M2 (אדום)", "en": "M2 (Red)" }, "color": "#E4002B", "stations": 12, "length_km": 10, "opened_year": 1984 }
+  ],
+  "fun_facts": [{ "he": "משרת את עיר הנמל הגדולה בצרפת", "en": "Serves France's largest port city" }],
+  "milestones": [{ "year": 1977, "event": { "he": "פתיחה", "en": "Opening" } }],
+  "images": { "header": "/transit-maps/marseille-metro.png", "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Marseille_metro_map.svg/800px-Marseille_metro_map.svg.png", "transitMap": "/transit-maps/marseille-metro.png" },
+  "map_url": "https://www.urbanrail.net/eu/fr/mars/marseille.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/marseille/",
+  "official_website": "https://www.rtm.fr/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/מטרו_מרסיי", "en": "https://en.wikipedia.org/wiki/Marseille_Metro" },
+  "colors": ["#0066B3", "#E4002B"]
+}

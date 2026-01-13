@@ -1,0 +1,179 @@
+{
+  "id": "osaka-metro",
+  "name": {
+    "he": "מטרו אוסקה",
+    "en": "Osaka Metro",
+    "native": "大阪メトロ"
+  },
+  "nicknames": [
+    "Osaka Municipal Subway"
+  ],
+  "city": {
+    "he": "אוסקה",
+    "en": "Osaka"
+  },
+  "country": {
+    "he": "יפן",
+    "en": "Japan",
+    "code": "JP"
+  },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 137,
+    "stations": 133,
+    "lines": 9,
+    "annual_ridership": 920000000,
+    "daily_ridership": 2500000,
+    "opened_year": 1933,
+    "avg_fare": {
+      "currency": "JPY",
+      "symbol": "¥",
+      "min": 180,
+      "max": 380
+    },
+    "propulsion": "electric",
+    "operator": "Osaka Metro Co., Ltd."
+  },
+  "coordinates": {
+    "lat": 34.6937,
+    "lng": 135.5023
+  },
+  "description": {
+    "he": "מטרו אוסקה הוא מערכת רכבת תחתית המשרתת את העיר השנייה בגודלה ביפן. נפתחה ב-1933 והיא הוותיקה ביותר ביפן.\n\nהמערכת מפורסמת בקו מידוסוג'י - הקו האדום - שהוא מהעמוסים ביותר ביפן. תחנות אומדה ונמבה הן מרכזי התחבורה הראשיים.\n\nאוסקה ידועה באוכל ובתרבות הבידור שלה, והמטרו מחבר את כל אזורי הבילוי המרכזיים.",
+    "en": "Osaka Metro is a rapid transit system serving Japan's second largest city. Opened in 1933, it is the oldest in Japan.\n\nThe system is famous for the Midosuji Line - the red line - which is one of the busiest in Japan. Umeda and Namba stations are the main transportation hubs.\n\nOsaka is known for its food and entertainment culture, and the metro connects all major entertainment districts."
+  },
+  "lines": [
+    {
+      "id": "midosuji",
+      "name": {
+        "he": "קו מידוסוג'י (אדום)",
+        "en": "Midosuji Line (Red)"
+      },
+      "color": "#E5171F",
+      "stations": 20,
+      "length_km": 24,
+      "opened_year": 1933
+    },
+    {
+      "id": "tanimachi",
+      "name": {
+        "he": "קו טנימאצ'י (סגול)",
+        "en": "Tanimachi Line (Purple)"
+      },
+      "color": "#522886",
+      "stations": 26,
+      "length_km": 28,
+      "opened_year": 1967
+    },
+    {
+      "id": "yotsubashi",
+      "name": {
+        "he": "קו יוצובשי (כחול)",
+        "en": "Yotsubashi Line (Blue)"
+      },
+      "color": "#0078BA",
+      "stations": 11,
+      "length_km": 11,
+      "opened_year": 1942
+    },
+    {
+      "id": "chuo",
+      "name": {
+        "he": "קו צ'ואו (ירוק)",
+        "en": "Chuo Line (Green)"
+      },
+      "color": "#019A66",
+      "stations": 14,
+      "length_km": 18,
+      "opened_year": 1961
+    },
+    {
+      "id": "sennichimae",
+      "name": {
+        "he": "קו סנאיצ'ימאה (ורוד)",
+        "en": "Sennichimae Line (Pink)"
+      },
+      "color": "#E44D93",
+      "stations": 14,
+      "length_km": 14,
+      "opened_year": 1969
+    },
+    {
+      "id": "sakaisuji",
+      "name": {
+        "he": "קו סקאיסוג'י (חום)",
+        "en": "Sakaisuji Line (Brown)"
+      },
+      "color": "#A9CC51",
+      "stations": 10,
+      "length_km": 9,
+      "opened_year": 1969
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "המטרו הוותיק ביותר ביפן",
+      "en": "The oldest metro in Japan"
+    },
+    {
+      "he": "קו מידוסוג'י מהעמוסים ביותר ביפן",
+      "en": "Midosuji Line is one of the busiest in Japan"
+    },
+    {
+      "he": "מחבר את כל אזורי האוכל והבידור המפורסמים",
+      "en": "Connects all famous food and entertainment areas"
+    },
+    {
+      "he": "תחנת נמבה היא מהגדולות ביפן",
+      "en": "Namba station is one of the largest in Japan"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1933,
+      "event": {
+        "he": "פתיחת הקו הראשון - מידוסוג'י",
+        "en": "First line opens - Midosuji"
+      }
+    },
+    {
+      "year": 1969,
+      "event": {
+        "he": "פתיחת הקווים הוורוד והחום",
+        "en": "Pink and Brown lines open"
+      }
+    },
+    {
+      "year": 2018,
+      "event": {
+        "he": "הפרטה - הפכה ל-Osaka Metro",
+        "en": "Privatization - became Osaka Metro"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/osaka-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Osaka_metro_map_en.svg/800px-Osaka_metro_map_en.svg.png",
+    "transitMap": "/transit-maps/osaka-metro.png"
+  },
+  "map_url": "https://www.urbanrail.net/as/jp/osaka/osaka.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/osaka/",
+  "official_website": "https://www.osakametro.co.jp/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/מטרו_אוסקה",
+    "en": "https://en.wikipedia.org/wiki/Osaka_Metro"
+  },
+  "colors": [
+    "#E5171F",
+    "#F39700",
+    "#522886",
+    "#0078BA",
+    "#E44D93",
+    "#019A66",
+    "#A9CC51",
+    "#B6007A",
+    "#E08A00"
+  ]
+}

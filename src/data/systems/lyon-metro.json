@@ -1,0 +1,27 @@
+{
+  "id": "lyon-metro",
+  "name": { "he": "מטרו ליון", "en": "Lyon Metro", "native": "Métro de Lyon" },
+  "nicknames": ["TCL Metro"],
+  "city": { "he": "ליון", "en": "Lyon" },
+  "country": { "he": "צרפת", "en": "France", "code": "FR" },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": { "length_km": 32, "stations": 42, "lines": 4, "annual_ridership": 195000000, "daily_ridership": 535000, "opened_year": 1978, "avg_fare": { "currency": "EUR", "symbol": "€", "min": 1.90, "max": 1.90 }, "propulsion": "electric", "operator": "TCL" },
+  "coordinates": { "lat": 45.764, "lng": 4.8357 },
+  "description": { "he": "מטרו ליון משרת את העיר השנייה בגודלה בצרפת. כולל קו D אוטומטי.", "en": "Lyon Metro serves France's second largest city. Includes automated Line D." },
+  "lines": [
+    { "id": "a", "name": { "he": "קו A", "en": "Line A" }, "color": "#E4002B", "stations": 14, "length_km": 9, "opened_year": 1978 },
+    { "id": "b", "name": { "he": "קו B", "en": "Line B" }, "color": "#0066B3", "stations": 10, "length_km": 7, "opened_year": 1981 },
+    { "id": "c", "name": { "he": "קו C", "en": "Line C" }, "color": "#F9A51B", "stations": 5, "length_km": 2, "opened_year": 1984 },
+    { "id": "d", "name": { "he": "קו D (אוטומטי)", "en": "Line D (Automated)" }, "color": "#009E49", "stations": 15, "length_km": 13, "opened_year": 1991 }
+  ],
+  "fun_facts": [{ "he": "קו D אוטומטי לחלוטין", "en": "Line D is fully automated" }],
+  "milestones": [{ "year": 1978, "event": { "he": "פתיחה", "en": "Opening" } }],
+  "images": { "header": "/transit-maps/lyon-metro.png", "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Metro_Lyon.svg/800px-Metro_Lyon.svg.png", "transitMap": "/transit-maps/lyon-metro.png" },
+  "map_url": "https://www.urbanrail.net/eu/fr/lyon/lyon.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/lyon/",
+  "official_website": "https://www.tcl.fr/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/מטרו_ליון", "en": "https://en.wikipedia.org/wiki/Lyon_Metro" },
+  "colors": ["#E4002B", "#0066B3", "#F9A51B", "#009E49"]
+}

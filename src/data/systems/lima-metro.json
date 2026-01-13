@@ -1,0 +1,27 @@
+{
+  "id": "lima-metro",
+  "name": { "he": "מטרו לימה", "en": "Lima Metro", "native": "Metro de Lima" },
+  "nicknames": ["Línea 1"],
+  "city": { "he": "לימה", "en": "Lima" },
+  "country": { "he": "פרו", "en": "Peru", "code": "PE" },
+  "continent": "southAmerica",
+  "type": "metro",
+  "status": "active",
+  "stats": { "length_km": 35, "stations": 26, "lines": 1, "annual_ridership": 200000000, "daily_ridership": 550000, "opened_year": 2011, "avg_fare": { "currency": "PEN", "symbol": "S/", "min": 1.50, "max": 1.50 }, "propulsion": "electric", "operator": "AATE" },
+  "coordinates": { "lat": -12.0464, "lng": -77.0428 },
+  "description": { "he": "מטרו לימה הוא מערכת עילית המשרתת את בירת פרו. קו 2 התת-קרקעי בבנייה.", "en": "Lima Metro is an elevated system serving Peru's capital. Underground Line 2 under construction." },
+  "lines": [
+    { "id": "1", "name": { "he": "קו 1", "en": "Line 1" }, "color": "#00A0E4", "stations": 26, "length_km": 35, "opened_year": 2011 }
+  ],
+  "fun_facts": [
+    { "he": "מערכת עילית במלואה", "en": "Fully elevated system" },
+    { "he": "קו 2 התת-קרקעי בבנייה", "en": "Underground Line 2 under construction" }
+  ],
+  "milestones": [{ "year": 2011, "event": { "he": "פתיחה", "en": "Opening" } }],
+  "images": { "header": "/transit-maps/lima-metro.png", "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Lima_Metro_Line_1_Route_Map.svg/800px-Lima_Metro_Line_1_Route_Map.svg.png", "transitMap": "/transit-maps/lima-metro.png" },
+  "map_url": "https://www.urbanrail.net/am/lima/lima.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/lima/",
+  "official_website": "https://www.lineauno.pe/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/מטרו_לימה", "en": "https://en.wikipedia.org/wiki/Lima_Metro" },
+  "colors": ["#00A0E4"]
+}

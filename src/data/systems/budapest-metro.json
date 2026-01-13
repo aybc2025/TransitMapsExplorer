@@ -1,0 +1,160 @@
+{
+  "id": "budapest-metro",
+  "name": {
+    "he": "מטרו בודפשט",
+    "en": "Budapest Metro",
+    "native": "Budapesti metró"
+  },
+  "nicknames": [
+    "Metro",
+    "Földalatti"
+  ],
+  "city": {
+    "he": "בודפשט",
+    "en": "Budapest"
+  },
+  "country": {
+    "he": "הונגריה",
+    "en": "Hungary",
+    "code": "HU"
+  },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 40,
+    "stations": 52,
+    "lines": 4,
+    "annual_ridership": 360000000,
+    "daily_ridership": 1000000,
+    "opened_year": 1896,
+    "avg_fare": {
+      "currency": "HUF",
+      "symbol": "Ft",
+      "min": 350,
+      "max": 530
+    },
+    "propulsion": "electric",
+    "operator": "BKV Zrt."
+  },
+  "coordinates": {
+    "lat": 47.4979,
+    "lng": 19.0402
+  },
+  "description": {
+    "he": "מטרו בודפשט הוא מערכת רכבת תחתית המשרתת את בירת הונגריה. קו M1 נפתח ב-1896 והוא הקו השני העתיק ביותר בעולם אחרי לונדון.\n\nקו M1 (קו המילניום) הוא אתר מורשת עולמית של UNESCO ושומר על המראה ההיסטורי המקורי. התחנות מעוצבות בסגנון ארט נובו.\n\nבודפשט ידועה כ'פריז של המזרח', והמטרו מחבר את כל האתרים ההיסטוריים משני צידי נהר הדנובה.",
+    "en": "Budapest Metro is a rapid transit system serving Hungary's capital. Line M1 opened in 1896 and is the second oldest in the world after London.\n\nLine M1 (Millennium Line) is a UNESCO World Heritage Site and preserves its original historic appearance. Stations are designed in Art Nouveau style.\n\nBudapest is known as the 'Paris of the East', and the metro connects all historic sites on both sides of the Danube."
+  },
+  "lines": [
+    {
+      "id": "m1",
+      "name": {
+        "he": "M1 (צהוב - קו המילניום)",
+        "en": "M1 (Yellow - Millennium Line)"
+      },
+      "color": "#FFD800",
+      "stations": 11,
+      "length_km": 5,
+      "opened_year": 1896
+    },
+    {
+      "id": "m2",
+      "name": {
+        "he": "M2 (אדום)",
+        "en": "M2 (Red)"
+      },
+      "color": "#E4002B",
+      "stations": 11,
+      "length_km": 10,
+      "opened_year": 1970
+    },
+    {
+      "id": "m3",
+      "name": {
+        "he": "M3 (כחול)",
+        "en": "M3 (Blue)"
+      },
+      "color": "#0066B3",
+      "stations": 20,
+      "length_km": 18,
+      "opened_year": 1976
+    },
+    {
+      "id": "m4",
+      "name": {
+        "he": "M4 (ירוק)",
+        "en": "M4 (Green)"
+      },
+      "color": "#009E49",
+      "stations": 10,
+      "length_km": 7,
+      "opened_year": 2014
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "קו M1 הוא אתר מורשת עולמית UNESCO",
+      "en": "M1 Line is a UNESCO World Heritage Site"
+    },
+    {
+      "he": "שני המטרו העתיק ביותר בעולם (אחרי לונדון)",
+      "en": "Second oldest metro in the world (after London)"
+    },
+    {
+      "he": "תחנות M1 בסגנון ארט נובו מקורי",
+      "en": "M1 stations in original Art Nouveau style"
+    },
+    {
+      "he": "עובר מתחת לנהר הדנובה",
+      "en": "Crosses under the Danube River"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1896,
+      "event": {
+        "he": "פתיחת קו M1 - השני בעולם",
+        "en": "M1 opens - second in the world"
+      }
+    },
+    {
+      "year": 1970,
+      "event": {
+        "he": "פתיחת קו M2 הסובייטי",
+        "en": "Soviet-era M2 opens"
+      }
+    },
+    {
+      "year": 2002,
+      "event": {
+        "he": "M1 מוכרז כאתר UNESCO",
+        "en": "M1 declared UNESCO site"
+      }
+    },
+    {
+      "year": 2014,
+      "event": {
+        "he": "פתיחת קו M4",
+        "en": "M4 opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/budapest-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Budapest_Metro_Map.svg/800px-Budapest_Metro_Map.svg.png",
+    "transitMap": "/transit-maps/budapest-metro.png"
+  },
+  "map_url": "https://www.urbanrail.net/eu/hu/budapest/budapest.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/budapest/",
+  "official_website": "https://www.bkv.hu/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/מטרו_בודפשט",
+    "en": "https://en.wikipedia.org/wiki/Budapest_Metro"
+  },
+  "colors": [
+    "#FFD800",
+    "#E4002B",
+    "#0066B3",
+    "#009E49"
+  ]
+}

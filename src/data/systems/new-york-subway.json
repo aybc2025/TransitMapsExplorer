@@ -1,0 +1,411 @@
+{
+  "id": "new-york-subway",
+  "name": {
+    "he": "רכבת התחתית של ניו יורק",
+    "en": "New York City Subway",
+    "native": "New York City Subway"
+  },
+  "nicknames": [
+    "The Subway",
+    "NYC Subway"
+  ],
+  "city": {
+    "he": "ניו יורק",
+    "en": "New York"
+  },
+  "country": {
+    "he": "ארה\"ב",
+    "en": "United States",
+    "code": "US"
+  },
+  "continent": "northAmerica",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 380,
+    "stations": 472,
+    "lines": 27,
+    "annual_ridership": 1700000000,
+    "daily_ridership": 5000000,
+    "opened_year": 1904,
+    "avg_fare": {
+      "currency": "USD",
+      "symbol": "$",
+      "min": 2.75,
+      "max": 2.75
+    },
+    "propulsion": "electric",
+    "operator": "MTA New York City Transit"
+  },
+  "coordinates": {
+    "lat": 40.7128,
+    "lng": -74.006
+  },
+  "description": {
+    "he": "רכבת התחתית של ניו יורק היא מערכת התחבורה הציבורית הגדולה ביותר בארצות הברית, עם 472 תחנות פעילות ו-27 קווים המשתרעים על פני 380 ק\"מ. נפתחה בשנת 1904, והיא אחת המערכות הוותיקות והמורכבות ביותר בעולם.\n\nהמערכת פועלת 24 שעות ביממה, 7 ימים בשבוע, ומובילה כ-5 מיליון נוסעים ביום. המערכת משלבת שתי רשתות היסטוריות נפרדות - IRT (Interborough Rapid Transit) ו-BMT (Brooklyn-Manhattan Transit) - שנוצרו בתחילת המאה ה-20.\n\nתחנות רבות במערכת מציגות אמנות ציבורית ייחודית, והתחנות ההיסטוריות מעוצבות בסגנון אר-דקו וביו-אלקטרי. המערכת ידועה גם במוזיקת הרכבות שלה - כל קו משמיע צלילים ייחודיים כשהרכבת נכנסת לתחנה.",
+    "en": "The New York City Subway is the largest public transportation system in the United States, with 472 active stations and 27 lines spanning 380 km. Opened in 1904, it is one of the oldest and most complex systems in the world.\n\nThe system operates 24 hours a day, 7 days a week, carrying about 5 million passengers daily. The system combines two separate historical networks - IRT (Interborough Rapid Transit) and BMT (Brooklyn-Manhattan Transit) - created in the early 20th century.\n\nMany stations feature unique public art, and historic stations are designed in Art Deco and Beaux-Arts styles. The system is also known for its train music - each line plays unique sounds when trains enter stations."
+  },
+  "lines": [
+    {
+      "id": "1",
+      "name": {
+        "he": "קו 1",
+        "en": "Line 1"
+      },
+      "color": "#EE352E",
+      "stations": 38,
+      "length_km": 37.5,
+      "opened_year": 1904
+    },
+    {
+      "id": "2",
+      "name": {
+        "he": "קו 2",
+        "en": "Line 2"
+      },
+      "color": "#EE352E",
+      "stations": 49,
+      "length_km": 43.5,
+      "opened_year": 1917
+    },
+    {
+      "id": "3",
+      "name": {
+        "he": "קו 3",
+        "en": "Line 3"
+      },
+      "color": "#EE352E",
+      "stations": 34,
+      "length_km": 30.5,
+      "opened_year": 1918
+    },
+    {
+      "id": "4",
+      "name": {
+        "he": "קו 4",
+        "en": "Line 4"
+      },
+      "color": "#00933C",
+      "stations": 54,
+      "length_km": 48.8,
+      "opened_year": 1904
+    },
+    {
+      "id": "5",
+      "name": {
+        "he": "קו 5",
+        "en": "Line 5"
+      },
+      "color": "#00933C",
+      "stations": 45,
+      "length_km": 42.7,
+      "opened_year": 1904
+    },
+    {
+      "id": "6",
+      "name": {
+        "he": "קו 6",
+        "en": "Line 6"
+      },
+      "color": "#00933C",
+      "stations": 38,
+      "length_km": 31.3,
+      "opened_year": 1904
+    },
+    {
+      "id": "7",
+      "name": {
+        "he": "קו 7",
+        "en": "Line 7"
+      },
+      "color": "#B933AD",
+      "stations": 22,
+      "length_km": 22,
+      "opened_year": 1915
+    },
+    {
+      "id": "A",
+      "name": {
+        "he": "קו A",
+        "en": "A Line"
+      },
+      "color": "#0039A6",
+      "stations": 62,
+      "length_km": 51.4,
+      "opened_year": 1932
+    },
+    {
+      "id": "B",
+      "name": {
+        "he": "קו B",
+        "en": "B Line"
+      },
+      "color": "#FF6319",
+      "stations": 37,
+      "length_km": 36.2,
+      "opened_year": 1916
+    },
+    {
+      "id": "C",
+      "name": {
+        "he": "קו C",
+        "en": "C Line"
+      },
+      "color": "#0039A6",
+      "stations": 50,
+      "length_km": 42,
+      "opened_year": 1933
+    },
+    {
+      "id": "D",
+      "name": {
+        "he": "קו D",
+        "en": "D Line"
+      },
+      "color": "#FF6319",
+      "stations": 41,
+      "length_km": 37.7,
+      "opened_year": 1936
+    },
+    {
+      "id": "E",
+      "name": {
+        "he": "קו E",
+        "en": "E Line"
+      },
+      "color": "#0039A6",
+      "stations": 32,
+      "length_km": 27.1,
+      "opened_year": 1933
+    },
+    {
+      "id": "F",
+      "name": {
+        "he": "קו F",
+        "en": "F Line"
+      },
+      "color": "#FF6319",
+      "stations": 45,
+      "length_km": 40.5,
+      "opened_year": 1940
+    },
+    {
+      "id": "G",
+      "name": {
+        "he": "קו G",
+        "en": "G Line"
+      },
+      "color": "#6CBE45",
+      "stations": 21,
+      "length_km": 18.1,
+      "opened_year": 1933
+    },
+    {
+      "id": "J",
+      "name": {
+        "he": "קו J",
+        "en": "J Line"
+      },
+      "color": "#996633",
+      "stations": 27,
+      "length_km": 21.3,
+      "opened_year": 1885
+    },
+    {
+      "id": "L",
+      "name": {
+        "he": "קו L",
+        "en": "L Line"
+      },
+      "color": "#A7A9AC",
+      "stations": 24,
+      "length_km": 22.5,
+      "opened_year": 1924
+    },
+    {
+      "id": "M",
+      "name": {
+        "he": "קו M",
+        "en": "M Line"
+      },
+      "color": "#FF6319",
+      "stations": 33,
+      "length_km": 26.7,
+      "opened_year": 1915
+    },
+    {
+      "id": "N",
+      "name": {
+        "he": "קו N",
+        "en": "N Line"
+      },
+      "color": "#FCCC0A",
+      "stations": 45,
+      "length_km": 49.8,
+      "opened_year": 1915
+    },
+    {
+      "id": "Q",
+      "name": {
+        "he": "קו Q",
+        "en": "Q Line"
+      },
+      "color": "#FCCC0A",
+      "stations": 38,
+      "length_km": 36.5,
+      "opened_year": 1919
+    },
+    {
+      "id": "R",
+      "name": {
+        "he": "קו R",
+        "en": "R Line"
+      },
+      "color": "#FCCC0A",
+      "stations": 45,
+      "length_km": 36.6,
+      "opened_year": 1916
+    },
+    {
+      "id": "W",
+      "name": {
+        "he": "קו W",
+        "en": "W Line"
+      },
+      "color": "#FCCC0A",
+      "stations": 23,
+      "length_km": 20.6,
+      "opened_year": 2001
+    },
+    {
+      "id": "Z",
+      "name": {
+        "he": "קו Z",
+        "en": "Z Line"
+      },
+      "color": "#996633",
+      "stations": 18,
+      "length_km": 14.2,
+      "opened_year": 1988
+    },
+    {
+      "id": "S",
+      "name": {
+        "he": "קו S",
+        "en": "S Line"
+      },
+      "color": "#808183",
+      "stations": 1,
+      "length_km": 1.3,
+      "opened_year": 1913
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "המערכת היחידה בעולם הפועלת 24/7 ללא הפסקה",
+      "en": "The only system in the world operating 24/7 without interruption"
+    },
+    {
+      "he": "תחנת City Hall הנטושה נבנתה ב-1904 כגולת הכותרת של המערכת המקורית",
+      "en": "The abandoned City Hall station, built in 1904, was the crown jewel of the original system"
+    },
+    {
+      "he": "למערכת יש את מספר התחנות הרב ביותר בעולם - 472 תחנות",
+      "en": "The system has the most stations in the world - 472 stations"
+    },
+    {
+      "he": "התחנות ההיסטוריות מעוצבות בסגנון אר-דקו וביו-אלקטרי",
+      "en": "Historic stations feature Art Deco and Beaux-Arts architecture"
+    },
+    {
+      "he": "מעל 1,400 יצירות אמנות ציבורית מוצגות בתחנות",
+      "en": "Over 1,400 public art works are displayed in stations"
+    },
+    {
+      "he": "כל קו משמיע צלילים ייחודיים כשהרכבת נכנסת לתחנה",
+      "en": "Each line has unique sounds when trains enter stations"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1904,
+      "event": {
+        "he": "פתיחת הקו הראשון - IRT",
+        "en": "First line opens - IRT"
+      }
+    },
+    {
+      "year": 1915,
+      "event": {
+        "he": "איחוד הרשתות - יצירת רשת BMT",
+        "en": "Network consolidation - BMT network created"
+      }
+    },
+    {
+      "year": 1932,
+      "event": {
+        "he": "פתיחת קו האינדיפנדנט (IND)",
+        "en": "Independent (IND) line opens"
+      }
+    },
+    {
+      "year": 1940,
+      "event": {
+        "he": "איחוד שלוש הרשתות למערכת אחת",
+        "en": "Unification of three networks into one system"
+      }
+    },
+    {
+      "year": 2001,
+      "event": {
+        "he": "פתיחת קו W החדש",
+        "en": "New W line opens"
+      }
+    },
+    {
+      "year": 2017,
+      "event": {
+        "he": "הרחבת קו Q לתחנת Second Avenue",
+        "en": "Q line extension to Second Avenue Station"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/new-york-subway.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/NYC_subway-4D.svg/800px-NYC_subway-4D.svg.png",
+    "transitMap": "/transit-maps/new-york-subway.png",
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/NYC_Subway_train_on_the_7_line_at_Times_Square.jpg/1280px-NYC_Subway_train_on_the_7_line_at_Times_Square.jpg",
+        "caption": {
+          "he": "רכבת בקו 7 בתחנת טיימס סקוור",
+          "en": "7 Line train at Times Square Station"
+        }
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/New_York_City_Subway_City_Hall_station_2013.jpg/1280px-New_York_City_Subway_City_Hall_station_2013.jpg",
+        "caption": {
+          "he": "תחנת City Hall הנטושה",
+          "en": "Abandoned City Hall Station"
+        }
+      }
+    ]
+  },
+  "map_url": "https://new.mta.info/maps",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=-74.3,40.6,-73.7,40.9&layer=transport",
+  "official_website": "https://new.mta.info",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/רכבת_התחתית_של_ניו_יורק",
+    "en": "https://en.wikipedia.org/wiki/New_York_City_Subway"
+  },
+  "colors": [
+    "#EE352E",
+    "#00933C",
+    "#B933AD",
+    "#FCCC0A",
+    "#FF6319",
+    "#6CBE45",
+    "#A7A9AC",
+    "#996633"
+  ]
+}

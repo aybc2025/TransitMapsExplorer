@@ -1,0 +1,178 @@
+{
+  "id": "vienna-ubahn",
+  "name": {
+    "he": "U-Bahn וינה",
+    "en": "Vienna U-Bahn",
+    "native": "Wiener U-Bahn"
+  },
+  "nicknames": [
+    "U-Bahn"
+  ],
+  "city": {
+    "he": "וינה",
+    "en": "Vienna"
+  },
+  "country": {
+    "he": "אוסטריה",
+    "en": "Austria",
+    "code": "AT"
+  },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 83,
+    "stations": 109,
+    "lines": 5,
+    "annual_ridership": 460000000,
+    "daily_ridership": 1260000,
+    "opened_year": 1976,
+    "avg_fare": {
+      "currency": "EUR",
+      "symbol": "€",
+      "min": 2.4,
+      "max": 5.8
+    },
+    "propulsion": "electric",
+    "operator": "Wiener Linien"
+  },
+  "coordinates": {
+    "lat": 48.2082,
+    "lng": 16.3738
+  },
+  "description": {
+    "he": "U-Bahn וינה היא מערכת הרכבת התחתית של העיר, עם 109 תחנות ו-5 קווים המשתרעים על פני 83 ק\"מ. נפתחה בשנת 1976, והמערכת ידועה בנקיון ובדיוק שלה.\n\nהמערכת מתחברת לרכבת הפרברים (S-Bahn) ולאמצעי תחבורה נוספים. התחנות מעוצבות בסגנון מודרני ונקי, עם אמנות ציבורית ייחודית. המערכת פועלת בשעות ארוכות ומתחברת לכל האזורים המרכזיים של וינה.\n\nהמערכת ידועה במיזוג האוויר המצוין שלה ובנוחות הנוסעים. התחנות מעוצבות בסגנון נקי ופונקציונלי, עם סימון ברור בגרמנית ובאנגלית.",
+    "en": "The Vienna U-Bahn is the city's underground railway system, with 109 stations and 5 lines spanning 83 km. Opened in 1976, the system is known for its cleanliness and punctuality.\n\nThe system connects to suburban rail (S-Bahn) and other transportation means. Stations are designed in a modern, clean style, with unique public art. The system operates long hours and connects all central areas of Vienna.\n\nThe system is known for its excellent air conditioning and passenger comfort. Stations are designed in a clean, functional style, with clear signage in German and English."
+  },
+  "lines": [
+    {
+      "id": "U1",
+      "name": {
+        "he": "קו U1",
+        "en": "Line U1"
+      },
+      "color": "#E20613",
+      "stations": 24,
+      "length_km": 19.2,
+      "opened_year": 1978
+    },
+    {
+      "id": "U2",
+      "name": {
+        "he": "קו U2",
+        "en": "Line U2"
+      },
+      "color": "#A862A4",
+      "stations": 20,
+      "length_km": 16.7,
+      "opened_year": 1980
+    },
+    {
+      "id": "U3",
+      "name": {
+        "he": "קו U3",
+        "en": "Line U3"
+      },
+      "color": "#EF7C00",
+      "stations": 21,
+      "length_km": 13.4,
+      "opened_year": 1991
+    },
+    {
+      "id": "U4",
+      "name": {
+        "he": "קו U4",
+        "en": "Line U4"
+      },
+      "color": "#319F49",
+      "stations": 20,
+      "length_km": 16.4,
+      "opened_year": 1976
+    },
+    {
+      "id": "U6",
+      "name": {
+        "he": "קו U6",
+        "en": "Line U6"
+      },
+      "color": "#986433",
+      "stations": 24,
+      "length_km": 17.4,
+      "opened_year": 1989
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "ידועה בנקיון ובדיוק",
+      "en": "Known for cleanliness and punctuality"
+    },
+    {
+      "he": "מיזוג אוויר מצוין ונוחות נוסעים",
+      "en": "Excellent air conditioning and passenger comfort"
+    },
+    {
+      "he": "אמנות ציבורית ייחודית בתחנות",
+      "en": "Unique public art at stations"
+    },
+    {
+      "he": "מתחברת ל-S-Bahn",
+      "en": "Connects to S-Bahn"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1976,
+      "event": {
+        "he": "פתיחת הקו הראשון - U4",
+        "en": "First line opens - U4"
+      }
+    },
+    {
+      "year": 1978,
+      "event": {
+        "he": "פתיחת קו U1",
+        "en": "Line U1 opens"
+      }
+    },
+    {
+      "year": 1980,
+      "event": {
+        "he": "פתיחת קו U2",
+        "en": "Line U2 opens"
+      }
+    },
+    {
+      "year": 1989,
+      "event": {
+        "he": "פתיחת קו U6",
+        "en": "Line U6 opens"
+      }
+    },
+    {
+      "year": 1991,
+      "event": {
+        "he": "פתיחת קו U3",
+        "en": "Line U3 opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/vienna-ubahn.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Wiener_U-Bahn-Netz_mit_geplanten_Erweiterungen.svg/800px-Wiener_U-Bahn-Netz_mit_geplanten_Erweiterungen.svg.png",
+    "transitMap": "/transit-maps/vienna-ubahn.png"
+  },
+  "map_url": "https://www.wienerlinien.at/",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=16.2,48.1,16.5,48.3&layer=transport",
+  "official_website": "https://www.wienerlinien.at/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/U-Bahn_וינה",
+    "en": "https://en.wikipedia.org/wiki/Vienna_U-Bahn"
+  },
+  "colors": [
+    "#E20613",
+    "#A862A4",
+    "#EF7C00",
+    "#319F49",
+    "#986433"
+  ]
+}

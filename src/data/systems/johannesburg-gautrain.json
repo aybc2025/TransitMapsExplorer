@@ -1,0 +1,27 @@
+{
+  "id": "johannesburg-gautrain",
+  "name": { "he": "גאוטריין יוהנסבורג", "en": "Johannesburg Gautrain", "native": "Gautrain" },
+  "nicknames": ["Gautrain"],
+  "city": { "he": "יוהנסבורג", "en": "Johannesburg" },
+  "country": { "he": "דרום אפריקה", "en": "South Africa", "code": "ZA" },
+  "continent": "africa",
+  "type": "metro",
+  "status": "active",
+  "stats": { "length_km": 80, "stations": 10, "lines": 1, "annual_ridership": 18000000, "daily_ridership": 50000, "opened_year": 2010, "avg_fare": { "currency": "ZAR", "symbol": "R", "min": 30, "max": 180 }, "propulsion": "electric", "operator": "Bombela Operating Company" },
+  "coordinates": { "lat": -26.2041, "lng": 28.0473 },
+  "description": { "he": "גאוטריין הוא רכבת מהירה המחברת יוהנסבורג, פרטוריה ונמל התעופה. הראשון מסוגו באפריקה.", "en": "Gautrain is a rapid rail connecting Johannesburg, Pretoria, and the airport. First of its kind in Africa." },
+  "lines": [
+    { "id": "main", "name": { "he": "קו ראשי", "en": "Main Line" }, "color": "#009E49", "stations": 10, "length_km": 80, "opened_year": 2010 }
+  ],
+  "fun_facts": [
+    { "he": "מערכת הרכבת המהירה הראשונה באפריקה", "en": "Africa's first rapid rail system" },
+    { "he": "נבנה למונדיאל 2010", "en": "Built for 2010 World Cup" }
+  ],
+  "milestones": [{ "year": 2010, "event": { "he": "פתיחה למונדיאל", "en": "Opens for World Cup" } }],
+  "images": { "header": "/transit-maps/johannesburg-gautrain.png", "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Gautrain_Map.svg/800px-Gautrain_Map.svg.png", "transitMap": "/transit-maps/johannesburg-gautrain.png" },
+  "map_url": "https://www.urbanrail.net/af/joha/johannesburg.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/johannesburg/",
+  "official_website": "https://www.gautrain.co.za/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/גאוטריין", "en": "https://en.wikipedia.org/wiki/Gautrain" },
+  "colors": ["#009E49"]
+}

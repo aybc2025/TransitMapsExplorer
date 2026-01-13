@@ -1,0 +1,183 @@
+{
+  "id": "chongqing-rail",
+  "name": {
+    "he": "רכבת צ'ונגצ'ינג",
+    "en": "Chongqing Rail Transit",
+    "native": "重庆轨道交通"
+  },
+  "nicknames": [
+    "CRT"
+  ],
+  "city": {
+    "he": "צ'ונגצ'ינג",
+    "en": "Chongqing"
+  },
+  "country": {
+    "he": "סין",
+    "en": "China",
+    "code": "CN"
+  },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 492,
+    "stations": 253,
+    "lines": 12,
+    "annual_ridership": 1200000000,
+    "daily_ridership": 3500000,
+    "opened_year": 2004,
+    "avg_fare": {
+      "currency": "CNY",
+      "symbol": "¥",
+      "min": 2,
+      "max": 10
+    },
+    "propulsion": "electric",
+    "operator": "Chongqing Rail Transit Group"
+  },
+  "coordinates": {
+    "lat": 29.4316,
+    "lng": 106.9123
+  },
+  "description": {
+    "he": "רכבת צ'ונגצ'ינג היא מערכת תחבורה המשרתת את אחת הערים הגדולות בעולם. הטופוגרפיה ההררית של העיר הפכה את בניית המטרו לאתגר הנדסי ייחודי.\n\nהמערכת ידועה במיוחד בזכות קו המונורייל שעובר דרך בניין מגורים בתחנת Liziba - אחד המראות המפורסמים ביותר של מטרו בעולם.\n\nצ'ונגצ'ינג היא העיר הגדולה ביותר בעולם מבחינת שטח, והמטרו מחבר אזורים נרחבים למרות הקשיים הטופוגרפיים.",
+    "en": "Chongqing Rail Transit is a transit system serving one of the world's largest cities. The city's mountainous topography made metro construction a unique engineering challenge.\n\nThe system is particularly famous for the monorail line that passes through a residential building at Liziba station - one of the most iconic metro sights in the world.\n\nChongqing is the world's largest city by area, and the metro connects vast areas despite topographical difficulties."
+  },
+  "lines": [
+    {
+      "id": "line1",
+      "name": {
+        "he": "קו 1",
+        "en": "Line 1"
+      },
+      "color": "#E4002B",
+      "stations": 23,
+      "length_km": 39,
+      "opened_year": 2011
+    },
+    {
+      "id": "line2",
+      "name": {
+        "he": "קו 2 (מונורייל)",
+        "en": "Line 2 (Monorail)"
+      },
+      "color": "#00A65D",
+      "stations": 25,
+      "length_km": 31,
+      "opened_year": 2004
+    },
+    {
+      "id": "line3",
+      "name": {
+        "he": "קו 3 (מונורייל)",
+        "en": "Line 3 (Monorail)"
+      },
+      "color": "#0072CE",
+      "stations": 45,
+      "length_km": 67,
+      "opened_year": 2011
+    },
+    {
+      "id": "line4",
+      "name": {
+        "he": "קו 4",
+        "en": "Line 4"
+      },
+      "color": "#FFC72C",
+      "stations": 24,
+      "length_km": 33,
+      "opened_year": 2018
+    },
+    {
+      "id": "line5",
+      "name": {
+        "he": "קו 5",
+        "en": "Line 5"
+      },
+      "color": "#F9A11B",
+      "stations": 25,
+      "length_km": 40,
+      "opened_year": 2017
+    },
+    {
+      "id": "line6",
+      "name": {
+        "he": "קו 6",
+        "en": "Line 6"
+      },
+      "color": "#00A3AD",
+      "stations": 27,
+      "length_km": 35,
+      "opened_year": 2012
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "המונורייל עובר דרך בניין מגורים בתחנת Liziba",
+      "en": "Monorail passes through residential building at Liziba station"
+    },
+    {
+      "he": "בנויה על טופוגרפיה הררית קשה",
+      "en": "Built on challenging mountainous terrain"
+    },
+    {
+      "he": "משלבת מטרו רגיל ומונורייל",
+      "en": "Combines regular metro and monorail"
+    },
+    {
+      "he": "משרתת את העיר הגדולה ביותר בעולם לפי שטח",
+      "en": "Serves the world's largest city by area"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 2004,
+      "event": {
+        "he": "פתיחת קו המונורייל הראשון",
+        "en": "First monorail line opens"
+      }
+    },
+    {
+      "year": 2011,
+      "event": {
+        "he": "פתיחת קווי המטרו הראשונים",
+        "en": "First metro lines open"
+      }
+    },
+    {
+      "year": 2018,
+      "event": {
+        "he": "עברה 300 ק\"מ",
+        "en": "Exceeded 300 km"
+      }
+    },
+    {
+      "year": 2022,
+      "event": {
+        "he": "עברה 450 ק\"מ",
+        "en": "Exceeded 450 km"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/chongqing-rail.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Chongqing_Rail_Transit_System_Map.svg/800px-Chongqing_Rail_Transit_System_Map.svg.png",
+    "transitMap": "/transit-maps/chongqing-rail.png"
+  },
+  "map_url": "https://www.urbanrail.net/as/cn/chon/chongqing.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/chongqing/",
+  "official_website": "https://www.cqmetro.cn/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/מטרו_צ'ונגצ'ינג",
+    "en": "https://en.wikipedia.org/wiki/Chongqing_Rail_Transit"
+  },
+  "colors": [
+    "#E4002B",
+    "#00A65D",
+    "#0072CE",
+    "#FFC72C",
+    "#F9A11B",
+    "#00A3AD"
+  ]
+}

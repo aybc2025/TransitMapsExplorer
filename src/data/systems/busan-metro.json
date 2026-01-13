@@ -1,0 +1,171 @@
+{
+  "id": "busan-metro",
+  "name": {
+    "he": "מטרו בוסאן",
+    "en": "Busan Metro",
+    "native": "부산 도시철도"
+  },
+  "nicknames": [
+    "Humetro"
+  ],
+  "city": {
+    "he": "בוסאן",
+    "en": "Busan"
+  },
+  "country": {
+    "he": "דרום קוריאה",
+    "en": "South Korea",
+    "code": "KR"
+  },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 114,
+    "stations": 128,
+    "lines": 5,
+    "annual_ridership": 350000000,
+    "daily_ridership": 960000,
+    "opened_year": 1985,
+    "avg_fare": {
+      "currency": "KRW",
+      "symbol": "₩",
+      "min": 1400,
+      "max": 1700
+    },
+    "propulsion": "electric",
+    "operator": "Busan Transportation Corporation"
+  },
+  "coordinates": {
+    "lat": 35.1796,
+    "lng": 129.0756
+  },
+  "description": {
+    "he": "מטרו בוסאן הוא מערכת רכבת תחתית המשרתת את העיר השנייה בגודלה בדרום קוריאה. נפתחה ב-1985 והיא מחברת את הנמל לאזורי התיירות.\n\nבוסאן היא עיר נמל חשובה ומרכז תיירותי, והמטרו מגיע לחופים המפורסמים כמו Haeundae ו-Gwangalli.\n\nהמערכת כוללת גם רכבת קלה (Light Rail) שמגיעה לאזורים ההרריים של העיר.",
+    "en": "Busan Metro is a rapid transit system serving South Korea's second largest city. Opened in 1985, it connects the port to tourist areas.\n\nBusan is an important port city and tourist center, and the metro reaches famous beaches like Haeundae and Gwangalli.\n\nThe system also includes light rail that reaches the city's mountainous areas."
+  },
+  "lines": [
+    {
+      "id": "line1",
+      "name": {
+        "he": "קו 1 (כתום)",
+        "en": "Line 1 (Orange)"
+      },
+      "color": "#F06A00",
+      "stations": 34,
+      "length_km": 32,
+      "opened_year": 1985
+    },
+    {
+      "id": "line2",
+      "name": {
+        "he": "קו 2 (ירוק)",
+        "en": "Line 2 (Green)"
+      },
+      "color": "#34A853",
+      "stations": 43,
+      "length_km": 45,
+      "opened_year": 1999
+    },
+    {
+      "id": "line3",
+      "name": {
+        "he": "קו 3 (זהב)",
+        "en": "Line 3 (Gold)"
+      },
+      "color": "#BB8C00",
+      "stations": 17,
+      "length_km": 18,
+      "opened_year": 2005
+    },
+    {
+      "id": "line4",
+      "name": {
+        "he": "קו 4 (כחול)",
+        "en": "Line 4 (Blue)"
+      },
+      "color": "#2E64FE",
+      "stations": 14,
+      "length_km": 12,
+      "opened_year": 2011
+    },
+    {
+      "id": "donghaeline",
+      "name": {
+        "he": "קו דונגהאה",
+        "en": "Donghae Line"
+      },
+      "color": "#8B00FF",
+      "stations": 16,
+      "length_km": 28,
+      "opened_year": 2016
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "מגיע לחופים המפורסמים Haeundae ו-Gwangalli",
+      "en": "Reaches famous Haeundae and Gwangalli beaches"
+    },
+    {
+      "he": "העיר השנייה בגודלה בדרום קוריאה",
+      "en": "South Korea's second largest city"
+    },
+    {
+      "he": "מחברת את הנמל הבינלאומי למרכז העיר",
+      "en": "Connects international port to city center"
+    },
+    {
+      "he": "קו 4 הוא רכבת קלה אוטומטית",
+      "en": "Line 4 is automated light rail"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1985,
+      "event": {
+        "he": "פתיחת קו 1",
+        "en": "Line 1 opens"
+      }
+    },
+    {
+      "year": 1999,
+      "event": {
+        "he": "פתיחת קו 2",
+        "en": "Line 2 opens"
+      }
+    },
+    {
+      "year": 2011,
+      "event": {
+        "he": "פתיחת קו 4 האוטומטי",
+        "en": "Automated Line 4 opens"
+      }
+    },
+    {
+      "year": 2016,
+      "event": {
+        "he": "פתיחת קו דונגהאה",
+        "en": "Donghae Line opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/busan-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Busan_Metro_map_en.svg/800px-Busan_Metro_map_en.svg.png",
+    "transitMap": "/transit-maps/busan-metro.png"
+  },
+  "map_url": "https://www.urbanrail.net/as/kr/busan/busan.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/busan/",
+  "official_website": "https://www.humetro.busan.kr/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/מטרו_בוסאן",
+    "en": "https://en.wikipedia.org/wiki/Busan_Metro"
+  },
+  "colors": [
+    "#F06A00",
+    "#34A853",
+    "#BB8C00",
+    "#2E64FE",
+    "#8B00FF"
+  ]
+}

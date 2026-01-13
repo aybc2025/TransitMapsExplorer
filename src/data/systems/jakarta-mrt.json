@@ -1,0 +1,117 @@
+{
+  "id": "jakarta-mrt",
+  "name": {
+    "he": "MRT ג'קרטה",
+    "en": "Jakarta MRT",
+    "native": "MRT Jakarta"
+  },
+  "nicknames": [
+    "MRT",
+    "Ratangga"
+  ],
+  "city": {
+    "he": "ג'קרטה",
+    "en": "Jakarta"
+  },
+  "country": {
+    "he": "אינדונזיה",
+    "en": "Indonesia",
+    "code": "ID"
+  },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 16,
+    "stations": 14,
+    "lines": 1,
+    "annual_ridership": 30000000,
+    "daily_ridership": 90000,
+    "opened_year": 2019,
+    "avg_fare": {
+      "currency": "IDR",
+      "symbol": "Rp",
+      "min": 3000,
+      "max": 14000
+    },
+    "propulsion": "electric",
+    "operator": "PT MRT Jakarta"
+  },
+  "coordinates": {
+    "lat": -6.2088,
+    "lng": 106.8456
+  },
+  "description": {
+    "he": "MRT ג'קרטה הוא מערכת רכבת תחתית חדשה המשרתת את בירת אינדונזיה. נפתחה ב-2019 והיא המטרו הראשון באינדונזיה.\n\nהמערכת נבנתה כדי להתמודד עם הפקקים הקשים של ג'קרטה, אחת הערים הצפופות ביותר בעולם. הקו הראשון מחבר את הדרום למרכז העיר.\n\nלמרות שהמערכת חדשה וקטנה יחסית, היא מתרחבת במהירות עם תוכניות לקווים נוספים.",
+    "en": "Jakarta MRT is a new rapid transit system serving Indonesia's capital. Opened in 2019, it is Indonesia's first metro system.\n\nThe system was built to address Jakarta's severe traffic congestion, one of the most densely populated cities in the world. The first line connects the south to the city center.\n\nAlthough relatively new and small, the system is expanding rapidly with plans for additional lines."
+  },
+  "lines": [
+    {
+      "id": "north-south",
+      "name": {
+        "he": "קו צפון-דרום",
+        "en": "North-South Line"
+      },
+      "color": "#E3002B",
+      "stations": 14,
+      "length_km": 16,
+      "opened_year": 2019
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "המטרו הראשון באינדונזיה",
+      "en": "Indonesia's first metro system"
+    },
+    {
+      "he": "נבנה כדי להתמודד עם הפקקים הקשים ביותר בעולם",
+      "en": "Built to address some of the world's worst traffic"
+    },
+    {
+      "he": "התחנות מעוצבות בסגנון מודרני עם אמנות מקומית",
+      "en": "Stations designed in modern style with local art"
+    },
+    {
+      "he": "בנייה יפנית באיכות גבוהה",
+      "en": "High-quality Japanese construction"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 2019,
+      "event": {
+        "he": "פתיחת הקו הראשון",
+        "en": "First line opens"
+      }
+    },
+    {
+      "year": 2023,
+      "event": {
+        "he": "הרחבה לג'קרטה המרכזית",
+        "en": "Extension to Central Jakarta"
+      }
+    },
+    {
+      "year": 2025,
+      "event": {
+        "he": "תוכנית - הרחבה נוספת צפונה",
+        "en": "Planned - further northern extension"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/jakarta-mrt.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/MRT_Jakarta_Map.svg/800px-MRT_Jakarta_Map.svg.png",
+    "transitMap": "/transit-maps/jakarta-mrt.png"
+  },
+  "map_url": "https://www.urbanrail.net/as/id/jakarta/jakarta.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/jakarta/",
+  "official_website": "https://www.jakartamrt.co.id/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/MRT_ג'קרטה",
+    "en": "https://en.wikipedia.org/wiki/Jakarta_MRT"
+  },
+  "colors": [
+    "#E3002B"
+  ]
+}

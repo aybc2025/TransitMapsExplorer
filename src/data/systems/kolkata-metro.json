@@ -1,0 +1,28 @@
+{
+  "id": "kolkata-metro",
+  "name": { "he": "מטרו קולקטה", "en": "Kolkata Metro", "native": "কলকাতা মেট্রো" },
+  "nicknames": ["Metro Railway"],
+  "city": { "he": "קולקטה", "en": "Kolkata" },
+  "country": { "he": "הודו", "en": "India", "code": "IN" },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": { "length_km": 40, "stations": 35, "lines": 3, "annual_ridership": 180000000, "daily_ridership": 500000, "opened_year": 1984, "avg_fare": { "currency": "INR", "symbol": "₹", "min": 5, "max": 25 }, "propulsion": "electric", "operator": "Indian Railways / Metro Railway Kolkata" },
+  "coordinates": { "lat": 22.5726, "lng": 88.3639 },
+  "description": { "he": "מטרו קולקטה הוא המטרו הראשון בהודו, נפתח ב-1984.", "en": "Kolkata Metro is India's first metro, opened in 1984." },
+  "lines": [
+    { "id": "1", "name": { "he": "קו 1 (כחול)", "en": "Line 1 (Blue)" }, "color": "#0066B3", "stations": 24, "length_km": 28, "opened_year": 1984 },
+    { "id": "2", "name": { "he": "קו 2 (ירוק)", "en": "Line 2 (Green)" }, "color": "#009E49", "stations": 6, "length_km": 7, "opened_year": 2020 }
+  ],
+  "fun_facts": [
+    { "he": "המטרו הראשון בהודו (1984)", "en": "India's first metro (1984)" },
+    { "he": "עובר מתחת לנהר הוגלי", "en": "Crosses under Hooghly River" }
+  ],
+  "milestones": [{ "year": 1984, "event": { "he": "פתיחה - הראשון בהודו", "en": "Opening - India's first" } }],
+  "images": { "header": "/transit-maps/kolkata-metro.png", "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Kolkata_Metro_Map.svg/800px-Kolkata_Metro_Map.svg.png", "transitMap": "/transit-maps/kolkata-metro.png" },
+  "map_url": "https://www.urbanrail.net/as/in/kolk/kolkata.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/kolkata/",
+  "official_website": "https://www.mtp.indianrailways.gov.in/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/מטרו_קולקטה", "en": "https://en.wikipedia.org/wiki/Kolkata_Metro" },
+  "colors": ["#0066B3", "#009E49", "#E4002B"]
+}

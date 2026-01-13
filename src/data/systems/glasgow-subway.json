@@ -1,0 +1,27 @@
+{
+  "id": "glasgow-subway",
+  "name": { "he": "הסאבווי של גלזגו", "en": "Glasgow Subway", "native": "Glasgow Subway" },
+  "nicknames": ["The Clockwork Orange"],
+  "city": { "he": "גלזגו", "en": "Glasgow" },
+  "country": { "he": "בריטניה", "en": "United Kingdom", "code": "GB" },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": { "length_km": 10, "stations": 15, "lines": 1, "annual_ridership": 13000000, "daily_ridership": 35000, "opened_year": 1896, "avg_fare": { "currency": "GBP", "symbol": "£", "min": 1.75, "max": 1.75 }, "propulsion": "electric", "operator": "Strathclyde Partnership for Transport" },
+  "coordinates": { "lat": 55.8642, "lng": -4.2518 },
+  "description": { "he": "גלזגו סאבווי הוא השלישי העתיק ביותר בעולם. קו מעגלי אחד המכונה 'התפוז המכני'.", "en": "Glasgow Subway is the world's third oldest. A single circular line nicknamed 'The Clockwork Orange'." },
+  "lines": [
+    { "id": "circular", "name": { "he": "קו מעגלי", "en": "Circular Line" }, "color": "#F9A51B", "stations": 15, "length_km": 10, "opened_year": 1896 }
+  ],
+  "fun_facts": [
+    { "he": "השלישי העתיק ביותר בעולם", "en": "World's third oldest metro" },
+    { "he": "מכונה 'התפוז המכני'", "en": "Nicknamed 'The Clockwork Orange'" }
+  ],
+  "milestones": [{ "year": 1896, "event": { "he": "פתיחה", "en": "Opening" } }],
+  "images": { "header": "/transit-maps/glasgow-subway.png", "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Glasgow_Subway_map.svg/800px-Glasgow_Subway_map.svg.png", "transitMap": "/transit-maps/glasgow-subway.png" },
+  "map_url": "https://www.urbanrail.net/eu/uk/gla/glasgow.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/glasgow/",
+  "official_website": "https://www.spt.co.uk/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/מטרו_גלזגו", "en": "https://en.wikipedia.org/wiki/Glasgow_Subway" },
+  "colors": ["#F9A51B"]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "athens-metro",
+  "name": {
+    "he": "מטרו אתונה",
+    "en": "Athens Metro",
+    "native": "Μετρό Αθηνών"
+  },
+  "nicknames": [],
+  "city": {
+    "he": "אתונה",
+    "en": "Athens"
+  },
+  "country": {
+    "he": "יוון",
+    "en": "Greece",
+    "code": "GR"
+  },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 85,
+    "stations": 65,
+    "lines": 4,
+    "annual_ridership": 350000000,
+    "daily_ridership": 960000,
+    "opened_year": 1869,
+    "avg_fare": {
+      "currency": "EUR",
+      "symbol": "€",
+      "min": 1.2,
+      "max": 1.2
+    },
+    "propulsion": "electric",
+    "operator": "STASY S.A."
+  },
+  "coordinates": {
+    "lat": 37.9838,
+    "lng": 23.7275
+  },
+  "description": {
+    "he": "מטרו אתונה היא מערכת התחבורה התת-קרקעית של העיר, עם 65 תחנות ו-4 קווים המשתרעים על פני 85 ק\"מ. המערכת החלה כקו רכבת קלה ב-1869, והפכה למטרו מודרני ב-2000.\n\nהמערכת ידועה במוזיאונים הארכיאולוגיים בתחנות - בעת החפירות נחשפו ממצאים ארכיאולוגיים רבים שהוצגו בתחנות. התחנות מעוצבות בסגנון מודרני ונקי, עם תצוגות של עתיקות יווניות.\n\nהמערכת פועלת בשעות ארוכות ומתחברת לכל האזורים המרכזיים של אתונה, כולל נמל התעופה. התחנות מעוצבות בסגנון נקי ומודרני, עם סימון ברור ביוונית ובאנגלית.",
+    "en": "The Athens Metro is the city's underground transportation system, with 65 stations and 4 lines spanning 85 km. The system began as a light rail line in 1869, and became a modern metro in 2000.\n\nThe system is known for its archaeological museums in stations - during excavations, many archaeological findings were discovered and displayed in stations. Stations are designed in a modern, clean style, with displays of Greek antiquities.\n\nThe system operates long hours and connects all central areas of Athens, including the airport. Stations are designed in a clean, modern style, with clear signage in Greek and English."
+  },
+  "lines": [
+    {
+      "id": "1",
+      "name": {
+        "he": "קו 1",
+        "en": "Line 1"
+      },
+      "color": "#009344",
+      "stations": 24,
+      "length_km": 25.6,
+      "opened_year": 1869
+    },
+    {
+      "id": "2",
+      "name": {
+        "he": "קו 2",
+        "en": "Line 2"
+      },
+      "color": "#0066CC",
+      "stations": 20,
+      "length_km": 17.9,
+      "opened_year": 2000
+    },
+    {
+      "id": "3",
+      "name": {
+        "he": "קו 3",
+        "en": "Line 3"
+      },
+      "color": "#EF3A31",
+      "stations": 21,
+      "length_km": 41.5,
+      "opened_year": 2000
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "מוזיאונים ארכיאולוגיים בתחנות עם ממצאים יווניים עתיקים",
+      "en": "Archaeological museums in stations with ancient Greek findings"
+    },
+    {
+      "he": "קו 1 החל כקו רכבת קלה ב-1869",
+      "en": "Line 1 began as a light rail line in 1869"
+    },
+    {
+      "he": "ממצאים ארכיאולוגיים רבים התגלו בעת החפירות",
+      "en": "Many archaeological findings discovered during excavations"
+    },
+    {
+      "he": "מתחברת לנמל התעופה",
+      "en": "Connects to the airport"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1869,
+      "event": {
+        "he": "פתיחת קו הרכבת הקלה הראשון",
+        "en": "First light rail line opens"
+      }
+    },
+    {
+      "year": 2000,
+      "event": {
+        "he": "הפכה למטרו מודרני - פתיחת קווים 2 ו-3",
+        "en": "Becomes modern metro - Lines 2 and 3 open"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/athens-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Athens_Metro_map_%282020%29.svg/800px-Athens_Metro_map_%282020%29.svg.png",
+    "transitMap": "/transit-maps/athens-metro.png"
+  },
+  "map_url": "https://www.stasy.gr/",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=23.6,37.9,23.9,38.1&layer=transport",
+  "official_website": "https://www.stasy.gr/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/המטרו_של_אתונה",
+    "en": "https://en.wikipedia.org/wiki/Athens_Metro"
+  },
+  "colors": [
+    "#009344",
+    "#0066CC",
+    "#EF3A31",
+    "#F5A623"
+  ]
+}

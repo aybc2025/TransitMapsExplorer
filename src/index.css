@@ -1,0 +1,232 @@
+/* Google Fonts - Assistant (Hebrew optimized) */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&family=Rubik:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Transit-inspired color palette */
+    --background: 210 20% 98%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+    --accent: 142 76% 36%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 217 91% 60%;
+    --radius: 0.625rem;
+    
+    /* Custom colors */
+    --metro-red: 0 84% 50%;
+    --metro-blue: 217 91% 50%;
+    --metro-green: 142 76% 36%;
+    --metro-yellow: 45 93% 47%;
+    --metro-orange: 25 95% 53%;
+    --metro-purple: 271 81% 56%;
+  }
+
+  .dark {
+    --background: 222 47% 8%;
+    --foreground: 210 20% 98%;
+    --card: 222 47% 11%;
+    --card-foreground: 210 20% 98%;
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 20% 98%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 210 20% 98%;
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 142 76% 36%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 217 91% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  html {
+    direction: rtl;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Assistant', 'Rubik', sans-serif;
+    text-align: right;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  /* Hero gradient */
+  .hero-gradient {
+    background: linear-gradient(
+      135deg,
+      hsl(217, 91%, 60%) 0%,
+      hsl(217, 91%, 45%) 50%,
+      hsl(222, 47%, 20%) 100%
+    );
+  }
+  
+  /* Card hover effect */
+  .card-hover {
+    @apply transition-all duration-300 ease-out;
+  }
+  
+  .card-hover:hover {
+    @apply -translate-y-1 shadow-lg;
+  }
+  
+  /* Glass morphism effect */
+  .glass {
+    @apply bg-white/80 backdrop-blur-md;
+  }
+  
+  .dark .glass {
+    @apply bg-slate-900/80;
+  }
+  
+  /* Stats counter animation */
+  .stat-number {
+    @apply font-bold text-4xl tabular-nums;
+  }
+  
+  /* Map container */
+  .map-container {
+    @apply w-full h-[500px] rounded-xl overflow-hidden shadow-lg;
+  }
+  
+  /* Leaflet RTL fixes */
+  .leaflet-control-zoom {
+    direction: ltr;
+  }
+  
+  .leaflet-popup-content-wrapper {
+    direction: rtl;
+    text-align: right;
+  }
+  
+  /* Custom scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-muted rounded;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-muted-foreground/30 rounded hover:bg-muted-foreground/50;
+  }
+  
+  /* Gradient text */
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(217, 91%, 60%), hsl(142, 76%, 36%));
+  }
+  
+  /* System card */
+  .system-card {
+    @apply relative overflow-hidden rounded-xl bg-card border shadow-sm transition-all duration-300;
+  }
+  
+  .system-card:hover {
+    @apply shadow-xl border-primary/30;
+    transform: translateY(-4px);
+  }
+  
+  /* Header sticky */
+  .header-sticky {
+    @apply sticky top-0 z-50 w-full backdrop-blur-lg bg-background/95 border-b;
+  }
+}
+
+@layer utilities {
+  /* Direction utilities */
+  .direction-rtl {
+    direction: rtl;
+  }
+  
+  .direction-ltr {
+    direction: ltr;
+  }
+  
+  /* Flip for RTL icons */
+  .rtl-flip {
+    transform: scaleX(-1);
+  }
+  
+  /* Animation utilities */
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.5s ease-out forwards;
+  }
+  
+  /* Stagger delays */
+  .stagger-1 { animation-delay: 0.1s; }
+  .stagger-2 { animation-delay: 0.2s; }
+  .stagger-3 { animation-delay: 0.3s; }
+  .stagger-4 { animation-delay: 0.4s; }
+  .stagger-5 { animation-delay: 0.5s; }
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Leaflet CSS overrides */
+.leaflet-container {
+  font-family: 'Assistant', sans-serif;
+}
+
+.leaflet-popup-content {
+  margin: 12px 16px;
+  direction: rtl;
+}
+
+.leaflet-popup-content h3 {
+  @apply font-bold text-lg mb-1;
+}
+
+.leaflet-popup-content p {
+  @apply text-sm text-muted-foreground;
+}

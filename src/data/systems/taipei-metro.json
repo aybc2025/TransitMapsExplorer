@@ -1,0 +1,184 @@
+{
+  "id": "taipei-metro",
+  "name": {
+    "he": "מטרו טייפה",
+    "en": "Taipei Metro",
+    "native": "臺北捷運"
+  },
+  "nicknames": [
+    "MRT",
+    "Taipei MRT"
+  ],
+  "city": {
+    "he": "טייפה",
+    "en": "Taipei"
+  },
+  "country": {
+    "he": "טייוואן",
+    "en": "Taiwan",
+    "code": "TW"
+  },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 152,
+    "stations": 131,
+    "lines": 6,
+    "annual_ridership": 800000000,
+    "daily_ridership": 2200000,
+    "opened_year": 1996,
+    "avg_fare": {
+      "currency": "TWD",
+      "symbol": "NT$",
+      "min": 20,
+      "max": 65
+    },
+    "propulsion": "electric",
+    "operator": "Taipei Rapid Transit Corporation"
+  },
+  "coordinates": {
+    "lat": 25.033,
+    "lng": 121.5654
+  },
+  "description": {
+    "he": "מטרו טייפה הוא מערכת רכבת תחתית המשרתת את בירת טייוואן ואת ניו טייפה. נפתחה ב-1996 ונחשבת לאחת המערכות הנקיות והיעילות ביותר בעולם.\n\nהמערכת ידועה בניקיון יוצא הדופן שלה - אסור לאכול או לשתות בתחנות או ברכבות. התחנות מצוידות בדלתות מסך ומיזוג אוויר.\n\nמטרו טייפה מציע חוויית נסיעה נעימה במיוחד, עם שירות אמין ותחנות מעוצבות היטב.",
+    "en": "Taipei Metro is a rapid transit system serving Taiwan's capital and New Taipei City. Opened in 1996, it is considered one of the cleanest and most efficient systems in the world.\n\nThe system is known for its exceptional cleanliness - eating and drinking is prohibited in stations and trains. Stations are equipped with platform screen doors and air conditioning.\n\nTaipei Metro offers an exceptionally pleasant travel experience, with reliable service and well-designed stations."
+  },
+  "lines": [
+    {
+      "id": "red",
+      "name": {
+        "he": "קו אדום (טמשוי-שינדיאן)",
+        "en": "Red Line (Tamsui-Xinyi)"
+      },
+      "color": "#E3002C",
+      "stations": 30,
+      "length_km": 32,
+      "opened_year": 1997
+    },
+    {
+      "id": "green",
+      "name": {
+        "he": "קו ירוק (סונגשאן-שינדיאן)",
+        "en": "Green Line (Songshan-Xindian)"
+      },
+      "color": "#008659",
+      "stations": 24,
+      "length_km": 22,
+      "opened_year": 1999
+    },
+    {
+      "id": "orange",
+      "name": {
+        "he": "קו כתום (ג'ונגהה-שינלו)",
+        "en": "Orange Line (Zhonghe-Xinlu)"
+      },
+      "color": "#F8B61C",
+      "stations": 21,
+      "length_km": 22,
+      "opened_year": 1998
+    },
+    {
+      "id": "blue",
+      "name": {
+        "he": "קו כחול (באנאן)",
+        "en": "Blue Line (Bannan)"
+      },
+      "color": "#0070BD",
+      "stations": 23,
+      "length_km": 28,
+      "opened_year": 1999
+    },
+    {
+      "id": "brown",
+      "name": {
+        "he": "קו חום (וונהו)",
+        "en": "Brown Line (Wenhu)"
+      },
+      "color": "#C48C31",
+      "stations": 24,
+      "length_km": 25,
+      "opened_year": 1996
+    },
+    {
+      "id": "yellow",
+      "name": {
+        "he": "קו צהוב (הואנשונג)",
+        "en": "Yellow Line (Circular)"
+      },
+      "color": "#FFDB00",
+      "stations": 14,
+      "length_km": 15,
+      "opened_year": 2020
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "אסור לאכול או לשתות בתחנות או ברכבות",
+      "en": "Eating and drinking prohibited in stations and trains"
+    },
+    {
+      "he": "נחשבת לאחת המערכות הנקיות בעולם",
+      "en": "Considered one of the cleanest systems in the world"
+    },
+    {
+      "he": "כל התחנות ממוזגות",
+      "en": "All stations are air-conditioned"
+    },
+    {
+      "he": "דיוק הגעה של למעלה מ-99%",
+      "en": "Punctuality rate over 99%"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1996,
+      "event": {
+        "he": "פתיחת הקו החום",
+        "en": "Brown Line opens"
+      }
+    },
+    {
+      "year": 1997,
+      "event": {
+        "he": "פתיחת הקו האדום",
+        "en": "Red Line opens"
+      }
+    },
+    {
+      "year": 2014,
+      "event": {
+        "he": "עברה 100 תחנות",
+        "en": "Exceeded 100 stations"
+      }
+    },
+    {
+      "year": 2020,
+      "event": {
+        "he": "פתיחת הקו הצהוב המעגלי",
+        "en": "Circular Yellow Line opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/taipei-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Taipei_Metro_Route_Map_2020.svg/800px-Taipei_Metro_Route_Map_2020.svg.png",
+    "transitMap": "/transit-maps/taipei-metro.png"
+  },
+  "map_url": "https://www.urbanrail.net/as/tw/taip/taipei.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/taipei/",
+  "official_website": "https://www.metro.taipei/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/מטרו_טאיפיי",
+    "en": "https://en.wikipedia.org/wiki/Taipei_Metro"
+  },
+  "colors": [
+    "#E3002C",
+    "#F8B61C",
+    "#008659",
+    "#0070BD",
+    "#C48C31",
+    "#FFDB00"
+  ]
+}

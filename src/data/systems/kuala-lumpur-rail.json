@@ -1,0 +1,185 @@
+{
+  "id": "kuala-lumpur-rail",
+  "name": {
+    "he": "רכבת קואלה לומפור",
+    "en": "Kuala Lumpur Rail Transit",
+    "native": "Transit Aliran Ringan"
+  },
+  "nicknames": [
+    "LRT",
+    "MRT",
+    "KL Metro"
+  ],
+  "city": {
+    "he": "קואלה לומפור",
+    "en": "Kuala Lumpur"
+  },
+  "country": {
+    "he": "מלזיה",
+    "en": "Malaysia",
+    "code": "MY"
+  },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 140,
+    "stations": 99,
+    "lines": 6,
+    "annual_ridership": 250000000,
+    "daily_ridership": 700000,
+    "opened_year": 1996,
+    "avg_fare": {
+      "currency": "MYR",
+      "symbol": "RM",
+      "min": 1.20,
+      "max": 6.50
+    },
+    "propulsion": "electric",
+    "operator": "Prasarana Malaysia"
+  },
+  "coordinates": {
+    "lat": 3.139,
+    "lng": 101.6869
+  },
+  "description": {
+    "he": "מערכת הרכבות של קואלה לומפור כוללת מספר קווי LRT, MRT ומונורייל. נפתחה ב-1996 והיא ממשיכה להתרחב.\n\nהמערכת מחברת את מרכז העיר לפרברים ולשדה התעופה הבינלאומי KLIA. קו KL Sentral הוא תחנת ההחלפה המרכזית.\n\nקואלה לומפור משלבת מערכות שונות - LRT אוטומטי, MRT כבד, ומונורייל - כדי לשרת את האוכלוסייה הגדלה של עיר הבירה.",
+    "en": "Kuala Lumpur's rail system includes several LRT, MRT, and monorail lines. Opened in 1996, it continues to expand.\n\nThe system connects the city center to suburbs and KLIA international airport. KL Sentral is the main interchange station.\n\nKuala Lumpur combines different systems - automated LRT, heavy MRT, and monorail - to serve the growing population of the capital city."
+  },
+  "lines": [
+    {
+      "id": "kelana-jaya",
+      "name": {
+        "he": "קו קלנה ג'איה (LRT)",
+        "en": "Kelana Jaya Line (LRT)"
+      },
+      "color": "#E31837",
+      "stations": 37,
+      "length_km": 46,
+      "opened_year": 1998
+    },
+    {
+      "id": "ampang",
+      "name": {
+        "he": "קו אמפנג (LRT)",
+        "en": "Ampang Line (LRT)"
+      },
+      "color": "#FF6600",
+      "stations": 18,
+      "length_km": 18,
+      "opened_year": 1996
+    },
+    {
+      "id": "sri-petaling",
+      "name": {
+        "he": "קו סרי פטלינג (LRT)",
+        "en": "Sri Petaling Line (LRT)"
+      },
+      "color": "#7DC242",
+      "stations": 29,
+      "length_km": 46,
+      "opened_year": 1996
+    },
+    {
+      "id": "mrt-kajang",
+      "name": {
+        "he": "קו קאג'אנג (MRT)",
+        "en": "Kajang Line (MRT)"
+      },
+      "color": "#008B8B",
+      "stations": 31,
+      "length_km": 51,
+      "opened_year": 2017
+    },
+    {
+      "id": "mrt-putrajaya",
+      "name": {
+        "he": "קו פוטרג'איה (MRT)",
+        "en": "Putrajaya Line (MRT)"
+      },
+      "color": "#9B59B6",
+      "stations": 35,
+      "length_km": 57,
+      "opened_year": 2022
+    },
+    {
+      "id": "monorail",
+      "name": {
+        "he": "מונורייל KL",
+        "en": "KL Monorail"
+      },
+      "color": "#F1C40F",
+      "stations": 11,
+      "length_km": 9,
+      "opened_year": 2003
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "KL Sentral הוא מרכז התחבורה הגדול ביותר במלזיה",
+      "en": "KL Sentral is Malaysia's largest transportation hub"
+    },
+    {
+      "he": "קו ה-LRT האוטומטי היה מהראשונים באסיה",
+      "en": "Automated LRT was among the first in Asia"
+    },
+    {
+      "he": "מחבר לשדה התעופה KLIA ברכבת מהירה",
+      "en": "Connects to KLIA airport by express train"
+    },
+    {
+      "he": "המונורייל עובר דרך אזור מגדלי פטרונס",
+      "en": "Monorail passes through Petronas Towers area"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1996,
+      "event": {
+        "he": "פתיחת קווי LRT הראשונים",
+        "en": "First LRT lines open"
+      }
+    },
+    {
+      "year": 2003,
+      "event": {
+        "he": "פתיחת המונורייל",
+        "en": "Monorail opens"
+      }
+    },
+    {
+      "year": 2017,
+      "event": {
+        "he": "פתיחת קו MRT קאג'אנג",
+        "en": "MRT Kajang Line opens"
+      }
+    },
+    {
+      "year": 2022,
+      "event": {
+        "he": "פתיחת קו MRT פוטרג'איה",
+        "en": "MRT Putrajaya Line opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/kuala-lumpur-rail.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Klang_Valley_Integrated_Transit_Map.svg/800px-Klang_Valley_Integrated_Transit_Map.svg.png",
+    "transitMap": "/transit-maps/kuala-lumpur-rail.png"
+  },
+  "map_url": "https://www.urbanrail.net/as/kual/kuala-lumpur.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/kuala-lumpur/",
+  "official_website": "https://www.myrapid.com.my/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/רכבת_קלה_בקואלה_לומפור",
+    "en": "https://en.wikipedia.org/wiki/Rapid_Rail"
+  },
+  "colors": [
+    "#E31837",
+    "#7DC242",
+    "#FF6600",
+    "#008B8B",
+    "#9B59B6",
+    "#F1C40F"
+  ]
+}

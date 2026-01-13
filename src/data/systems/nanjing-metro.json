@@ -1,0 +1,31 @@
+{
+  "id": "nanjing-metro",
+  "name": { "he": "מטרו נאנג'ינג", "en": "Nanjing Metro", "native": "南京地铁" },
+  "nicknames": ["NJM"],
+  "city": { "he": "נאנג'ינג", "en": "Nanjing" },
+  "country": { "he": "סין", "en": "China", "code": "CN" },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": { "length_km": 427, "stations": 191, "lines": 13, "annual_ridership": 1100000000, "daily_ridership": 3000000, "opened_year": 2005, "avg_fare": { "currency": "CNY", "symbol": "¥", "min": 2, "max": 10 }, "propulsion": "electric", "operator": "Nanjing Metro Group" },
+  "coordinates": { "lat": 32.0603, "lng": 118.7969 },
+  "description": { "he": "מטרו נאנג'ינג משרת את בירת חבל ג'יאנגסו, עיר היסטורית שהייתה בירת סין.", "en": "Nanjing Metro serves the capital of Jiangsu province, a historic city that was once China's capital." },
+  "lines": [
+    { "id": "1", "name": { "he": "קו 1", "en": "Line 1" }, "color": "#0066B3", "stations": 27, "length_km": 39, "opened_year": 2005 },
+    { "id": "2", "name": { "he": "קו 2", "en": "Line 2" }, "color": "#E4002B", "stations": 26, "length_km": 38, "opened_year": 2010 },
+    { "id": "3", "name": { "he": "קו 3", "en": "Line 3" }, "color": "#009E49", "stations": 29, "length_km": 45, "opened_year": 2015 },
+    { "id": "4", "name": { "he": "קו 4", "en": "Line 4" }, "color": "#9B59B6", "stations": 18, "length_km": 34, "opened_year": 2017 },
+    { "id": "s1", "name": { "he": "קו S1", "en": "Line S1" }, "color": "#F9A51B", "stations": 8, "length_km": 35, "opened_year": 2014 }
+  ],
+  "fun_facts": [
+    { "he": "משרת עיר שהייתה בירת סין", "en": "Serves a city that was once China's capital" },
+    { "he": "יותר מ-400 ק\"מ של מסילות", "en": "Over 400 km of track" }
+  ],
+  "milestones": [{ "year": 2005, "event": { "he": "פתיחה", "en": "Opening" } }],
+  "images": { "header": "/transit-maps/nanjing-metro.png", "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Nanjing_Metro_Linemap.svg/800px-Nanjing_Metro_Linemap.svg.png", "transitMap": "/transit-maps/nanjing-metro.png" },
+  "map_url": "https://www.urbanrail.net/as/cn/nanj/nanjing.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/nanjing/",
+  "official_website": "https://www.njmetro.com.cn/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/מטרו_נאנג'ינג", "en": "https://en.wikipedia.org/wiki/Nanjing_Metro" },
+  "colors": ["#0066B3", "#E4002B", "#009E49", "#F9A51B", "#9B59B6"]
+}

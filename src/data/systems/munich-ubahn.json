@@ -1,0 +1,179 @@
+{
+  "id": "munich-ubahn",
+  "name": {
+    "he": "U-Bahn מינכן",
+    "en": "Munich U-Bahn",
+    "native": "U-Bahn München"
+  },
+  "nicknames": [
+    "U-Bahn",
+    "MVG Metro"
+  ],
+  "city": {
+    "he": "מינכן",
+    "en": "Munich"
+  },
+  "country": {
+    "he": "גרמניה",
+    "en": "Germany",
+    "code": "DE"
+  },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 95,
+    "stations": 96,
+    "lines": 8,
+    "annual_ridership": 410000000,
+    "daily_ridership": 1120000,
+    "opened_year": 1971,
+    "avg_fare": {
+      "currency": "EUR",
+      "symbol": "€",
+      "min": 3.50,
+      "max": 3.50
+    },
+    "propulsion": "electric",
+    "operator": "Münchner Verkehrsgesellschaft (MVG)"
+  },
+  "coordinates": {
+    "lat": 48.1351,
+    "lng": 11.582
+  },
+  "description": {
+    "he": "U-Bahn מינכן הוא מערכת רכבת תחתית המשרתת את בירת בוואריה. נפתחה ב-1971 לקראת אולימפיאדת מינכן 1972.\n\nהמערכת ידועה בניקיון ובדיוק שלה, ומשולבת עם S-Bahn (רכבת פרברים) ותחבורה ציבורית נוספת. Marienplatz היא התחנה המרכזית.\n\nמינכן היא עיר האוקטוברפסט והבירה הגרמנית, והמטרו מחבר את כל האטרקציות התיירותיות.",
+    "en": "Munich U-Bahn is a rapid transit system serving Bavaria's capital. Opened in 1971 ahead of the 1972 Munich Olympics.\n\nThe system is known for its cleanliness and punctuality, integrated with S-Bahn (suburban rail) and other public transport. Marienplatz is the central station.\n\nMunich is the city of Oktoberfest and German beer, and the metro connects all tourist attractions."
+  },
+  "lines": [
+    {
+      "id": "u1",
+      "name": {
+        "he": "U1 (ירוק)",
+        "en": "U1 (Green)"
+      },
+      "color": "#447335",
+      "stations": 12,
+      "length_km": 12,
+      "opened_year": 1971
+    },
+    {
+      "id": "u2",
+      "name": {
+        "he": "U2 (אדום)",
+        "en": "U2 (Red)"
+      },
+      "color": "#C4071B",
+      "stations": 27,
+      "length_km": 24,
+      "opened_year": 1980
+    },
+    {
+      "id": "u3",
+      "name": {
+        "he": "U3 (כתום)",
+        "en": "U3 (Orange)"
+      },
+      "color": "#F69C00",
+      "stations": 25,
+      "length_km": 16,
+      "opened_year": 1971
+    },
+    {
+      "id": "u4",
+      "name": {
+        "he": "U4 (ירוק בהיר)",
+        "en": "U4 (Light Green)"
+      },
+      "color": "#00A081",
+      "stations": 13,
+      "length_km": 9,
+      "opened_year": 1984
+    },
+    {
+      "id": "u5",
+      "name": {
+        "he": "U5 (חום)",
+        "en": "U5 (Brown)"
+      },
+      "color": "#926E33",
+      "stations": 13,
+      "length_km": 10,
+      "opened_year": 1988
+    },
+    {
+      "id": "u6",
+      "name": {
+        "he": "U6 (כחול)",
+        "en": "U6 (Blue)"
+      },
+      "color": "#0065B0",
+      "stations": 26,
+      "length_km": 27,
+      "opened_year": 1971
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "נבנתה לקראת אולימפיאדת 1972",
+      "en": "Built for the 1972 Olympics"
+    },
+    {
+      "he": "Marienplatz היא התחנה המרכזית",
+      "en": "Marienplatz is the central station"
+    },
+    {
+      "he": "משולבת עם S-Bahn לכיסוי מלא של האזור",
+      "en": "Integrated with S-Bahn for full area coverage"
+    },
+    {
+      "he": "מגיעה לפארק האולימפי ולאליאנץ ארנה",
+      "en": "Reaches Olympic Park and Allianz Arena"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1971,
+      "event": {
+        "he": "פתיחת הקווים הראשונים",
+        "en": "First lines open"
+      }
+    },
+    {
+      "year": 1972,
+      "event": {
+        "he": "אולימפיאדת מינכן",
+        "en": "Munich Olympics"
+      }
+    },
+    {
+      "year": 2006,
+      "event": {
+        "he": "הרחבה לאליאנץ ארנה למונדיאל",
+        "en": "Extension to Allianz Arena for World Cup"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/munich-ubahn.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/U-Bahn_M%C3%BCnchen.svg/800px-U-Bahn_M%C3%BCnchen.svg.png",
+    "transitMap": "/transit-maps/munich-ubahn.png"
+  },
+  "map_url": "https://www.urbanrail.net/eu/de/m/muenchen.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/munich/",
+  "official_website": "https://www.mvg.de/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/רכבת_תחתית_מינכן",
+    "en": "https://en.wikipedia.org/wiki/Munich_U-Bahn"
+  },
+  "colors": [
+    "#447335",
+    "#C4071B",
+    "#F69C00",
+    "#00A081",
+    "#926E33",
+    "#0065B0",
+    "#C60F3B",
+    "#F07C00"
+  ]
+}

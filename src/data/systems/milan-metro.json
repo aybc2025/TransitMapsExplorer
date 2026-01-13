@@ -1,0 +1,172 @@
+{
+  "id": "milan-metro",
+  "name": {
+    "he": "מטרו מילאנו",
+    "en": "Milan Metro",
+    "native": "Metropolitana di Milano"
+  },
+  "nicknames": [
+    "Metro",
+    "ATM Metro"
+  ],
+  "city": {
+    "he": "מילאנו",
+    "en": "Milan"
+  },
+  "country": {
+    "he": "איטליה",
+    "en": "Italy",
+    "code": "IT"
+  },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 104,
+    "stations": 113,
+    "lines": 5,
+    "annual_ridership": 380000000,
+    "daily_ridership": 1050000,
+    "opened_year": 1964,
+    "avg_fare": {
+      "currency": "EUR",
+      "symbol": "€",
+      "min": 2.20,
+      "max": 2.20
+    },
+    "propulsion": "electric",
+    "operator": "ATM Milano"
+  },
+  "coordinates": {
+    "lat": 45.4642,
+    "lng": 9.19
+  },
+  "description": {
+    "he": "מטרו מילאנו הוא מערכת רכבת תחתית המשרתת את בירת האופנה של איטליה. נפתחה ב-1964 והיא הגדולה ביותר באיטליה.\n\nהמערכת מחברת את כל אזורי האופנה והעסקים החשובים, כולל אזור Duomo ו-Quadrilatero della Moda. תחנת Cadorna מחברת לתחנת הרכבת המרכזית.\n\nמילאנו היא עיר האופנה והעיצוב של אירופה, והמטרו הוא אמצעי התחבורה המועדף על תושבים ותיירים.",
+    "en": "Milan Metro is a rapid transit system serving Italy's fashion capital. Opened in 1964, it is the largest in Italy.\n\nThe system connects all major fashion and business districts, including the Duomo area and Quadrilatero della Moda. Cadorna station connects to the central train station.\n\nMilan is Europe's fashion and design capital, and the metro is the preferred transportation for residents and tourists."
+  },
+  "lines": [
+    {
+      "id": "m1",
+      "name": {
+        "he": "קו M1 (אדום)",
+        "en": "M1 Line (Red)"
+      },
+      "color": "#E4002B",
+      "stations": 38,
+      "length_km": 27,
+      "opened_year": 1964
+    },
+    {
+      "id": "m2",
+      "name": {
+        "he": "קו M2 (ירוק)",
+        "en": "M2 Line (Green)"
+      },
+      "color": "#009E49",
+      "stations": 35,
+      "length_km": 40,
+      "opened_year": 1969
+    },
+    {
+      "id": "m3",
+      "name": {
+        "he": "קו M3 (צהוב)",
+        "en": "M3 Line (Yellow)"
+      },
+      "color": "#FFD800",
+      "stations": 21,
+      "length_km": 17,
+      "opened_year": 1990
+    },
+    {
+      "id": "m4",
+      "name": {
+        "he": "קו M4 (כחול)",
+        "en": "M4 Line (Blue)"
+      },
+      "color": "#009CDE",
+      "stations": 21,
+      "length_km": 15,
+      "opened_year": 2022
+    },
+    {
+      "id": "m5",
+      "name": {
+        "he": "קו M5 (סגול)",
+        "en": "M5 Line (Purple)"
+      },
+      "color": "#9C4DA4",
+      "stations": 19,
+      "length_km": 13,
+      "opened_year": 2013
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "המטרו הגדול ביותר באיטליה",
+      "en": "The largest metro in Italy"
+    },
+    {
+      "he": "מחבר את כל אזורי האופנה המפורסמים",
+      "en": "Connects all famous fashion districts"
+    },
+    {
+      "he": "תחנת Duomo היא הלב של המערכת",
+      "en": "Duomo station is the heart of the system"
+    },
+    {
+      "he": "קו M5 אוטומטי לחלוטין",
+      "en": "M5 Line is fully automated"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1964,
+      "event": {
+        "he": "פתיחת קו M1",
+        "en": "M1 Line opens"
+      }
+    },
+    {
+      "year": 1990,
+      "event": {
+        "he": "פתיחת קו M3",
+        "en": "M3 Line opens"
+      }
+    },
+    {
+      "year": 2013,
+      "event": {
+        "he": "פתיחת קו M5 האוטומטי",
+        "en": "Automated M5 Line opens"
+      }
+    },
+    {
+      "year": 2022,
+      "event": {
+        "he": "פתיחת קו M4",
+        "en": "M4 Line opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/milan-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Milano_metropolitana_map.svg/800px-Milano_metropolitana_map.svg.png",
+    "transitMap": "/transit-maps/milan-metro.png"
+  },
+  "map_url": "https://www.urbanrail.net/eu/it/mil/milano.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/milan/",
+  "official_website": "https://www.atm.it/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/מטרו_מילאנו",
+    "en": "https://en.wikipedia.org/wiki/Milan_Metro"
+  },
+  "colors": [
+    "#E4002B",
+    "#009E49",
+    "#FFD800",
+    "#9C4DA4",
+    "#009CDE"
+  ]
+}

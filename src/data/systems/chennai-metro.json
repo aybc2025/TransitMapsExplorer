@@ -1,0 +1,25 @@
+{
+  "id": "chennai-metro",
+  "name": { "he": "מטרו צ'נאי", "en": "Chennai Metro", "native": "சென்னை மெட்ரோ" },
+  "nicknames": ["CMRL"],
+  "city": { "he": "צ'נאי", "en": "Chennai" },
+  "country": { "he": "הודו", "en": "India", "code": "IN" },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": { "length_km": 54, "stations": 39, "lines": 2, "annual_ridership": 80000000, "daily_ridership": 220000, "opened_year": 2015, "avg_fare": { "currency": "INR", "symbol": "₹", "min": 10, "max": 60 }, "propulsion": "electric", "operator": "Chennai Metro Rail Limited" },
+  "coordinates": { "lat": 13.0827, "lng": 80.2707 },
+  "description": { "he": "מטרו צ'נאי משרת את העיר הרביעית בגודלה בהודו.", "en": "Chennai Metro serves India's fourth largest city." },
+  "lines": [
+    { "id": "blue", "name": { "he": "קו כחול", "en": "Blue Line" }, "color": "#0066B3", "stations": 22, "length_km": 32, "opened_year": 2015 },
+    { "id": "green", "name": { "he": "קו ירוק", "en": "Green Line" }, "color": "#009E49", "stations": 17, "length_km": 22, "opened_year": 2016 }
+  ],
+  "fun_facts": [{ "he": "מחבר לנמל התעופה ולתחנת הרכבת המרכזית", "en": "Connects airport to central railway station" }],
+  "milestones": [{ "year": 2015, "event": { "he": "פתיחה", "en": "Opening" } }],
+  "images": { "header": "/transit-maps/chennai-metro.png", "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Chennai_Metro_Map.svg/800px-Chennai_Metro_Map.svg.png", "transitMap": "/transit-maps/chennai-metro.png" },
+  "map_url": "https://www.urbanrail.net/as/in/chen/chennai.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/chennai/",
+  "official_website": "https://chennaimetrorail.org/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/מטרו_צ'נאי", "en": "https://en.wikipedia.org/wiki/Chennai_Metro" },
+  "colors": ["#0066B3", "#009E49"]
+}

@@ -1,0 +1,184 @@
+{
+  "id": "san-francisco-bart",
+  "name": {
+    "he": "BART סן פרנסיסקו",
+    "en": "San Francisco BART",
+    "native": "Bay Area Rapid Transit"
+  },
+  "nicknames": [
+    "BART",
+    "Bay Area Rapid Transit"
+  ],
+  "city": {
+    "he": "סן פרנסיסקו",
+    "en": "San Francisco"
+  },
+  "country": {
+    "he": "ארה\"ב",
+    "en": "United States",
+    "code": "US"
+  },
+  "continent": "northAmerica",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 182,
+    "stations": 50,
+    "lines": 6,
+    "annual_ridership": 110000000,
+    "daily_ridership": 300000,
+    "opened_year": 1972,
+    "avg_fare": {
+      "currency": "USD",
+      "symbol": "$",
+      "min": 2.15,
+      "max": 15.95
+    },
+    "propulsion": "electric",
+    "operator": "Bay Area Rapid Transit District"
+  },
+  "coordinates": {
+    "lat": 37.7749,
+    "lng": -122.4194
+  },
+  "description": {
+    "he": "BART (Bay Area Rapid Transit) הוא מערכת רכבת מהירה המשרתת את אזור מפרץ סן פרנסיסקו. נפתחה ב-1972 והיא משרתת את סן פרנסיסקו, אוקלנד, ברקלי ועוד ערים רבות באזור.\n\nהמערכת ידועה במנהרת הטרנס-ביי - מנהרה תת-ימית באורך 5.8 ק\"מ מתחת למפרץ סן פרנסיסקו, שהייתה בזמנה אחת מהארוכות בעולם. המסילה ברוחב לא סטנדרטי של 5 רגל 6 אינץ'.\n\nBART מגיע לשני נמלי תעופה - סן פרנסיסקו הבינלאומי ואוקלנד הבינלאומי - ומחבר את כל המרכזים העירוניים באזור המפרץ.",
+    "en": "BART (Bay Area Rapid Transit) is a rapid transit system serving the San Francisco Bay Area. Opened in 1972, it serves San Francisco, Oakland, Berkeley, and many other cities in the region.\n\nThe system is famous for the Transbay Tube - a 3.6-mile underwater tunnel beneath San Francisco Bay, which was one of the longest in the world at the time. The track uses a non-standard gauge of 5 feet 6 inches.\n\nBART reaches two airports - San Francisco International and Oakland International - and connects all urban centers in the Bay Area."
+  },
+  "lines": [
+    {
+      "id": "red",
+      "name": {
+        "he": "קו אדום",
+        "en": "Red Line"
+      },
+      "color": "#ED1C24",
+      "stations": 24,
+      "length_km": 50,
+      "opened_year": 1972
+    },
+    {
+      "id": "yellow",
+      "name": {
+        "he": "קו צהוב",
+        "en": "Yellow Line"
+      },
+      "color": "#FFE800",
+      "stations": 24,
+      "length_km": 50,
+      "opened_year": 1972
+    },
+    {
+      "id": "blue",
+      "name": {
+        "he": "קו כחול",
+        "en": "Blue Line"
+      },
+      "color": "#00AEEF",
+      "stations": 21,
+      "length_km": 37,
+      "opened_year": 1972
+    },
+    {
+      "id": "green",
+      "name": {
+        "he": "קו ירוק",
+        "en": "Green Line"
+      },
+      "color": "#4DB848",
+      "stations": 22,
+      "length_km": 45,
+      "opened_year": 1972
+    },
+    {
+      "id": "orange",
+      "name": {
+        "he": "קו כתום",
+        "en": "Orange Line"
+      },
+      "color": "#FAA61A",
+      "stations": 18,
+      "length_km": 40,
+      "opened_year": 2018
+    },
+    {
+      "id": "beige",
+      "name": {
+        "he": "קו בז'",
+        "en": "Beige Line"
+      },
+      "color": "#A8A9AD",
+      "stations": 10,
+      "length_km": 15,
+      "opened_year": 2020
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "מנהרת הטרנס-ביי עוברת מתחת למפרץ סן פרנסיסקו",
+      "en": "The Transbay Tube runs beneath San Francisco Bay"
+    },
+    {
+      "he": "משתמשת ברוחב מסילה ייחודי",
+      "en": "Uses a unique track gauge"
+    },
+    {
+      "he": "מגיעה לשני נמלי תעופה בינלאומיים",
+      "en": "Reaches two international airports"
+    },
+    {
+      "he": "הייתה חלוצה בטכנולוגיית הנעה אוטומטית",
+      "en": "Was a pioneer in automated train control technology"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1972,
+      "event": {
+        "he": "פתיחת הקווים הראשונים",
+        "en": "First lines open"
+      }
+    },
+    {
+      "year": 1974,
+      "event": {
+        "he": "פתיחת מנהרת הטרנס-ביי",
+        "en": "Transbay Tube opens"
+      }
+    },
+    {
+      "year": 2003,
+      "event": {
+        "he": "הרחבה לנמל התעופה של סן פרנסיסקו",
+        "en": "Extension to SFO Airport"
+      }
+    },
+    {
+      "year": 2018,
+      "event": {
+        "he": "פתיחת הרחבת אנטיוק",
+        "en": "Antioch extension opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/san-francisco-bart.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BART_system_map.svg/800px-BART_system_map.svg.png",
+    "transitMap": "/transit-maps/san-francisco-bart.png"
+  },
+  "map_url": "https://www.urbanrail.net/am/snfr/san-francisco.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/san-francisco/",
+  "official_website": "https://www.bart.gov/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/BART",
+    "en": "https://en.wikipedia.org/wiki/Bay_Area_Rapid_Transit"
+  },
+  "colors": [
+    "#ED1C24",
+    "#FAA61A",
+    "#4DB848",
+    "#00AEEF",
+    "#FFD700",
+    "#A8A9AD"
+  ]
+}

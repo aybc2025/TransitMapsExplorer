@@ -1,0 +1,174 @@
+{
+  "id": "shenzhen-metro",
+  "name": {
+    "he": "מטרו שנג'ן",
+    "en": "Shenzhen Metro",
+    "native": "深圳地铁"
+  },
+  "nicknames": [
+    "SZMC"
+  ],
+  "city": {
+    "he": "שנג'ן",
+    "en": "Shenzhen"
+  },
+  "country": {
+    "he": "סין",
+    "en": "China",
+    "code": "CN"
+  },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 567,
+    "stations": 313,
+    "lines": 17,
+    "annual_ridership": 2100000000,
+    "daily_ridership": 5800000,
+    "opened_year": 2004,
+    "avg_fare": {
+      "currency": "CNY",
+      "symbol": "¥",
+      "min": 2,
+      "max": 14
+    },
+    "propulsion": "electric",
+    "operator": "Shenzhen Metro Group"
+  },
+  "coordinates": {
+    "lat": 22.5431,
+    "lng": 114.0579
+  },
+  "description": {
+    "he": "מטרו שנג'ן הוא מערכת רכבת תחתית המשרתת את שנג'ן, עיר הטכנולוגיה המובילה בסין. נפתחה ב-2004 והתרחבה במהירות יוצאת דופן.\n\nהמערכת ידועה בחיבור שלה להונג קונג דרך קו 4, המאפשר מעבר ישיר בין שתי הערים. התחנות מודרניות ומצוידות בדלתות מסך ברציפים.\n\nשנג'ן, שהייתה כפר דייגים לפני 40 שנה, הפכה למגה-עיר עם אחת ממערכות המטרו המתקדמות ביותר בעולם.",
+    "en": "Shenzhen Metro is a rapid transit system serving Shenzhen, China's leading technology city. Opened in 2004, it has expanded at an extraordinary pace.\n\nThe system is known for its connection to Hong Kong via Line 4, allowing direct transit between the two cities. Stations are modern and equipped with platform screen doors.\n\nShenzhen, which was a fishing village 40 years ago, has become a megacity with one of the most advanced metro systems in the world."
+  },
+  "lines": [
+    {
+      "id": "line1",
+      "name": {
+        "he": "קו 1",
+        "en": "Line 1"
+      },
+      "color": "#00B140",
+      "stations": 28,
+      "length_km": 41,
+      "opened_year": 2004
+    },
+    {
+      "id": "line2",
+      "name": {
+        "he": "קו 2",
+        "en": "Line 2"
+      },
+      "color": "#E3002C",
+      "stations": 32,
+      "length_km": 35,
+      "opened_year": 2010
+    },
+    {
+      "id": "line3",
+      "name": {
+        "he": "קו 3",
+        "en": "Line 3"
+      },
+      "color": "#00A0E9",
+      "stations": 30,
+      "length_km": 42,
+      "opened_year": 2010
+    },
+    {
+      "id": "line4",
+      "name": {
+        "he": "קו 4",
+        "en": "Line 4"
+      },
+      "color": "#92D050",
+      "stations": 15,
+      "length_km": 21,
+      "opened_year": 2004
+    },
+    {
+      "id": "line5",
+      "name": {
+        "he": "קו 5",
+        "en": "Line 5"
+      },
+      "color": "#00B2A9",
+      "stations": 27,
+      "length_km": 40,
+      "opened_year": 2011
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "מחברת ישירות להונג קונג",
+      "en": "Directly connects to Hong Kong"
+    },
+    {
+      "he": "התרחבה מ-0 ליותר מ-500 ק\"מ תוך 20 שנה",
+      "en": "Expanded from 0 to over 500 km in 20 years"
+    },
+    {
+      "he": "משרתת את עיר הטכנולוגיה המובילה בסין",
+      "en": "Serves China's leading tech city"
+    },
+    {
+      "he": "כל התחנות מצוידות בדלתות מסך",
+      "en": "All stations equipped with platform screen doors"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 2004,
+      "event": {
+        "he": "פתיחת קווים 1 ו-4",
+        "en": "Lines 1 and 4 open"
+      }
+    },
+    {
+      "year": 2010,
+      "event": {
+        "he": "הרחבה משמעותית לקראת אקספו",
+        "en": "Major expansion for Universiade"
+      }
+    },
+    {
+      "year": 2020,
+      "event": {
+        "he": "עברה 400 ק\"מ",
+        "en": "Exceeded 400 km"
+      }
+    },
+    {
+      "year": 2022,
+      "event": {
+        "he": "עברה 500 ק\"מ",
+        "en": "Exceeded 500 km"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/shenzhen-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Shenzhen_Metro_Linemap.svg/800px-Shenzhen_Metro_Linemap.svg.png",
+    "transitMap": "/transit-maps/shenzhen-metro.png"
+  },
+  "map_url": "https://www.urbanrail.net/as/cn/shen/shenzhen.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/shenzhen/",
+  "official_website": "https://www.szmc.net/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/מטרו_שנזן",
+    "en": "https://en.wikipedia.org/wiki/Shenzhen_Metro"
+  },
+  "colors": [
+    "#00B140",
+    "#E3002C",
+    "#00A0E9",
+    "#92D050",
+    "#00B2A9",
+    "#D6186E",
+    "#009FCC",
+    "#FFC72C"
+  ]
+}

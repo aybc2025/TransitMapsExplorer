@@ -1,0 +1,159 @@
+{
+  "id": "montreal-metro",
+  "name": {
+    "he": "מטרו מונטריאול",
+    "en": "Montreal Metro",
+    "native": "Métro de Montréal"
+  },
+  "nicknames": [
+    "Le Métro"
+  ],
+  "city": {
+    "he": "מונטריאול",
+    "en": "Montreal"
+  },
+  "country": {
+    "he": "קנדה",
+    "en": "Canada",
+    "code": "CA"
+  },
+  "continent": "northAmerica",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 71,
+    "stations": 68,
+    "lines": 4,
+    "annual_ridership": 360000000,
+    "daily_ridership": 1000000,
+    "opened_year": 1966,
+    "avg_fare": {
+      "currency": "CAD",
+      "symbol": "C$",
+      "min": 3.50,
+      "max": 3.50
+    },
+    "propulsion": "electric",
+    "operator": "Société de transport de Montréal (STM)"
+  },
+  "coordinates": {
+    "lat": 45.5017,
+    "lng": -73.5673
+  },
+  "description": {
+    "he": "מטרו מונטריאול הוא מערכת רכבת תחתית המשרתת את העיר מונטריאול בקוויבק, קנדה. נפתחה ב-1966 והיא המטרו הראשון בקנדה שנבנה מאפס (טורונטו קדמה אך השתמשה בתשתית קיימת).\n\nהמערכת ידועה בתחנותיה המעוצבות באופן ייחודי, כל תחנה בעיצוב אדריכלי שונה. התחנות נחשבות לחלק מהיפות בעולם, עם אמנות ציבורית ועיצוב מודרניסטי. המטרו משתמש בגלגלים מגומי על מסילות בטון, מה שמבטיח נסיעה שקטה.\n\nהמטרו מחובר ל'העיר התת-קרקעית' (RÉSO) - רשת מנהרות עצומה המחברת מרכזי קניות, משרדים ובנייני מגורים.",
+    "en": "Montreal Metro is a rapid transit system serving Montreal, Quebec, Canada. Opened in 1966, it was the first metro in Canada built from scratch (Toronto preceded it but used existing infrastructure).\n\nThe system is famous for its uniquely designed stations, each featuring distinct architectural styles. The stations are considered among the most beautiful in the world, featuring public art and modernist design. The metro uses rubber tires on concrete tracks, ensuring a quiet ride.\n\nThe metro connects to the 'Underground City' (RÉSO) - a vast network of tunnels connecting shopping centers, offices, and residential buildings."
+  },
+  "lines": [
+    {
+      "id": "green",
+      "name": {
+        "he": "קו ירוק",
+        "en": "Green Line"
+      },
+      "color": "#008E4F",
+      "stations": 27,
+      "length_km": 22.1,
+      "opened_year": 1966
+    },
+    {
+      "id": "orange",
+      "name": {
+        "he": "קו כתום",
+        "en": "Orange Line"
+      },
+      "color": "#FFB718",
+      "stations": 31,
+      "length_km": 30,
+      "opened_year": 1966
+    },
+    {
+      "id": "blue",
+      "name": {
+        "he": "קו כחול",
+        "en": "Blue Line"
+      },
+      "color": "#003DA8",
+      "stations": 12,
+      "length_km": 9.7,
+      "opened_year": 1986
+    },
+    {
+      "id": "yellow",
+      "name": {
+        "he": "קו צהוב",
+        "en": "Yellow Line"
+      },
+      "color": "#FFD200",
+      "stations": 3,
+      "length_km": 4.3,
+      "opened_year": 1967
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "כל תחנה מעוצבת על ידי אדריכל אחר",
+      "en": "Each station was designed by a different architect"
+    },
+    {
+      "he": "משתמש בגלגלים מגומי לנסיעה שקטה",
+      "en": "Uses rubber tires for a quieter ride"
+    },
+    {
+      "he": "מחובר לעיר התת-קרקעית הגדולה בעולם",
+      "en": "Connected to the world's largest underground city"
+    },
+    {
+      "he": "תחנת Lionel-Groulx נקראת 'תחנת הכוכבים' בזכות עיצובה",
+      "en": "Lionel-Groulx station is called 'Star Station' due to its design"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1966,
+      "event": {
+        "he": "פתיחת הקווים הירוק והכתום",
+        "en": "Green and Orange lines open"
+      }
+    },
+    {
+      "year": 1967,
+      "event": {
+        "he": "פתיחת הקו הצהוב לתערוכת Expo 67",
+        "en": "Yellow Line opens for Expo 67"
+      }
+    },
+    {
+      "year": 1986,
+      "event": {
+        "he": "פתיחת הקו הכחול",
+        "en": "Blue Line opens"
+      }
+    },
+    {
+      "year": 2007,
+      "event": {
+        "he": "הרחבת הקו הכתום לאוורל",
+        "en": "Orange Line extended to Laval"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/montreal-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Montreal_Metro_map.svg/800px-Montreal_Metro_map.svg.png",
+    "transitMap": "/transit-maps/montreal-metro.png"
+  },
+  "map_url": "https://www.urbanrail.net/am/mont/montreal.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/montreal/",
+  "official_website": "https://www.stm.info/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/הרכבת_התחתית_של_מונטריאול",
+    "en": "https://en.wikipedia.org/wiki/Montreal_Metro"
+  },
+  "colors": [
+    "#009EE0",
+    "#FFB718",
+    "#008E4F",
+    "#003E8A"
+  ]
+}

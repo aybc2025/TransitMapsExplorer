@@ -1,0 +1,403 @@
+{
+  "id": "beijing-subway",
+  "name": {
+    "he": "רכבת התחתית של בייג'ין",
+    "en": "Beijing Subway",
+    "native": "北京地铁"
+  },
+  "nicknames": [],
+  "city": {
+    "he": "בייג'ין",
+    "en": "Beijing"
+  },
+  "country": {
+    "he": "סין",
+    "en": "China",
+    "code": "CN"
+  },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 807,
+    "stations": 490,
+    "lines": 27,
+    "annual_ridership": 2000000000,
+    "daily_ridership": 5500000,
+    "opened_year": 1969,
+    "avg_fare": {
+      "currency": "CNY",
+      "symbol": "¥",
+      "min": 3,
+      "max": 9
+    },
+    "propulsion": "electric",
+    "operator": "Beijing Mass Transit Railway Operation Corporation"
+  },
+  "coordinates": {
+    "lat": 39.9042,
+    "lng": 116.4074
+  },
+  "description": {
+    "he": "רכבת התחתית של בייג'ין היא אחת המערכות הגדולות והעמוסות ביותר בעולם, עם 490 תחנות ו-27 קווים המשתרעים על פני 807 ק\"מ. נפתחה בשנת 1969 והייתה למערכת המטרו הראשונה בסין.\n\nהמערכת ידועה בצפיפות הרבה של הנוסעים בשעות העומס, כאשר 'דוחפים' רשמיים עוזרים להכניס נוסעים לרכבות. המערכת כוללת דלתות בטיחות, מערכות אוטומטיות מתקדמות, וסימון ברור בעברית, אנגלית וסינית.\n\nהקווים מתחברים לשדות תעופה, תחנות רכבת, ואתרים מרכזיים בעיר. המערכת התרחבה במהירות כדי להתמודד עם הגידול המהיר באוכלוסיית בייג'ין ועם אולימפיאדת הקיץ 2008.",
+    "en": "The Beijing Subway is one of the world's largest and busiest systems, with 490 stations and 27 lines spanning 807 km. Opened in 1969, it was China's first metro system.\n\nThe system is known for extreme passenger density during rush hours, with official 'pushers' helping passengers board trains. The system features platform screen doors, advanced automated systems, and clear signage in Chinese and English.\n\nThe lines connect to airports, train stations, and major city landmarks. The system expanded rapidly to cope with Beijing's rapid population growth and the 2008 Summer Olympics."
+  },
+  "lines": [
+    {
+      "id": "1",
+      "name": {
+        "he": "קו 1",
+        "en": "Line 1"
+      },
+      "color": "#C23A30",
+      "stations": 23,
+      "length_km": 31,
+      "opened_year": 1969
+    },
+    {
+      "id": "2",
+      "name": {
+        "he": "קו 2",
+        "en": "Line 2"
+      },
+      "color": "#0060A9",
+      "stations": 18,
+      "length_km": 23.1,
+      "opened_year": 1984
+    },
+    {
+      "id": "4",
+      "name": {
+        "he": "קו 4",
+        "en": "Line 4"
+      },
+      "color": "#009B77",
+      "stations": 24,
+      "length_km": 28.2,
+      "opened_year": 2009
+    },
+    {
+      "id": "5",
+      "name": {
+        "he": "קו 5",
+        "en": "Line 5"
+      },
+      "color": "#A192B2",
+      "stations": 23,
+      "length_km": 27.6,
+      "opened_year": 2007
+    },
+    {
+      "id": "6",
+      "name": {
+        "he": "קו 6",
+        "en": "Line 6"
+      },
+      "color": "#D6A461",
+      "stations": 26,
+      "length_km": 42.8,
+      "opened_year": 2012
+    },
+    {
+      "id": "7",
+      "name": {
+        "he": "קו 7",
+        "en": "Line 7"
+      },
+      "color": "#F5BD4E",
+      "stations": 19,
+      "length_km": 23.7,
+      "opened_year": 2014
+    },
+    {
+      "id": "8",
+      "name": {
+        "he": "קו 8",
+        "en": "Line 8"
+      },
+      "color": "#00ABA0",
+      "stations": 17,
+      "length_km": 26.6,
+      "opened_year": 2008
+    },
+    {
+      "id": "9",
+      "name": {
+        "he": "קו 9",
+        "en": "Line 9"
+      },
+      "color": "#8FC31F",
+      "stations": 13,
+      "length_km": 16.5,
+      "opened_year": 2011
+    },
+    {
+      "id": "10",
+      "name": {
+        "he": "קו 10",
+        "en": "Line 10"
+      },
+      "color": "#7A8D57",
+      "stations": 45,
+      "length_km": 57.1,
+      "opened_year": 2008
+    },
+    {
+      "id": "13",
+      "name": {
+        "he": "קו 13",
+        "en": "Line 13"
+      },
+      "color": "#F19A8A",
+      "stations": 16,
+      "length_km": 40.9,
+      "opened_year": 2002
+    },
+    {
+      "id": "14",
+      "name": {
+        "he": "קו 14",
+        "en": "Line 14"
+      },
+      "color": "#C5003E",
+      "stations": 36,
+      "length_km": 50.8,
+      "opened_year": 2013
+    },
+    {
+      "id": "15",
+      "name": {
+        "he": "קו 15",
+        "en": "Line 15"
+      },
+      "color": "#653279",
+      "stations": 20,
+      "length_km": 41.4,
+      "opened_year": 2010
+    },
+    {
+      "id": "16",
+      "name": {
+        "he": "קו 16",
+        "en": "Line 16"
+      },
+      "color": "#6A2C3E",
+      "stations": 10,
+      "length_km": 20,
+      "opened_year": 2016
+    },
+    {
+      "id": "17",
+      "name": {
+        "he": "קו 17",
+        "en": "Line 17"
+      },
+      "color": "#9B0056",
+      "stations": 10,
+      "length_km": 49.7,
+      "opened_year": 2021
+    },
+    {
+      "id": "19",
+      "name": {
+        "he": "קו 19",
+        "en": "Line 19"
+      },
+      "color": "#B3A369",
+      "stations": 10,
+      "length_km": 22.4,
+      "opened_year": 2021
+    },
+    {
+      "id": "capital-airport",
+      "name": {
+        "he": "קו נמל התעופה הבירה",
+        "en": "Capital Airport Express"
+      },
+      "color": "#9B0056",
+      "stations": 4,
+      "length_km": 28.1,
+      "opened_year": 2008
+    },
+    {
+      "id": "daxing-airport",
+      "name": {
+        "he": "קו נמל התעופה דאשינג",
+        "en": "Daxing Airport Express"
+      },
+      "color": "#D6A461",
+      "stations": 3,
+      "length_km": 41.4,
+      "opened_year": 2019
+    },
+    {
+      "id": "changping",
+      "name": {
+        "he": "קו צ'אנגפינג",
+        "en": "Changping Line"
+      },
+      "color": "#F19A8A",
+      "stations": 7,
+      "length_km": 31.9,
+      "opened_year": 2010
+    },
+    {
+      "id": "fangshan",
+      "name": {
+        "he": "קו פאנגשאן",
+        "en": "Fangshan Line"
+      },
+      "color": "#A192B2",
+      "stations": 16,
+      "length_km": 25,
+      "opened_year": 2010
+    },
+    {
+      "id": "yizhuang",
+      "name": {
+        "he": "קו ייז'ואנג",
+        "en": "Yizhuang Line"
+      },
+      "color": "#F5BD4E",
+      "stations": 13,
+      "length_km": 23.3,
+      "opened_year": 2010
+    },
+    {
+      "id": "s1",
+      "name": {
+        "he": "קו S1",
+        "en": "Line S1"
+      },
+      "color": "#C23A30",
+      "stations": 8,
+      "length_km": 10.2,
+      "opened_year": 2017
+    },
+    {
+      "id": "yanfang",
+      "name": {
+        "he": "קו יאנפאנג",
+        "en": "Yanfang Line"
+      },
+      "color": "#9B0056",
+      "stations": 12,
+      "length_km": 14.4,
+      "opened_year": 2017
+    },
+    {
+      "id": "yanfang-branch",
+      "name": {
+        "he": "ענף יאנפאנג",
+        "en": "Yanfang Branch"
+      },
+      "color": "#9B0056",
+      "stations": 9,
+      "length_km": 14.4,
+      "opened_year": 2019
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "המערכת הראשונה בסין - נפתחה ב-1969",
+      "en": "China's first metro system - opened in 1969"
+    },
+    {
+      "he": "יש 'דוחפים' רשמיים שעוזרים להכניס נוסעים לרכבות בשעות העומס",
+      "en": "Official 'pushers' help passengers board trains during rush hours"
+    },
+    {
+      "he": "המערכת התרחבה במהירות לפני אולימפיאדת 2008",
+      "en": "The system expanded rapidly before the 2008 Olympics"
+    },
+    {
+      "he": "קו 10 הוא הקו הארוך ביותר - 57 ק\"מ",
+      "en": "Line 10 is the longest - 57 km"
+    },
+    {
+      "he": "כולל קווים ייעודיים לשדות התעופה",
+      "en": "Features dedicated airport express lines"
+    },
+    {
+      "he": "מובילה יותר מ-5.5 מיליון נוסעים ביום",
+      "en": "Carries over 5.5 million passengers daily"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1969,
+      "event": {
+        "he": "פתיחת הקו הראשון - 17 תחנות",
+        "en": "First line opens - 17 stations"
+      }
+    },
+    {
+      "year": 1984,
+      "event": {
+        "he": "פתיחת קו 2 - הקו המעגלי",
+        "en": "Line 2 opens - the circular line"
+      }
+    },
+    {
+      "year": 2002,
+      "event": {
+        "he": "פתיחת קו 13",
+        "en": "Line 13 opens"
+      }
+    },
+    {
+      "year": 2008,
+      "event": {
+        "he": "הרחבה מהירה לפני האולימפיאדה",
+        "en": "Rapid expansion before the Olympics"
+      }
+    },
+    {
+      "year": 2010,
+      "event": {
+        "he": "הגעה ל-14 קווים",
+        "en": "Reaches 14 lines"
+      }
+    },
+    {
+      "year": 2021,
+      "event": {
+        "he": "הגעה ל-27 קווים ו-490 תחנות",
+        "en": "Reaches 27 lines and 490 stations"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/beijing-subway.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Beijing_Subway_map_sb_zh-hans.png/800px-Beijing_Subway_map_sb_zh-hans.png",
+    "transitMap": "/transit-maps/beijing-subway.png",
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Beijing_Subway_Line_1_at_Tiananmen_West.jpg/1280px-Beijing_Subway_Line_1_at_Tiananmen_West.jpg",
+        "caption": {
+          "he": "תחנת טיאנאנמן מערב",
+          "en": "Tiananmen West Station"
+        }
+      }
+    ]
+  },
+  "map_url": "https://www.bjsubway.com/en/network/",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=116.2,39.8,116.6,40.0&layer=transport",
+  "official_website": "https://www.bjsubway.com/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/המטרו_של_בייג'ין",
+    "en": "https://en.wikipedia.org/wiki/Beijing_Subway"
+  },
+  "colors": [
+    "#C23A30",
+    "#0060A9",
+    "#F4E300",
+    "#009B77",
+    "#A192B2",
+    "#D6A461",
+    "#F5BD4E",
+    "#00ABA0",
+    "#8FC31F",
+    "#7A8D57"
+  ]
+}

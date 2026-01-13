@@ -1,0 +1,242 @@
+{
+  "id": "berlin-ubahn",
+  "name": {
+    "he": "U-Bahn ברלין",
+    "en": "Berlin U-Bahn",
+    "native": "Berlin U-Bahn"
+  },
+  "nicknames": [
+    "U-Bahn"
+  ],
+  "city": {
+    "he": "ברלין",
+    "en": "Berlin"
+  },
+  "country": {
+    "he": "גרמניה",
+    "en": "Germany",
+    "code": "DE"
+  },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 155,
+    "stations": 175,
+    "lines": 10,
+    "annual_ridership": 560000000,
+    "daily_ridership": 1500000,
+    "opened_year": 1902,
+    "avg_fare": {
+      "currency": "EUR",
+      "symbol": "€",
+      "min": 3,
+      "max": 3.8
+    },
+    "propulsion": "electric",
+    "operator": "BVG (Berliner Verkehrsbetriebe)"
+  },
+  "coordinates": {
+    "lat": 52.52,
+    "lng": 13.405
+  },
+  "description": {
+    "he": "U-Bahn ברלין היא מערכת הרכבת התחתית של העיר, עם 175 תחנות ו-10 קווים המשתרעים על פני 155 ק\"מ. נפתחה בשנת 1902, והמערכת עברה שיקום נרחב לאחר נפילת חומת ברלין.\n\nהמערכת ידועה בעיצוב הפשוט והפונקציונלי שלה, עם תחנות בסגנון גרמני קלאסי. חלק מהתחנות ההיסטוריות שומרו בקפידה, בעוד שאחרות עברו מודרניזציה מלאה. המערכת מתחברת ל-S-Bahn (רכבת פרברים) ולרכבת הקלה.\n\nהמערכת פועלת 24/7 בסופי שבוע, ובשעות ארוכות בימות השבוע. התחנות מעוצבות בסגנון נקי ופונקציונלי, עם סימון ברור בגרמנית ובאנגלית.",
+    "en": "The Berlin U-Bahn is the city's underground railway system, with 175 stations and 10 lines spanning 155 km. Opened in 1902, the system underwent extensive restoration after the fall of the Berlin Wall.\n\nThe system is known for its simple, functional design, with stations in classic German style. Some historic stations have been carefully preserved, while others have been fully modernized. The system connects to the S-Bahn (suburban rail) and light rail.\n\nThe system operates 24/7 on weekends, and long hours on weekdays. Stations are designed in a clean, functional style, with clear signage in German and English."
+  },
+  "lines": [
+    {
+      "id": "U1",
+      "name": {
+        "he": "קו U1",
+        "en": "Line U1"
+      },
+      "color": "#7DAD4C",
+      "stations": 13,
+      "length_km": 8.8,
+      "opened_year": 1902
+    },
+    {
+      "id": "U2",
+      "name": {
+        "he": "קו U2",
+        "en": "Line U2"
+      },
+      "color": "#DA421E",
+      "stations": 29,
+      "length_km": 20.7,
+      "opened_year": 1902
+    },
+    {
+      "id": "U3",
+      "name": {
+        "he": "קו U3",
+        "en": "Line U3"
+      },
+      "color": "#2E9A4B",
+      "stations": 24,
+      "length_km": 18.9,
+      "opened_year": 1913
+    },
+    {
+      "id": "U4",
+      "name": {
+        "he": "קו U4",
+        "en": "Line U4"
+      },
+      "color": "#F0D722",
+      "stations": 5,
+      "length_km": 2.9,
+      "opened_year": 1910
+    },
+    {
+      "id": "U5",
+      "name": {
+        "he": "קו U5",
+        "en": "Line U5"
+      },
+      "color": "#7E5330",
+      "stations": 26,
+      "length_km": 22.4,
+      "opened_year": 1930
+    },
+    {
+      "id": "U6",
+      "name": {
+        "he": "קו U6",
+        "en": "Line U6"
+      },
+      "color": "#8C6DAB",
+      "stations": 29,
+      "length_km": 19.9,
+      "opened_year": 1923
+    },
+    {
+      "id": "U7",
+      "name": {
+        "he": "קו U7",
+        "en": "Line U7"
+      },
+      "color": "#008AD1",
+      "stations": 40,
+      "length_km": 31.8,
+      "opened_year": 1924
+    },
+    {
+      "id": "U8",
+      "name": {
+        "he": "קו U8",
+        "en": "Line U8"
+      },
+      "color": "#26A69A",
+      "stations": 24,
+      "length_km": 18,
+      "opened_year": 1927
+    },
+    {
+      "id": "U9",
+      "name": {
+        "he": "קו U9",
+        "en": "Line U9"
+      },
+      "color": "#F58220",
+      "stations": 18,
+      "length_km": 12.5,
+      "opened_year": 1961
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "המערכת הוותיקה ביותר בגרמניה - נפתחה ב-1902",
+      "en": "Germany's oldest metro system - opened in 1902"
+    },
+    {
+      "he": "עברה שיקום נרחב לאחר נפילת חומת ברלין",
+      "en": "Underwent extensive restoration after the fall of the Berlin Wall"
+    },
+    {
+      "he": "פועלת 24/7 בסופי שבוע",
+      "en": "Operates 24/7 on weekends"
+    },
+    {
+      "he": "מתחברת ל-S-Bahn ולרכבת הקלה",
+      "en": "Connects to S-Bahn and light rail"
+    },
+    {
+      "he": "תחנות היסטוריות שמורות בקפידה",
+      "en": "Historic stations carefully preserved"
+    },
+    {
+      "he": "מובילה כ-1.5 מיליון נוסעים ביום",
+      "en": "Carries about 1.5 million passengers daily"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1902,
+      "event": {
+        "he": "פתיחת הקו הראשון",
+        "en": "First line opens"
+      }
+    },
+    {
+      "year": 1920,
+      "event": {
+        "he": "איחוד רשתות ברלין",
+        "en": "Unification of Berlin networks"
+      }
+    },
+    {
+      "year": 1945,
+      "event": {
+        "he": "נזקים כבדים במלחמת העולם השנייה",
+        "en": "Heavy damage in World War II"
+      }
+    },
+    {
+      "year": 1961,
+      "event": {
+        "he": "חלוקה בעקבות חומת ברלין",
+        "en": "Division due to Berlin Wall"
+      }
+    },
+    {
+      "year": 1989,
+      "event": {
+        "he": "איחוד מחדש לאחר נפילת החומה",
+        "en": "Reunification after fall of the Wall"
+      }
+    },
+    {
+      "year": 2020,
+      "event": {
+        "he": "פתיחת הרחבה לקו U5",
+        "en": "U5 line extension opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/berlin-ubahn.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/U-Bahn_Berlin_-_Netzplan.svg/800px-U-Bahn_Berlin_-_Netzplan.svg.png",
+    "transitMap": "/transit-maps/berlin-ubahn.png"
+  },
+  "map_url": "https://www.bvg.de/en/routes/ubahn",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=13.2,52.4,13.6,52.6&layer=transport",
+  "official_website": "https://www.bvg.de/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/U-Bahn_ברלין",
+    "en": "https://en.wikipedia.org/wiki/Berlin_U-Bahn"
+  },
+  "colors": [
+    "#7DAD4C",
+    "#DA421E",
+    "#2E9A4B",
+    "#F0D722",
+    "#7E5330",
+    "#8C6DAB",
+    "#008AD1",
+    "#26A69A",
+    "#F58220",
+    "#F9C716"
+  ]
+}

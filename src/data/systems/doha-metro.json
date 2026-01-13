@@ -1,0 +1,29 @@
+{
+  "id": "doha-metro",
+  "name": { "he": "מטרו דוחא", "en": "Doha Metro", "native": "مترو الدوحة" },
+  "nicknames": ["Qatar Rail"],
+  "city": { "he": "דוחא", "en": "Doha" },
+  "country": { "he": "קטאר", "en": "Qatar", "code": "QA" },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": { "length_km": 76, "stations": 37, "lines": 3, "annual_ridership": 50000000, "daily_ridership": 140000, "opened_year": 2019, "avg_fare": { "currency": "QAR", "symbol": "ر.ق", "min": 2, "max": 6 }, "propulsion": "electric", "operator": "Qatar Rail" },
+  "coordinates": { "lat": 25.2854, "lng": 51.531 },
+  "description": { "he": "מטרו דוחא הוא מערכת חדשה ומודרנית שנבנתה לקראת מונדיאל 2022.", "en": "Doha Metro is a modern system built for the 2022 World Cup." },
+  "lines": [
+    { "id": "red", "name": { "he": "קו אדום", "en": "Red Line" }, "color": "#E4002B", "stations": 13, "length_km": 40, "opened_year": 2019 },
+    { "id": "green", "name": { "he": "קו ירוק", "en": "Green Line" }, "color": "#009E49", "stations": 11, "length_km": 22, "opened_year": 2019 },
+    { "id": "gold", "name": { "he": "קו זהב", "en": "Gold Line" }, "color": "#FFD800", "stations": 13, "length_km": 14, "opened_year": 2019 }
+  ],
+  "fun_facts": [
+    { "he": "נבנה במהירות שיא לקראת המונדיאל", "en": "Built rapidly for the World Cup" },
+    { "he": "תחנות מעוצבות בפאר", "en": "Luxuriously designed stations" }
+  ],
+  "milestones": [{ "year": 2019, "event": { "he": "פתיחה", "en": "Opening" } }],
+  "images": { "header": "/transit-maps/doha-metro.png", "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Doha_Metro_Map.svg/800px-Doha_Metro_Map.svg.png", "transitMap": "/transit-maps/doha-metro.png" },
+  "map_url": "https://www.urbanrail.net/as/qa/doha/doha.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/doha/",
+  "official_website": "https://www.qr.com.qa/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/מטרו_דוחא", "en": "https://en.wikipedia.org/wiki/Doha_Metro" },
+  "colors": ["#E4002B", "#009E49", "#FFD800"]
+}

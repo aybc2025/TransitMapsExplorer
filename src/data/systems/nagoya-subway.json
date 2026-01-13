@@ -1,0 +1,176 @@
+{
+  "id": "nagoya-subway",
+  "name": {
+    "he": "מטרו נגויה",
+    "en": "Nagoya Municipal Subway",
+    "native": "名古屋市営地下鉄"
+  },
+  "nicknames": [
+    "Nagoya Subway"
+  ],
+  "city": {
+    "he": "נגויה",
+    "en": "Nagoya"
+  },
+  "country": {
+    "he": "יפן",
+    "en": "Japan",
+    "code": "JP"
+  },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 93,
+    "stations": 87,
+    "lines": 6,
+    "annual_ridership": 450000000,
+    "daily_ridership": 1250000,
+    "opened_year": 1957,
+    "avg_fare": {
+      "currency": "JPY",
+      "symbol": "¥",
+      "min": 210,
+      "max": 330
+    },
+    "propulsion": "electric",
+    "operator": "Nagoya Transportation Bureau"
+  },
+  "coordinates": {
+    "lat": 35.1815,
+    "lng": 136.9066
+  },
+  "description": {
+    "he": "מטרו נגויה הוא מערכת רכבת תחתית המשרתת את העיר השלישית בגודלה ביפן. נפתחה ב-1957 והיא מרכז תעשייתי חשוב.\n\nהמערכת מחברת את מרכז העיר לאזורי התעשייה ולמפעלי טויוטה באזור. תחנת נגויה היא מרכז התחבורה המרכזי.\n\nnagoya ידועה כעיר התעשייה של יפן, והמטרו משרת מיליוני עובדים מדי יום.",
+    "en": "Nagoya Municipal Subway is a rapid transit system serving Japan's third largest city. Opened in 1957, it serves a major industrial center.\n\nThe system connects downtown to industrial areas and Toyota facilities in the region. Nagoya Station is the main transportation hub.\n\nNagoya is known as Japan's industrial city, and the metro serves millions of workers daily."
+  },
+  "lines": [
+    {
+      "id": "higashiyama",
+      "name": {
+        "he": "קו היגשיאמה (צהוב)",
+        "en": "Higashiyama Line (Yellow)"
+      },
+      "color": "#F4E409",
+      "stations": 22,
+      "length_km": 20,
+      "opened_year": 1957
+    },
+    {
+      "id": "meijo",
+      "name": {
+        "he": "קו מיג'ו (סגול)",
+        "en": "Meijo Line (Purple)"
+      },
+      "color": "#9C69B7",
+      "stations": 28,
+      "length_km": 26,
+      "opened_year": 1965
+    },
+    {
+      "id": "tsurumai",
+      "name": {
+        "he": "קו צורומאי (כחול)",
+        "en": "Tsurumai Line (Blue)"
+      },
+      "color": "#4B96E3",
+      "stations": 20,
+      "length_km": 20,
+      "opened_year": 1977
+    },
+    {
+      "id": "sakura-dori",
+      "name": {
+        "he": "קו סקורה-דורי (אדום)",
+        "en": "Sakura-dori Line (Red)"
+      },
+      "color": "#C79BB6",
+      "stations": 14,
+      "length_km": 14,
+      "opened_year": 1989
+    },
+    {
+      "id": "kamiiida",
+      "name": {
+        "he": "קו קמיאידה (ורוד)",
+        "en": "Kamiiida Line (Pink)"
+      },
+      "color": "#EE6F9E",
+      "stations": 4,
+      "length_km": 2,
+      "opened_year": 2003
+    },
+    {
+      "id": "meiko",
+      "name": {
+        "he": "קו מייקו (ירוק)",
+        "en": "Meiko Line (Green)"
+      },
+      "color": "#77C0A3",
+      "stations": 7,
+      "length_km": 9,
+      "opened_year": 2004
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "משרתת את מרכז התעשייה של יפן",
+      "en": "Serves Japan's industrial center"
+    },
+    {
+      "he": "קו מיג'ו הוא קו מעגלי שלם",
+      "en": "Meijo Line is a complete loop line"
+    },
+    {
+      "he": "מחברת למפעלי טויוטה באזור",
+      "en": "Connects to Toyota factories in the region"
+    },
+    {
+      "he": "תחנת נגויה היא מהגדולות בעולם",
+      "en": "Nagoya Station is one of the largest in the world"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1957,
+      "event": {
+        "he": "פתיחת קו היגשיאמה",
+        "en": "Higashiyama Line opens"
+      }
+    },
+    {
+      "year": 1965,
+      "event": {
+        "he": "פתיחת קו מיג'ו",
+        "en": "Meijo Line opens"
+      }
+    },
+    {
+      "year": 2004,
+      "event": {
+        "he": "השלמת קו מיג'ו המעגלי",
+        "en": "Meijo loop completed"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/nagoya-subway.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Nagoya_Subway_Network.png/800px-Nagoya_Subway_Network.png",
+    "transitMap": "/transit-maps/nagoya-subway.png"
+  },
+  "map_url": "https://www.urbanrail.net/as/jp/nagoya/nagoya.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/nagoya/",
+  "official_website": "https://www.kotsu.city.nagoya.jp/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/מטרו_נגויה",
+    "en": "https://en.wikipedia.org/wiki/Nagoya_Municipal_Subway"
+  },
+  "colors": [
+    "#F4E409",
+    "#9C69B7",
+    "#4B96E3",
+    "#C79BB6",
+    "#77C0A3",
+    "#EE6F9E"
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": "bangkok-bts",
+  "name": {
+    "he": "BTS בנגקוק",
+    "en": "Bangkok BTS/MRT",
+    "native": "รถไฟฟ้า BTS"
+  },
+  "nicknames": [
+    "BTS",
+    "Skytrain",
+    "MRT"
+  ],
+  "city": {
+    "he": "בנגקוק",
+    "en": "Bangkok"
+  },
+  "country": {
+    "he": "תאילנד",
+    "en": "Thailand",
+    "code": "TH"
+  },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 115,
+    "stations": 92,
+    "lines": 5,
+    "annual_ridership": 350000000,
+    "daily_ridership": 1000000,
+    "opened_year": 1999,
+    "avg_fare": {
+      "currency": "THB",
+      "symbol": "฿",
+      "min": 16,
+      "max": 59
+    },
+    "propulsion": "electric",
+    "operator": "BTS Group / MRTA"
+  },
+  "coordinates": {
+    "lat": 13.7563,
+    "lng": 100.5018
+  },
+  "description": {
+    "he": "מערכת הרכבות של בנגקוק כוללת את BTS Skytrain (רכבת עילית) ואת MRT (רכבת תחתית). ה-BTS נפתחה ב-1999 וה-MRT ב-2004.\n\nה-BTS Skytrain עוברת מעל לרחובות העמוסים של בנגקוק, ומציעה דרך מהירה לעקוף את הפקקים הידועים לשמצה של העיר. התחנות מחוברות למרכזי קניות גדולים.\n\nהמערכת שינתה את פני התחבורה בבנגקוק והפכה את המעבר בעיר לנוח יותר עבור מיליוני תושבים ותיירים.",
+    "en": "Bangkok's rail system includes the BTS Skytrain (elevated rail) and MRT (underground). BTS opened in 1999 and MRT in 2004.\n\nThe BTS Skytrain runs above Bangkok's busy streets, offering a fast way to bypass the city's notorious traffic jams. Stations are connected to major shopping centers.\n\nThe system transformed transportation in Bangkok and made moving around the city more convenient for millions of residents and tourists."
+  },
+  "lines": [
+    {
+      "id": "sukhumvit",
+      "name": {
+        "he": "קו סוקומוויט (BTS)",
+        "en": "Sukhumvit Line (BTS)"
+      },
+      "color": "#8DC73F",
+      "stations": 35,
+      "length_km": 42,
+      "opened_year": 1999
+    },
+    {
+      "id": "silom",
+      "name": {
+        "he": "קו סילום (BTS)",
+        "en": "Silom Line (BTS)"
+      },
+      "color": "#0072BC",
+      "stations": 14,
+      "length_km": 14,
+      "opened_year": 1999
+    },
+    {
+      "id": "mrt-blue",
+      "name": {
+        "he": "קו כחול (MRT)",
+        "en": "Blue Line (MRT)"
+      },
+      "color": "#00A4E4",
+      "stations": 38,
+      "length_km": 48,
+      "opened_year": 2004
+    },
+    {
+      "id": "mrt-purple",
+      "name": {
+        "he": "קו סגול (MRT)",
+        "en": "Purple Line (MRT)"
+      },
+      "color": "#E3007F",
+      "stations": 16,
+      "length_km": 23,
+      "opened_year": 2016
+    },
+    {
+      "id": "gold",
+      "name": {
+        "he": "קו זהב (BTS)",
+        "en": "Gold Line (BTS)"
+      },
+      "color": "#FFD700",
+      "stations": 3,
+      "length_km": 2,
+      "opened_year": 2020
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "ה-Skytrain עוקף את הפקקים הנוראים של בנגקוק",
+      "en": "Skytrain bypasses Bangkok's notorious traffic jams"
+    },
+    {
+      "he": "תחנות מחוברות למרכזי קניות ענקיים",
+      "en": "Stations connected to giant shopping malls"
+    },
+    {
+      "he": "שתי מערכות נפרדות - BTS עילית ו-MRT תחתית",
+      "en": "Two separate systems - BTS elevated and MRT underground"
+    },
+    {
+      "he": "מאות אלפי תיירים משתמשים במערכת מדי יום",
+      "en": "Hundreds of thousands of tourists use the system daily"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1999,
+      "event": {
+        "he": "פתיחת BTS Skytrain",
+        "en": "BTS Skytrain opens"
+      }
+    },
+    {
+      "year": 2004,
+      "event": {
+        "he": "פתיחת MRT",
+        "en": "MRT opens"
+      }
+    },
+    {
+      "year": 2016,
+      "event": {
+        "he": "פתיחת הקו הסגול",
+        "en": "Purple Line opens"
+      }
+    },
+    {
+      "year": 2019,
+      "event": {
+        "he": "הרחבת הקו הכחול",
+        "en": "Blue Line extension"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/bangkok-bts.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Bangkok_skytrain_map.svg/800px-Bangkok_skytrain_map.svg.png",
+    "transitMap": "/transit-maps/bangkok-bts.png"
+  },
+  "map_url": "https://www.urbanrail.net/as/bang/bangkok.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/bangkok/",
+  "official_website": "https://www.bts.co.th/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/BTS_סקייטריין",
+    "en": "https://en.wikipedia.org/wiki/BTS_Skytrain"
+  },
+  "colors": [
+    "#8DC73F",
+    "#0072BC",
+    "#00A4E4",
+    "#FFD700",
+    "#E3007F"
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "id": "sao-paulo-metro",
+  "name": {
+    "he": "מטרו סאו פאולו",
+    "en": "São Paulo Metro",
+    "native": "Metrô de São Paulo"
+  },
+  "nicknames": [
+    "Metrô"
+  ],
+  "city": {
+    "he": "סאו פאולו",
+    "en": "São Paulo"
+  },
+  "country": {
+    "he": "ברזיל",
+    "en": "Brazil",
+    "code": "BR"
+  },
+  "continent": "southAmerica",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 102,
+    "stations": 91,
+    "lines": 6,
+    "annual_ridership": 900000000,
+    "daily_ridership": 2500000,
+    "opened_year": 1974,
+    "avg_fare": {
+      "currency": "BRL",
+      "symbol": "R$",
+      "min": 4.4,
+      "max": 4.4
+    },
+    "propulsion": "electric",
+    "operator": "Companhia do Metropolitano de São Paulo"
+  },
+  "coordinates": {
+    "lat": -23.5505,
+    "lng": -46.6333
+  },
+  "description": {
+    "he": "מטרו סאו פאולו היא מערכת המטרו של העיר הגדולה בברזיל, עם 91 תחנות ו-6 קווים המשתרעים על פני 102 ק\"מ. נפתחה בשנת 1974, והיא המערכת הגדולה ביותר בברזיל.\n\nהמערכת ידועה בנקיון ובתחנות מעוצבות בסגנון מודרני. דלתות בטיחות בחלק מהתחנות, מיזוג אוויר מתקדם, ותצוגות דיגיטליות. המערכת פועלת בשעות ארוכות ומתחברת לכל האזורים המרכזיים של סאו פאולו.\n\nהמערכת היא אחת העמוסות באמריקה הלטינית, ומובילה כ-2.5 מיליון נוסעים ביום. התחנות מעוצבות בסגנון נקי ומודרני, עם אמנות ציבורית ייחודית.",
+    "en": "The São Paulo Metro is the metro system of Brazil's largest city, with 91 stations and 6 lines spanning 102 km. Opened in 1974, it is the largest system in Brazil.\n\nThe system is known for its cleanliness and stations designed in a modern style. Platform screen doors at some stations, advanced air conditioning, and digital displays. The system operates long hours and connects all central areas of São Paulo.\n\nThe system is one of the busiest in Latin America, carrying about 2.5 million passengers daily. Stations are designed in a clean, modern style, with unique public art."
+  },
+  "lines": [
+    {
+      "id": "azul",
+      "name": {
+        "he": "קו כחול",
+        "en": "Blue Line"
+      },
+      "color": "#0066CC",
+      "stations": 23,
+      "length_km": 20.2,
+      "opened_year": 1974
+    },
+    {
+      "id": "verde",
+      "name": {
+        "he": "קו ירוק",
+        "en": "Green Line"
+      },
+      "color": "#00A650",
+      "stations": 14,
+      "length_km": 14.7,
+      "opened_year": 1991
+    },
+    {
+      "id": "vermelha",
+      "name": {
+        "he": "קו אדום",
+        "en": "Red Line"
+      },
+      "color": "#EE1D23",
+      "stations": 18,
+      "length_km": 22,
+      "opened_year": 1979
+    },
+    {
+      "id": "amarela",
+      "name": {
+        "he": "קו צהוב",
+        "en": "Yellow Line"
+      },
+      "color": "#FFE600",
+      "stations": 13,
+      "length_km": 13,
+      "opened_year": 2002
+    },
+    {
+      "id": "lilas",
+      "name": {
+        "he": "קו לילך",
+        "en": "Lilac Line"
+      },
+      "color": "#783F98",
+      "stations": 17,
+      "length_km": 19,
+      "opened_year": 2002
+    },
+    {
+      "id": "rubi",
+      "name": {
+        "he": "קו רובי",
+        "en": "Ruby Line"
+      },
+      "color": "#C65C10",
+      "stations": 6,
+      "length_km": 12.8,
+      "opened_year": 2018
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "המערכת הגדולה ביותר בברזיל",
+      "en": "Largest system in Brazil"
+    },
+    {
+      "he": "אחת העמוסות באמריקה הלטינית",
+      "en": "One of the busiest in Latin America"
+    },
+    {
+      "he": "מובילה כ-2.5 מיליון נוסעים ביום",
+      "en": "Carries about 2.5 million passengers daily"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1974,
+      "event": {
+        "he": "פתיחת הקו הראשון - קו כחול",
+        "en": "First line opens - Blue Line"
+      }
+    },
+    {
+      "year": 1979,
+      "event": {
+        "he": "פתיחת קו אדום",
+        "en": "Red Line opens"
+      }
+    },
+    {
+      "year": 1991,
+      "event": {
+        "he": "פתיחת קו ירוק",
+        "en": "Green Line opens"
+      }
+    },
+    {
+      "year": 2002,
+      "event": {
+        "he": "פתיחת קווים צהוב ולילך",
+        "en": "Yellow and Lilac lines open"
+      }
+    },
+    {
+      "year": 2018,
+      "event": {
+        "he": "פתיחת קו רובי",
+        "en": "Ruby Line opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/sao-paulo-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/S%C3%A3o_Paulo_Metro_Map.svg/800px-S%C3%A3o_Paulo_Metro_Map.svg.png",
+    "transitMap": "/transit-maps/sao-paulo-metro.png"
+  },
+  "map_url": "https://www.metro.sp.gov.br/",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=-46.8,-23.7,-46.5,-23.4&layer=transport",
+  "official_website": "https://www.metro.sp.gov.br/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/המטרו_של_סאו_פאולו",
+    "en": "https://en.wikipedia.org/wiki/São_Paulo_Metro"
+  },
+  "colors": [
+    "#0066CC",
+    "#00A650",
+    "#EE1D23",
+    "#FFE600",
+    "#783F98",
+    "#C65C10"
+  ]
+}

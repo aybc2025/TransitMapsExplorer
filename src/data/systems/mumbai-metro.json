@@ -1,0 +1,29 @@
+{
+  "id": "mumbai-metro",
+  "name": { "he": "מטרו מומבאי", "en": "Mumbai Metro", "native": "मुंबई मेट्रो" },
+  "nicknames": ["Metro"],
+  "city": { "he": "מומבאי", "en": "Mumbai" },
+  "country": { "he": "הודו", "en": "India", "code": "IN" },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": { "length_km": 65, "stations": 46, "lines": 4, "annual_ridership": 230000000, "daily_ridership": 630000, "opened_year": 2014, "avg_fare": { "currency": "INR", "symbol": "₹", "min": 10, "max": 60 }, "propulsion": "electric", "operator": "Mumbai Metro Rail Corporation" },
+  "coordinates": { "lat": 19.076, "lng": 72.8777 },
+  "description": { "he": "מטרו מומבאי הוא מערכת המתרחבת במהירות במטרופולין הגדול בהודו.", "en": "Mumbai Metro is a rapidly expanding system in India's largest metropolis." },
+  "lines": [
+    { "id": "1", "name": { "he": "קו 1 (כחול)", "en": "Line 1 (Blue)" }, "color": "#0066B3", "stations": 12, "length_km": 11, "opened_year": 2014 },
+    { "id": "2a", "name": { "he": "קו 2A (צהוב)", "en": "Line 2A (Yellow)" }, "color": "#FFD800", "stations": 17, "length_km": 19, "opened_year": 2022 },
+    { "id": "7", "name": { "he": "קו 7 (אדום)", "en": "Line 7 (Red)" }, "color": "#E4002B", "stations": 13, "length_km": 17, "opened_year": 2022 }
+  ],
+  "fun_facts": [
+    { "he": "משרת את העיר הצפופה ביותר בהודו", "en": "Serves India's most crowded city" },
+    { "he": "מתרחב במהירות עם קווים חדשים", "en": "Rapidly expanding with new lines" }
+  ],
+  "milestones": [{ "year": 2014, "event": { "he": "פתיחה", "en": "Opening" } }],
+  "images": { "header": "/transit-maps/mumbai-metro.png", "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Mumbai_Metro_Map.svg/800px-Mumbai_Metro_Map.svg.png", "transitMap": "/transit-maps/mumbai-metro.png" },
+  "map_url": "https://www.urbanrail.net/as/in/mumb/mumbai.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/mumbai/",
+  "official_website": "https://www.mumbai-metro.com/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/מטרו_מומבאי", "en": "https://en.wikipedia.org/wiki/Mumbai_Metro" },
+  "colors": ["#0066B3", "#E4002B", "#00A0E4", "#009E49"]
+}

@@ -1,0 +1,611 @@
+{
+  "metadata": {
+    "description": "Mapping of transit systems to UrbanRail.net URLs and OpenStreetMap bounding boxes",
+    "urbanrail_base_url": "https://www.urbanrail.net/",
+    "overpass_api_url": "https://lz4.overpass-api.de/api/interpreter",
+    "total_systems": 75,
+    "generated": "2026-01-12"
+  },
+  "systems": {
+    "algiers-metro": {
+      "city": "Algiers",
+      "country": "Algeria",
+      "region": "africa",
+      "urbanrail_path": "af/alg/algiers.htm",
+      "image_path": "af/alg/algiers-map.png",
+      "bbox": [36.70, 2.95, 36.80, 3.15]
+    },
+    "amsterdam-metro": {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "region": "europe",
+      "urbanrail_path": "eu/nl/ams/amsterdam.htm",
+      "image_path": "eu/nl/ams/amsterdam-metro-map.png",
+      "bbox": [52.29, 4.73, 52.43, 5.02]
+    },
+    "athens-metro": {
+      "city": "Athens",
+      "country": "Greece",
+      "region": "europe",
+      "urbanrail_path": "eu/gr/athens/athens.htm",
+      "image_path": "eu/gr/athens/athens-map.png",
+      "bbox": [37.90, 23.65, 38.05, 23.85]
+    },
+    "bangalore-metro": {
+      "city": "Bangalore",
+      "country": "India",
+      "region": "asia",
+      "urbanrail_path": "as/in/banl/bangalore.htm",
+      "image_path": "as/in/banl/bangalore-metro-map.png",
+      "bbox": [12.85, 77.45, 13.15, 77.75]
+    },
+    "bangkok-bts": {
+      "city": "Bangkok",
+      "country": "Thailand",
+      "region": "asia",
+      "urbanrail_path": "as/bang/bangkok.htm",
+      "image_path": "as/bang/bangkok-map.png",
+      "bbox": [13.60, 100.35, 13.95, 100.70]
+    },
+    "barcelona-metro": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "region": "europe",
+      "urbanrail_path": "eu/es/bcn/barcelona.htm",
+      "image_path": "eu/es/bcn/barcelona-metro-map.png",
+      "bbox": [41.32, 2.05, 41.47, 2.23]
+    },
+    "beijing-subway": {
+      "city": "Beijing",
+      "country": "China",
+      "region": "asia",
+      "urbanrail_path": "as/cn/beij/beijing.htm",
+      "image_path": "as/cn/beij/beijing-metro-map.png",
+      "bbox": [39.70, 116.10, 40.10, 116.70]
+    },
+    "berlin-ubahn": {
+      "city": "Berlin",
+      "country": "Germany",
+      "region": "europe",
+      "urbanrail_path": "eu/de/b/berlin.htm",
+      "image_path": "eu/de/b/berlin-map.png",
+      "bbox": [52.40, 13.20, 52.60, 13.55]
+    },
+    "boston-mbta": {
+      "city": "Boston",
+      "country": "USA",
+      "region": "north_america",
+      "urbanrail_path": "am/bost/boston.htm",
+      "image_path": "am/bost/boston-map.png",
+      "bbox": [42.20, -71.25, 42.50, -70.90]
+    },
+    "brussels-metro": {
+      "city": "Brussels",
+      "country": "Belgium",
+      "region": "europe",
+      "urbanrail_path": "eu/be/brux/brussels.htm",
+      "image_path": "eu/be/brux/brussels-metro-map.png",
+      "bbox": [50.79, 4.30, 50.90, 4.45]
+    },
+    "budapest-metro": {
+      "city": "Budapest",
+      "country": "Hungary",
+      "region": "europe",
+      "urbanrail_path": "eu/hu/budapest/budapest.htm",
+      "image_path": "eu/hu/budapest/budapest-map.png",
+      "bbox": [47.43, 19.00, 47.55, 19.15]
+    },
+    "buenos-aires-subte": {
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "region": "south_america",
+      "urbanrail_path": "am/buen/buenos-aires.htm",
+      "image_path": "am/buen/buenos-aires-map.png",
+      "bbox": [-34.70, -58.55, -34.52, -58.33]
+    },
+    "busan-metro": {
+      "city": "Busan",
+      "country": "South Korea",
+      "region": "asia",
+      "urbanrail_path": "as/kr/busan/busan.htm",
+      "image_path": "as/kr/busan/busan-map.png",
+      "bbox": [35.05, 128.85, 35.25, 129.15]
+    },
+    "cairo-metro": {
+      "city": "Cairo",
+      "country": "Egypt",
+      "region": "africa",
+      "urbanrail_path": "af/cairo/cairo.htm",
+      "image_path": "af/cairo/cairo-metro-map.png",
+      "bbox": [29.95, 31.15, 30.15, 31.40]
+    },
+    "chennai-metro": {
+      "city": "Chennai",
+      "country": "India",
+      "region": "asia",
+      "urbanrail_path": "as/in/chen/chennai.htm",
+      "image_path": "as/in/chen/chennai-map.png",
+      "bbox": [12.90, 80.15, 13.20, 80.35]
+    },
+    "chicago-l": {
+      "city": "Chicago",
+      "country": "USA",
+      "region": "north_america",
+      "urbanrail_path": "am/chic/chicago.htm",
+      "image_path": "am/chic/chicago-rail-map.png",
+      "bbox": [41.72, -87.90, 42.07, -87.52]
+    },
+    "chongqing-rail": {
+      "city": "Chongqing",
+      "country": "China",
+      "region": "asia",
+      "urbanrail_path": "as/cn/chon/chongqing.htm",
+      "image_path": "as/cn/chon/chongqing-map.png",
+      "bbox": [29.35, 106.35, 29.75, 106.75]
+    },
+    "copenhagen-metro": {
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "region": "europe",
+      "urbanrail_path": "eu/dk/kobenhavn/kobenhavn.htm",
+      "image_path": "eu/dk/kobenhavn/copenhagen-metro-map.png",
+      "bbox": [55.61, 12.45, 55.73, 12.65]
+    },
+    "delhi-metro": {
+      "city": "Delhi",
+      "country": "India",
+      "region": "asia",
+      "urbanrail_path": "as/in/delhi/delhi.htm",
+      "image_path": "as/in/delhi/delhi-map.png",
+      "bbox": [28.40, 76.95, 28.85, 77.40]
+    },
+    "doha-metro": {
+      "city": "Doha",
+      "country": "Qatar",
+      "region": "middle_east",
+      "urbanrail_path": "as/doha/doha.htm",
+      "image_path": "as/doha/doha-metro-map.png",
+      "bbox": [25.20, 51.40, 25.45, 51.60]
+    },
+    "dubai-metro": {
+      "city": "Dubai",
+      "country": "UAE",
+      "region": "middle_east",
+      "urbanrail_path": "as/dub/dubai.htm",
+      "image_path": "as/dub/dubai-metro-map.png",
+      "bbox": [25.00, 55.05, 25.30, 55.40]
+    },
+    "glasgow-subway": {
+      "city": "Glasgow",
+      "country": "UK",
+      "region": "europe",
+      "urbanrail_path": "eu/uk/gla/glasgow.htm",
+      "image_path": "eu/uk/gla/glasgow-map.gif",
+      "bbox": [55.84, -4.32, 55.88, -4.22]
+    },
+    "guangzhou-metro": {
+      "city": "Guangzhou",
+      "country": "China",
+      "region": "asia",
+      "urbanrail_path": "as/cn/guan/guangzhou.htm",
+      "image_path": "as/cn/guan/guangzhou-metro-map.png",
+      "bbox": [22.90, 113.10, 23.40, 113.55]
+    },
+    "hamburg-ubahn": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "region": "europe",
+      "urbanrail_path": "eu/de/hh/hamburg.htm",
+      "image_path": "eu/de/hh/hamburg-map-large.png",
+      "bbox": [53.45, 9.85, 53.65, 10.15]
+    },
+    "helsinki-metro": {
+      "city": "Helsinki",
+      "country": "Finland",
+      "region": "europe",
+      "urbanrail_path": "eu/fi/helsinki/helsinki.htm",
+      "image_path": "eu/fi/helsinki/helsinki-metro-map.png",
+      "bbox": [60.15, 24.80, 60.25, 25.10]
+    },
+    "hong-kong-mtr": {
+      "city": "Hong Kong",
+      "country": "China",
+      "region": "asia",
+      "urbanrail_path": "as/cn/hong/hong-kong.htm",
+      "image_path": "as/cn/hong/hong-kong-map.png",
+      "bbox": [22.25, 113.85, 22.55, 114.30]
+    },
+    "hyderabad-metro": {
+      "city": "Hyderabad",
+      "country": "India",
+      "region": "asia",
+      "urbanrail_path": "as/in/hydr/hyderabad.htm",
+      "image_path": "as/in/hydr/hyderabad-metro-map.png",
+      "bbox": [17.30, 78.35, 17.55, 78.60]
+    },
+    "istanbul-metro": {
+      "city": "Istanbul",
+      "country": "Turkey",
+      "region": "europe",
+      "urbanrail_path": "as/tr/istanbul/istanbul.htm",
+      "image_path": "as/tr/istanbul/istanbul-map-centre.png",
+      "bbox": [40.90, 28.80, 41.15, 29.20]
+    },
+    "jakarta-mrt": {
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "region": "asia",
+      "urbanrail_path": "as/id/jaka/jakarta.htm",
+      "image_path": "as/id/jaka/jakarta-rail-map.png",
+      "bbox": [-6.35, 106.70, -6.10, 107.00]
+    },
+    "johannesburg-gautrain": {
+      "city": "Johannesburg",
+      "country": "South Africa",
+      "region": "africa",
+      "urbanrail_path": "af/joburg/johannesburg.htm",
+      "image_path": "af/joburg/gauteng-map.png",
+      "bbox": [-26.30, 27.85, -25.70, 28.35]
+    },
+    "kolkata-metro": {
+      "city": "Kolkata",
+      "country": "India",
+      "region": "asia",
+      "urbanrail_path": "as/in/kolk/kolkata.htm",
+      "image_path": "as/in/kolk/kolkata-metro-map.png",
+      "bbox": [22.45, 88.30, 22.70, 88.50]
+    },
+    "kuala-lumpur-rail": {
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "region": "asia",
+      "urbanrail_path": "as/my/kual/kuala-lumpur.htm",
+      "image_path": "as/my/kual/kuala-lumpur-map.png",
+      "bbox": [2.95, 101.55, 3.25, 101.85]
+    },
+    "lima-metro": {
+      "city": "Lima",
+      "country": "Peru",
+      "region": "south_america",
+      "urbanrail_path": "am/lima/lima.htm",
+      "image_path": "am/lima/lima-map.png",
+      "bbox": [-12.22, -77.15, -11.95, -76.85]
+    },
+    "lisbon-metro": {
+      "city": "Lisbon",
+      "country": "Portugal",
+      "region": "europe",
+      "urbanrail_path": "eu/pt/lisboa/lisboa.htm",
+      "image_path": "eu/pt/lisboa/lisboa-map.png",
+      "bbox": [38.70, -9.23, 38.78, -9.10]
+    },
+    "london-underground": {
+      "city": "London",
+      "country": "UK",
+      "region": "europe",
+      "urbanrail_path": "eu/uk/lon/london.htm",
+      "image_path": "eu/uk/lon/london-map-centre.png",
+      "bbox": [51.40, -0.30, 51.60, 0.10]
+    },
+    "los-angeles-metro": {
+      "city": "Los Angeles",
+      "country": "USA",
+      "region": "north_america",
+      "urbanrail_path": "am/lsan/los-angeles.htm",
+      "image_path": "am/lsan/los-angeles-map.png",
+      "bbox": [33.75, -118.50, 34.20, -117.85]
+    },
+    "lyon-metro": {
+      "city": "Lyon",
+      "country": "France",
+      "region": "europe",
+      "urbanrail_path": "eu/fr/lyon/lyon.htm",
+      "image_path": "eu/fr/lyon/lyon-map.png",
+      "bbox": [45.72, 4.78, 45.80, 4.90]
+    },
+    "madrid-metro": {
+      "city": "Madrid",
+      "country": "Spain",
+      "region": "europe",
+      "urbanrail_path": "eu/es/mad/madrid.htm",
+      "image_path": "eu/es/mad/madrid-metro-map.png",
+      "bbox": [40.35, -3.80, 40.50, -3.58]
+    },
+    "marseille-metro": {
+      "city": "Marseille",
+      "country": "France",
+      "region": "europe",
+      "urbanrail_path": "eu/fr/marseille/marseille.htm",
+      "image_path": "eu/fr/marseille/marseille-map.png",
+      "bbox": [43.27, 5.35, 43.32, 5.42]
+    },
+    "medellin-metro": {
+      "city": "Medellin",
+      "country": "Colombia",
+      "region": "south_america",
+      "urbanrail_path": "am/mede/medellin.htm",
+      "image_path": "am/mede/medellin-map.png",
+      "bbox": [6.15, -75.65, 6.35, -75.50]
+    },
+    "mexico-city-metro": {
+      "city": "Mexico City",
+      "country": "Mexico",
+      "region": "north_america",
+      "urbanrail_path": "am/mexi/mexico.htm",
+      "image_path": "am/mexi/mexico-map.png",
+      "bbox": [19.28, -99.25, 19.55, -98.95]
+    },
+    "milan-metro": {
+      "city": "Milan",
+      "country": "Italy",
+      "region": "europe",
+      "urbanrail_path": "eu/it/mil/milano.htm",
+      "image_path": "eu/it/mil/milano-map.png",
+      "bbox": [45.42, 9.10, 45.52, 9.25]
+    },
+    "montreal-metro": {
+      "city": "Montreal",
+      "country": "Canada",
+      "region": "north_america",
+      "urbanrail_path": "am/monr/montreal.htm",
+      "image_path": "am/monr/montreal-map.png",
+      "bbox": [45.42, -73.75, 45.60, -73.50]
+    },
+    "moscow-metro": {
+      "city": "Moscow",
+      "country": "Russia",
+      "region": "europe",
+      "urbanrail_path": "eu/ru/mos/moskva.htm",
+      "image_path": "eu/ru/mos/moscow-rail-map.png",
+      "bbox": [55.60, 37.35, 55.90, 37.80]
+    },
+    "mumbai-metro": {
+      "city": "Mumbai",
+      "country": "India",
+      "region": "asia",
+      "urbanrail_path": "as/in/mumb/mumbai.htm",
+      "image_path": "as/in/mumb/mumbai-rail-map.png",
+      "bbox": [18.90, 72.75, 19.30, 73.05]
+    },
+    "munich-ubahn": {
+      "city": "Munich",
+      "country": "Germany",
+      "region": "europe",
+      "urbanrail_path": "eu/de/m/muenchen.htm",
+      "image_path": "eu/de/m/muenchen-u-bahn-map.png",
+      "bbox": [48.08, 11.45, 48.20, 11.70]
+    },
+    "nagoya-subway": {
+      "city": "Nagoya",
+      "country": "Japan",
+      "region": "asia",
+      "urbanrail_path": "as/jp/nagoya/nagoya.htm",
+      "image_path": "as/jp/nagoya/nagoya-regional-rail-map.png",
+      "bbox": [35.05, 136.80, 35.25, 137.05]
+    },
+    "nanjing-metro": {
+      "city": "Nanjing",
+      "country": "China",
+      "region": "asia",
+      "urbanrail_path": "as/cn/nanj/nanjing.htm",
+      "image_path": "as/cn/nanj/nanjing-metro-map.png",
+      "bbox": [31.85, 118.65, 32.20, 119.05]
+    },
+    "new-york-subway": {
+      "city": "New York",
+      "country": "USA",
+      "region": "north_america",
+      "urbanrail_path": "am/nyrk/new-york.htm",
+      "image_path": "am/nyrk/new-york-map.png",
+      "bbox": [40.55, -74.10, 40.92, -73.70]
+    },
+    "osaka-metro": {
+      "city": "Osaka",
+      "country": "Japan",
+      "region": "asia",
+      "urbanrail_path": "as/jp/osaka/osaka.htm",
+      "image_path": "as/jp/osaka/osaka-centre-map.png",
+      "bbox": [34.55, 135.40, 34.80, 135.60]
+    },
+    "oslo-metro": {
+      "city": "Oslo",
+      "country": "Norway",
+      "region": "europe",
+      "urbanrail_path": "eu/no/oslo/oslo.htm",
+      "image_path": "eu/no/oslo/oslo-map.png",
+      "bbox": [59.88, 10.65, 60.00, 10.85]
+    },
+    "paris-metro": {
+      "city": "Paris",
+      "country": "France",
+      "region": "europe",
+      "urbanrail_path": "eu/fr/paris/paris.htm",
+      "image_path": "eu/fr/paris/paris-map-centre.png",
+      "bbox": [48.80, 2.22, 48.92, 2.47]
+    },
+    "philadelphia-septa": {
+      "city": "Philadelphia",
+      "country": "USA",
+      "region": "north_america",
+      "urbanrail_path": "am/phil/philadelphia.htm",
+      "image_path": "am/phil/philadelphia-rail-map.png",
+      "bbox": [39.85, -75.30, 40.15, -74.95]
+    },
+    "prague-metro": {
+      "city": "Prague",
+      "country": "Czech Republic",
+      "region": "europe",
+      "urbanrail_path": "eu/cz/praha/praha.htm",
+      "image_path": "eu/cz/praha/praha-metro-map.png",
+      "bbox": [50.02, 14.32, 50.13, 14.55]
+    },
+    "riyadh-metro": {
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "region": "middle_east",
+      "urbanrail_path": "as/riyadh/riyadh.htm",
+      "image_path": "as/riyadh/riyadh-metro-map.png",
+      "bbox": [24.55, 46.55, 24.85, 46.85]
+    },
+    "rome-metro": {
+      "city": "Rome",
+      "country": "Italy",
+      "region": "europe",
+      "urbanrail_path": "eu/it/rom/roma.htm",
+      "image_path": "eu/it/rom/roma-map.png",
+      "bbox": [41.83, 12.40, 41.95, 12.58]
+    },
+    "saint-petersburg-metro": {
+      "city": "Saint Petersburg",
+      "country": "Russia",
+      "region": "europe",
+      "urbanrail_path": "eu/ru/pet/petersburg.htm",
+      "image_path": "eu/ru/pet/st-petersburg-metro-map.png",
+      "bbox": [59.85, 30.20, 60.05, 30.50]
+    },
+    "san-francisco-bart": {
+      "city": "San Francisco",
+      "country": "USA",
+      "region": "north_america",
+      "urbanrail_path": "am/snfr/san-francisco.htm",
+      "image_path": "am/snfr/san-francisco-muni-metro-map.png",
+      "bbox": [37.35, -122.55, 37.95, -121.85]
+    },
+    "santiago-metro": {
+      "city": "Santiago",
+      "country": "Chile",
+      "region": "south_america",
+      "urbanrail_path": "am/sant/santiago.htm",
+      "image_path": "am/sant/santiago-metro-map.png",
+      "bbox": [-33.55, -70.80, -33.35, -70.50]
+    },
+    "sao-paulo-metro": {
+      "city": "Sao Paulo",
+      "country": "Brazil",
+      "region": "south_america",
+      "urbanrail_path": "am/spau/sao-paulo.htm",
+      "image_path": "am/spau/sao-paulo-map.png",
+      "bbox": [-23.70, -46.85, -23.40, -46.45]
+    },
+    "seoul-metro": {
+      "city": "Seoul",
+      "country": "South Korea",
+      "region": "asia",
+      "urbanrail_path": "as/kr/seoul/seoul.htm",
+      "image_path": "as/kr/seoul/seoul-centre-map.png",
+      "bbox": [37.40, 126.75, 37.70, 127.15]
+    },
+    "shanghai-metro": {
+      "city": "Shanghai",
+      "country": "China",
+      "region": "asia",
+      "urbanrail_path": "as/cn/shan/shanghai.htm",
+      "image_path": "as/cn/shan/shanghai-centre-map.png",
+      "bbox": [30.95, 121.15, 31.45, 121.65]
+    },
+    "shenzhen-metro": {
+      "city": "Shenzhen",
+      "country": "China",
+      "region": "asia",
+      "urbanrail_path": "as/cn/shen/shenzhen.htm",
+      "image_path": "as/cn/shen/shenzhen-centre-map.png",
+      "bbox": [22.45, 113.85, 22.70, 114.30]
+    },
+    "singapore-mrt": {
+      "city": "Singapore",
+      "country": "Singapore",
+      "region": "asia",
+      "urbanrail_path": "as/sing/singapore.htm",
+      "image_path": "as/sing/singapore-centre-map.png",
+      "bbox": [1.25, 103.65, 1.48, 104.00]
+    },
+    "stockholm-metro": {
+      "city": "Stockholm",
+      "country": "Sweden",
+      "region": "europe",
+      "urbanrail_path": "eu/se/stockholm/stockhlm.htm",
+      "image_path": "eu/se/stockholm/stockholm-tunnelbana-map.png",
+      "bbox": [59.28, 17.90, 59.40, 18.15]
+    },
+    "sydney-metro": {
+      "city": "Sydney",
+      "country": "Australia",
+      "region": "oceania",
+      "urbanrail_path": "au/sydney/sydney.htm",
+      "image_path": "au/sydney/sydney-centre-map.png",
+      "bbox": [-33.95, 150.95, -33.75, 151.30]
+    },
+    "taipei-metro": {
+      "city": "Taipei",
+      "country": "Taiwan",
+      "region": "asia",
+      "urbanrail_path": "as/tw/taip/taipei.htm",
+      "image_path": "as/tw/taip/taipei-map.png",
+      "bbox": [24.95, 121.40, 25.15, 121.65]
+    },
+    "tehran-metro": {
+      "city": "Tehran",
+      "country": "Iran",
+      "region": "asia",
+      "urbanrail_path": "as/ir/tehr/tehran.htm",
+      "image_path": "as/ir/tehr/tehran-metro-map.png",
+      "bbox": [35.55, 51.20, 35.85, 51.60]
+    },
+    "tokyo-metro": {
+      "city": "Tokyo",
+      "country": "Japan",
+      "region": "asia",
+      "urbanrail_path": "as/jp/tokyo/tokyo.htm",
+      "image_path": "as/jp/tokyo/tokyo-centre-map.png",
+      "bbox": [35.55, 139.55, 35.85, 139.95]
+    },
+    "toronto-ttc": {
+      "city": "Toronto",
+      "country": "Canada",
+      "region": "north_america",
+      "urbanrail_path": "am/toro/toronto.htm",
+      "image_path": "am/toro/Toronto-metro-map.png",
+      "bbox": [43.60, -79.55, 43.80, -79.25]
+    },
+    "vancouver-skytrain": {
+      "city": "Vancouver",
+      "country": "Canada",
+      "region": "north_america",
+      "urbanrail_path": "am/vanc/vancouver.htm",
+      "image_path": "am/vanc/vancouver-metro-map.png",
+      "bbox": [49.15, -123.25, 49.35, -122.75]
+    },
+    "vienna-ubahn": {
+      "city": "Vienna",
+      "country": "Austria",
+      "region": "europe",
+      "urbanrail_path": "eu/at/vienna/wien.htm",
+      "image_path": "eu/at/vienna/wien-map.png",
+      "bbox": [48.15, 16.30, 48.27, 16.48]
+    },
+    "warsaw-metro": {
+      "city": "Warsaw",
+      "country": "Poland",
+      "region": "europe",
+      "urbanrail_path": "eu/pl/war/warszawa.htm",
+      "image_path": "eu/pl/war/warszawa-metro-map.png",
+      "bbox": [52.15, 20.90, 52.30, 21.10]
+    },
+    "washington-metro": {
+      "city": "Washington",
+      "country": "USA",
+      "region": "north_america",
+      "urbanrail_path": "am/wash/washington.htm",
+      "image_path": "am/wash/washington-map.png",
+      "bbox": [38.75, -77.20, 39.05, -76.85]
+    },
+    "wuhan-metro": {
+      "city": "Wuhan",
+      "country": "China",
+      "region": "asia",
+      "urbanrail_path": "as/cn/wuhan/wuhan.htm",
+      "image_path": "as/cn/wuhan/wuhan-metro-map.png",
+      "bbox": [30.40, 114.10, 30.75, 114.55]
+    }
+  }
+}

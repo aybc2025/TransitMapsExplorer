@@ -1,0 +1,240 @@
+{
+  "id": "barcelona-metro",
+  "name": {
+    "he": "מטרו ברצלונה",
+    "en": "Barcelona Metro",
+    "native": "Metro de Barcelona"
+  },
+  "nicknames": [
+    "El Metro"
+  ],
+  "city": {
+    "he": "ברצלונה",
+    "en": "Barcelona"
+  },
+  "country": {
+    "he": "ספרד",
+    "en": "Spain",
+    "code": "ES"
+  },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 166,
+    "stations": 180,
+    "lines": 12,
+    "annual_ridership": 410000000,
+    "daily_ridership": 1100000,
+    "opened_year": 1924,
+    "avg_fare": {
+      "currency": "EUR",
+      "symbol": "€",
+      "min": 2.4,
+      "max": 5.15
+    },
+    "propulsion": "electric",
+    "operator": "TMB (Transports Metropolitans de Barcelona)"
+  },
+  "coordinates": {
+    "lat": 41.3851,
+    "lng": 2.1734
+  },
+  "description": {
+    "he": "מטרו ברצלונה היא מערכת התחבורה המרכזית של העיר, עם 180 תחנות ו-12 קווים המשתרעים על פני 166 ק\"מ. נפתחה בשנת 1924, והמערכת משרתת את אזור ברצלונה הגדולה.\n\nהמערכת ידועה בעיצוב המודרני של התחנות, עם אמנות ציבורית ייחודית. תחנות רבות מעוצבות בסגנון מודרניסטה - סגנון ארכיטקטוני ייחודי לקטלוניה. המערכת מתחברת לרכבת הפרברים (Rodalies) ולפוניקולר.\n\nהמערכת פועלת בשעות ארוכות ומתחברת לכל האזורים המרכזיים של ברצלונה, כולל נמל התעופה והרובע הגותי. התחנות מעוצבות בסגנון נקי ומודרני, עם סימון ברור בקטלנית ובספרדית.",
+    "en": "The Barcelona Metro is the central transportation system of the city, with 180 stations and 12 lines spanning 166 km. Opened in 1924, the system serves the Greater Barcelona area.\n\nThe system is known for its modern station design, with unique public art. Many stations are designed in Modernista style - an architectural style unique to Catalonia. The system connects to suburban rail (Rodalies) and funicular.\n\nThe system operates long hours and connects all central areas of Barcelona, including the airport and the Gothic Quarter. Stations are designed in a clean, modern style, with clear signage in Catalan and Spanish."
+  },
+  "lines": [
+    {
+      "id": "L1",
+      "name": {
+        "he": "קו L1",
+        "en": "Line L1"
+      },
+      "color": "#E1251B",
+      "stations": 30,
+      "length_km": 20.7,
+      "opened_year": 1926
+    },
+    {
+      "id": "L2",
+      "name": {
+        "he": "קו L2",
+        "en": "Line L2"
+      },
+      "color": "#AB019D",
+      "stations": 18,
+      "length_km": 13.1,
+      "opened_year": 1995
+    },
+    {
+      "id": "L3",
+      "name": {
+        "he": "קו L3",
+        "en": "Line L3"
+      },
+      "color": "#4BA345",
+      "stations": 26,
+      "length_km": 18.4,
+      "opened_year": 1924
+    },
+    {
+      "id": "L4",
+      "name": {
+        "he": "קו L4",
+        "en": "Line L4"
+      },
+      "color": "#FFBF00",
+      "stations": 22,
+      "length_km": 17.3,
+      "opened_year": 1973
+    },
+    {
+      "id": "L5",
+      "name": {
+        "he": "קו L5",
+        "en": "Line L5"
+      },
+      "color": "#0079C2",
+      "stations": 26,
+      "length_km": 19.2,
+      "opened_year": 1959
+    },
+    {
+      "id": "L9",
+      "name": {
+        "he": "קו L9",
+        "en": "Line L9"
+      },
+      "color": "#F583B4",
+      "stations": 29,
+      "length_km": 47.8,
+      "opened_year": 2009
+    },
+    {
+      "id": "L10",
+      "name": {
+        "he": "קו L10",
+        "en": "Line L10"
+      },
+      "color": "#F9B122",
+      "stations": 8,
+      "length_km": 5.6,
+      "opened_year": 2010
+    },
+    {
+      "id": "L11",
+      "name": {
+        "he": "קו L11",
+        "en": "Line L11"
+      },
+      "color": "#00A9D8",
+      "stations": 5,
+      "length_km": 2.3,
+      "opened_year": 2003
+    },
+    {
+      "id": "L12",
+      "name": {
+        "he": "קו L12",
+        "en": "Line L12"
+      },
+      "color": "#99D3DF",
+      "stations": 6,
+      "length_km": 2.7,
+      "opened_year": 2016
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "תחנות מעוצבות בסגנון מודרניסטה ייחודי לקטלוניה",
+      "en": "Stations designed in Modernista style unique to Catalonia"
+    },
+    {
+      "he": "קו L9 הוא אחד הקווים הארוכים ביותר - 47.8 ק\"מ",
+      "en": "Line L9 is one of the longest lines - 47.8 km"
+    },
+    {
+      "he": "המערכת מתחברת לנמל התעופה",
+      "en": "The system connects to the airport"
+    },
+    {
+      "he": "אמנות ציבורית ייחודית בתחנות רבות",
+      "en": "Unique public art at many stations"
+    },
+    {
+      "he": "מובילה כ-1.1 מיליון נוסעים ביום",
+      "en": "Carries about 1.1 million passengers daily"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1924,
+      "event": {
+        "he": "פתיחת הקו הראשון",
+        "en": "First line opens"
+      }
+    },
+    {
+      "year": 1973,
+      "event": {
+        "he": "פתיחת קו L4",
+        "en": "Line L4 opens"
+      }
+    },
+    {
+      "year": 1995,
+      "event": {
+        "he": "פתיחת קו L2",
+        "en": "Line L2 opens"
+      }
+    },
+    {
+      "year": 2009,
+      "event": {
+        "he": "פתיחת קו L9 - הארוך ביותר",
+        "en": "Line L9 opens - the longest"
+      }
+    },
+    {
+      "year": 2010,
+      "event": {
+        "he": "פתיחת קו L10",
+        "en": "Line L10 opens"
+      }
+    },
+    {
+      "year": 2016,
+      "event": {
+        "he": "פתיחת קו L12",
+        "en": "Line L12 opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/barcelona-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Mapa_del_Metro_de_Barcelona_%28febrer_2016%29.svg/800px-Mapa_del_Metro_de_Barcelona_%28febrer_2016%29.svg.png",
+    "transitMap": "/transit-maps/barcelona-metro.png"
+  },
+  "map_url": "https://www.tmb.cat/en/barcelona/metro",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=2.05,41.3,2.3,41.5&layer=transport",
+  "official_website": "https://www.tmb.cat/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/המטרו_של_ברצלונה",
+    "en": "https://en.wikipedia.org/wiki/Barcelona_Metro"
+  },
+  "colors": [
+    "#E1251B",
+    "#AB019D",
+    "#4BA345",
+    "#FFBF00",
+    "#0079C2",
+    "#7A60A6",
+    "#B5D22F",
+    "#F583B4",
+    "#F9B122",
+    "#00A9D8",
+    "#99D3DF",
+    "#9A8C81"
+  ]
+}

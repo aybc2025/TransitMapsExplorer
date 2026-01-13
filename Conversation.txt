@@ -1,0 +1,6 @@
+This is not good. Please look at new york subway page. under מפה מלאה עם קווים there is a map from opentstreetmap
+  which was extracted from metrolinemap. under מפת קווים there is an image of the map, extracted from
+  https://www.urbanrail.net/. I need you to extracted all the relevant maps and maps images from the sites I just
+  mentioned for EVERY of the 75+ systems currently in the website. ALL systems should have a map from openstreetmap
+  extracted from metrolinemap and a map image extracted from urbanrail. please confirm you understood and tell me
+  what will you do now before executing.

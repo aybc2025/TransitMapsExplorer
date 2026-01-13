@@ -1,0 +1,281 @@
+{
+  "id": "seoul-metro",
+  "name": {
+    "he": "מטרו סיאול",
+    "en": "Seoul Metro",
+    "native": "서울 지하철"
+  },
+  "nicknames": [],
+  "city": {
+    "he": "סיאול",
+    "en": "Seoul"
+  },
+  "country": {
+    "he": "דרום קוריאה",
+    "en": "South Korea",
+    "code": "KR"
+  },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 353,
+    "stations": 340,
+    "lines": 23,
+    "annual_ridership": 2100000000,
+    "daily_ridership": 5800000,
+    "opened_year": 1974,
+    "avg_fare": {
+      "currency": "KRW",
+      "symbol": "₩",
+      "min": 1250,
+      "max": 1550
+    },
+    "propulsion": "electric",
+    "operator": "Seoul Metro + Seoul Metropolitan Rapid Transit"
+  },
+  "coordinates": {
+    "lat": 37.5665,
+    "lng": 126.978
+  },
+  "description": {
+    "he": "מטרו סיאול היא אחת המערכות המתקדמות והנוחות ביותר בעולם, עם 340 תחנות ו-23 קווים המשתרעים על פני 353 ק\"מ. נפתחה בשנת 1974 והתפתחה במהירות להיות אחת המערכות המפותחות ביותר.\n\nהמערכת ידועה בטכנולוגיה המתקדמת שלה: תצוגות דיגיטליות בזמן אמת, Wi-Fi חינמי, דלתות בטיחות, וסימון ברור בעברית, אנגלית וקוריאנית. הרכבות נקיות מאוד, והמערכת פועלת בשעות ארוכות עם תדירות גבוהה.\n\nהמערכת כוללת קווים המתחברים לשדות תעופה, ומערכות מיזוג אוויר מתקדמות. התחנות מעוצבות בסגנון מודרני ונקי, עם נגישות מצוינת.",
+    "en": "The Seoul Metro is one of the world's most advanced and convenient systems, with 340 stations and 23 lines spanning 353 km. Opened in 1974, it quickly developed into one of the most sophisticated systems.\n\nThe system is known for its advanced technology: real-time digital displays, free Wi-Fi, platform screen doors, and clear signage in Korean and English. Trains are very clean, and the system operates long hours with high frequency.\n\nThe system includes lines connecting to airports, and advanced air conditioning. Stations are designed in a modern, clean style, with excellent accessibility."
+  },
+  "lines": [
+    {
+      "id": "1",
+      "name": {
+        "he": "קו 1",
+        "en": "Line 1"
+      },
+      "color": "#00498B",
+      "stations": 10,
+      "length_km": 7.8,
+      "opened_year": 1974
+    },
+    {
+      "id": "2",
+      "name": {
+        "he": "קו 2",
+        "en": "Line 2"
+      },
+      "color": "#00A651",
+      "stations": 51,
+      "length_km": 60.2,
+      "opened_year": 1984
+    },
+    {
+      "id": "3",
+      "name": {
+        "he": "קו 3",
+        "en": "Line 3"
+      },
+      "color": "#FE5D00",
+      "stations": 43,
+      "length_km": 57.4,
+      "opened_year": 1985
+    },
+    {
+      "id": "4",
+      "name": {
+        "he": "קו 4",
+        "en": "Line 4"
+      },
+      "color": "#0054A6",
+      "stations": 48,
+      "length_km": 72.1,
+      "opened_year": 1985
+    },
+    {
+      "id": "5",
+      "name": {
+        "he": "קו 5",
+        "en": "Line 5"
+      },
+      "color": "#8B50A4",
+      "stations": 51,
+      "length_km": 52.3,
+      "opened_year": 1996
+    },
+    {
+      "id": "6",
+      "name": {
+        "he": "קו 6",
+        "en": "Line 6"
+      },
+      "color": "#C55C1D",
+      "stations": 38,
+      "length_km": 35.1,
+      "opened_year": 2000
+    },
+    {
+      "id": "7",
+      "name": {
+        "he": "קו 7",
+        "en": "Line 7"
+      },
+      "color": "#6EBE44",
+      "stations": 51,
+      "length_km": 57.1,
+      "opened_year": 2000
+    },
+    {
+      "id": "8",
+      "name": {
+        "he": "קו 8",
+        "en": "Line 8"
+      },
+      "color": "#E51E6E",
+      "stations": 17,
+      "length_km": 17.7,
+      "opened_year": 1996
+    },
+    {
+      "id": "9",
+      "name": {
+        "he": "קו 9",
+        "en": "Line 9"
+      },
+      "color": "#BDB092",
+      "stations": 38,
+      "length_km": 31,
+      "opened_year": 2009
+    },
+    {
+      "id": "suin-bundang",
+      "name": {
+        "he": "קו סוין-בונדאנג",
+        "en": "Suin-Bundang Line"
+      },
+      "color": "#FFCD00",
+      "stations": 49,
+      "length_km": 52.9,
+      "opened_year": 2012
+    },
+    {
+      "id": "shinbundang",
+      "name": {
+        "he": "קו שינבונדאנג",
+        "en": "Shinbundang Line"
+      },
+      "color": "#D4003B",
+      "stations": 12,
+      "length_km": 33.4,
+      "opened_year": 2011
+    },
+    {
+      "id": "airport-railroad",
+      "name": {
+        "he": "קו רכבת שדה התעופה",
+        "en": "Airport Railroad"
+      },
+      "color": "#0090D2",
+      "stations": 13,
+      "length_km": 63.8,
+      "opened_year": 2007
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "Wi-Fi חינמי בכל הרכבות והתחנות",
+      "en": "Free Wi-Fi on all trains and stations"
+    },
+    {
+      "he": "תצוגות דיגיטליות בזמן אמת עם מידע על רכבות",
+      "en": "Real-time digital displays with train information"
+    },
+    {
+      "he": "דלתות בטיחות בכל התחנות",
+      "en": "Platform screen doors at all stations"
+    },
+    {
+      "he": "הרכבות נקיות ביותר והמערכת פועלת בשעות ארוכות",
+      "en": "Very clean trains and system operates long hours"
+    },
+    {
+      "he": "קו 2 הוא הקו המעגלי של סיאול",
+      "en": "Line 2 is Seoul's circular line"
+    },
+    {
+      "he": "מובילה יותר מ-5.8 מיליון נוסעים ביום",
+      "en": "Carries over 5.8 million passengers daily"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1974,
+      "event": {
+        "he": "פתיחת הקו הראשון",
+        "en": "First line opens"
+      }
+    },
+    {
+      "year": 1984,
+      "event": {
+        "he": "פתיחת קו 2 - הקו המעגלי",
+        "en": "Line 2 opens - the circular line"
+      }
+    },
+    {
+      "year": 1985,
+      "event": {
+        "he": "פתיחת קווים 3 ו-4",
+        "en": "Lines 3 and 4 open"
+      }
+    },
+    {
+      "year": 2000,
+      "event": {
+        "he": "פתיחת קווים 6 ו-7",
+        "en": "Lines 6 and 7 open"
+      }
+    },
+    {
+      "year": 2007,
+      "event": {
+        "he": "פתיחת קו רכבת שדה התעופה",
+        "en": "Airport Railroad opens"
+      }
+    },
+    {
+      "year": 2009,
+      "event": {
+        "he": "פתיחת קו 9",
+        "en": "Line 9 opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/seoul-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Seoul_Metropolitan_Subway_en.svg/800px-Seoul_Metropolitan_Subway_en.svg.png",
+    "transitMap": "/transit-maps/seoul-metro.png",
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Seoul_Metro_Line_2_train_at_Gangnam_Station.jpg/1280px-Seoul_Metro_Line_2_train_at_Gangnam_Station.jpg",
+        "caption": {
+          "he": "תחנת גאנגנאם",
+          "en": "Gangnam Station"
+        }
+      }
+    ]
+  },
+  "map_url": "https://www.seoulmetro.co.kr/en/page.action?mCode=C010040000",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=126.8,37.4,127.2,37.7&layer=transport",
+  "official_website": "https://www.seoulmetro.co.kr/en/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/המטרו_של_סיאול",
+    "en": "https://en.wikipedia.org/wiki/Seoul_Metro"
+  },
+  "colors": [
+    "#00498B",
+    "#00A651",
+    "#FE5D00",
+    "#0054A6",
+    "#8B50A4",
+    "#C55C1D",
+    "#6EBE44",
+    "#E51E6E",
+    "#BDB092"
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "id": "lisbon-metro",
+  "name": {
+    "he": "מטרו ליסבון",
+    "en": "Lisbon Metro",
+    "native": "Metropolitano de Lisboa"
+  },
+  "nicknames": [
+    "Metro"
+  ],
+  "city": {
+    "he": "ליסבון",
+    "en": "Lisbon"
+  },
+  "country": {
+    "he": "פורטוגל",
+    "en": "Portugal",
+    "code": "PT"
+  },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 44,
+    "stations": 56,
+    "lines": 4,
+    "annual_ridership": 180000000,
+    "daily_ridership": 490000,
+    "opened_year": 1959,
+    "avg_fare": {
+      "currency": "EUR",
+      "symbol": "€",
+      "min": 1.5,
+      "max": 6.45
+    },
+    "propulsion": "electric",
+    "operator": "Metropolitano de Lisboa"
+  },
+  "coordinates": {
+    "lat": 38.7223,
+    "lng": -9.1393
+  },
+  "description": {
+    "he": "מטרו ליסבון היא מערכת התחבורה התת-קרקעית של העיר, עם 56 תחנות ו-4 קווים המשתרעים על פני 44 ק\"מ. נפתחה בשנת 1959 והיא המערכת הראשונה בפורטוגל.\n\nהמערכת ידועה באריחי הקרמיקה הצבעוניים (Azulejos) שמעטרים את התחנות - מסורת פורטוגזית ייחודית. כל תחנה מעוצבת עם אריחים שונים, מה שיוצר חוויה ויזואלית מיוחדת.\n\nהמערכת פועלת בשעות ארוכות ומתחברת לכל האזורים המרכזיים של ליסבון. התחנות מעוצבות בסגנון מודרני עם אלמנטים מסורתיים פורטוגזיים.",
+    "en": "The Lisbon Metro is the city's underground transportation system, with 56 stations and 4 lines spanning 44 km. Opened in 1959, it was Portugal's first metro system.\n\nThe system is known for its colorful ceramic tiles (Azulejos) that decorate stations - a unique Portuguese tradition. Each station is designed with different tiles, creating a unique visual experience.\n\nThe system operates long hours and connects all central areas of Lisbon. Stations are designed in a modern style with traditional Portuguese elements."
+  },
+  "lines": [
+    {
+      "id": "azul",
+      "name": {
+        "he": "קו כחול",
+        "en": "Blue Line"
+      },
+      "color": "#0072BC",
+      "stations": 18,
+      "length_km": 14,
+      "opened_year": 1959
+    },
+    {
+      "id": "amarela",
+      "name": {
+        "he": "קו צהוב",
+        "en": "Yellow Line"
+      },
+      "color": "#F8C300",
+      "stations": 13,
+      "length_km": 11.1,
+      "opened_year": 1959
+    },
+    {
+      "id": "verde",
+      "name": {
+        "he": "קו ירוק",
+        "en": "Green Line"
+      },
+      "color": "#009E49",
+      "stations": 13,
+      "length_km": 9.2,
+      "opened_year": 1963
+    },
+    {
+      "id": "vermelha",
+      "name": {
+        "he": "קו אדום",
+        "en": "Red Line"
+      },
+      "color": "#E2231A",
+      "stations": 12,
+      "length_km": 9.7,
+      "opened_year": 1998
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "אריחי קרמיקה צבעוניים (Azulejos) מעטרים כל תחנה",
+      "en": "Colorful ceramic tiles (Azulejos) decorate every station"
+    },
+    {
+      "he": "המערכת הראשונה בפורטוגל - נפתחה ב-1959",
+      "en": "Portugal's first metro system - opened in 1959"
+    },
+    {
+      "he": "כל תחנה מעוצבת עם אריחים שונים",
+      "en": "Each station designed with different tiles"
+    },
+    {
+      "he": "מסורת פורטוגזית ייחודית",
+      "en": "Unique Portuguese tradition"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1959,
+      "event": {
+        "he": "פתיחת הקווים הראשונים",
+        "en": "First lines open"
+      }
+    },
+    {
+      "year": 1963,
+      "event": {
+        "he": "פתיחת קו ירוק",
+        "en": "Green line opens"
+      }
+    },
+    {
+      "year": 1998,
+      "event": {
+        "he": "פתיחת קו אדום",
+        "en": "Red line opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/lisbon-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Lisbon_Metro_map.svg/800px-Lisbon_Metro_map.svg.png",
+    "transitMap": "/transit-maps/lisbon-metro.png"
+  },
+  "map_url": "https://www.metrolisboa.pt/",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=-9.3,38.6,-9.0,38.8&layer=transport",
+  "official_website": "https://www.metrolisboa.pt/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/המטרו_של_ליסבון",
+    "en": "https://en.wikipedia.org/wiki/Lisbon_Metro"
+  },
+  "colors": [
+    "#0072BC",
+    "#F8C300",
+    "#009E49",
+    "#E2231A"
+  ]
+}

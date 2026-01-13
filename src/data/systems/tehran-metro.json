@@ -1,0 +1,31 @@
+{
+  "id": "tehran-metro",
+  "name": { "he": "מטרו טהרן", "en": "Tehran Metro", "native": "متروی تهران" },
+  "nicknames": ["Metro"],
+  "city": { "he": "טהרן", "en": "Tehran" },
+  "country": { "he": "איראן", "en": "Iran", "code": "IR" },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": { "length_km": 155, "stations": 143, "lines": 7, "annual_ridership": 820000000, "daily_ridership": 2250000, "opened_year": 1999, "avg_fare": { "currency": "IRR", "symbol": "﷼", "min": 10000, "max": 20000 }, "propulsion": "electric", "operator": "Tehran Urban & Suburban Railway" },
+  "coordinates": { "lat": 35.6892, "lng": 51.389 },
+  "description": { "he": "מטרו טהרן הוא המטרו הגדול ביותר במזרח התיכון, משרת את בירת איראן.", "en": "Tehran Metro is the Middle East's largest metro, serving Iran's capital." },
+  "lines": [
+    { "id": "1", "name": { "he": "קו 1", "en": "Line 1" }, "color": "#E4002B", "stations": 32, "length_km": 28, "opened_year": 1999 },
+    { "id": "2", "name": { "he": "קו 2", "en": "Line 2" }, "color": "#0066B3", "stations": 22, "length_km": 20, "opened_year": 2000 },
+    { "id": "3", "name": { "he": "קו 3", "en": "Line 3" }, "color": "#00B3E3", "stations": 25, "length_km": 37, "opened_year": 2012 },
+    { "id": "4", "name": { "he": "קו 4", "en": "Line 4" }, "color": "#FFD800", "stations": 22, "length_km": 21, "opened_year": 2008 },
+    { "id": "5", "name": { "he": "קו 5", "en": "Line 5" }, "color": "#009E49", "stations": 11, "length_km": 17, "opened_year": 1999 }
+  ],
+  "fun_facts": [
+    { "he": "המטרו הגדול ביותר במזרח התיכון", "en": "Largest metro in the Middle East" },
+    { "he": "משרת יותר מ-800 מיליון נוסעים בשנה", "en": "Serves over 800 million passengers annually" }
+  ],
+  "milestones": [{ "year": 1999, "event": { "he": "פתיחה", "en": "Opening" } }],
+  "images": { "header": "/transit-maps/tehran-metro.png", "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Tehran_Metro_Map.svg/800px-Tehran_Metro_Map.svg.png", "transitMap": "/transit-maps/tehran-metro.png" },
+  "map_url": "https://www.urbanrail.net/as/ir/tehr/tehran.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/tehran/",
+  "official_website": "https://metro.tehran.ir/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/מטרו_טהרן", "en": "https://en.wikipedia.org/wiki/Tehran_Metro" },
+  "colors": ["#E4002B", "#0066B3", "#00B3E3", "#FFD800", "#009E49", "#F9A51B", "#9B59B6"]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "boston-mbta",
+  "name": {
+    "he": "הרכבת של בוסטון",
+    "en": "Boston MBTA",
+    "native": "MBTA Subway"
+  },
+  "nicknames": [
+    "The T",
+    "MBTA"
+  ],
+  "city": {
+    "he": "בוסטון",
+    "en": "Boston"
+  },
+  "country": {
+    "he": "ארה\"ב",
+    "en": "United States",
+    "code": "US"
+  },
+  "continent": "northAmerica",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 64,
+    "stations": 59,
+    "lines": 4,
+    "annual_ridership": 100000000,
+    "daily_ridership": 274000,
+    "opened_year": 1897,
+    "avg_fare": {
+      "currency": "USD",
+      "symbol": "$",
+      "min": 2.40,
+      "max": 2.40
+    },
+    "propulsion": "electric",
+    "operator": "Massachusetts Bay Transportation Authority"
+  },
+  "coordinates": {
+    "lat": 42.3601,
+    "lng": -71.0589
+  },
+  "description": {
+    "he": "MBTA של בוסטון, המכונה 'The T', הוא מערכת התחבורה הציבורית העתיקה ביותר בארה\"ב. נפתחה ב-1897, היא כוללת את מנהרת הרכבת התחתית הראשונה באמריקה.\n\nהמערכת כוללת ארבעה קווים: אדום, כתום, כחול וירוק. הקו הירוק הוא למעשה רכבת קלה - החשמלית העתיקה ביותר שעדיין פועלת בארה\"ב.\n\nהתחנות במרכז העיר, כמו Park Street ו-Downtown Crossing, הן מהעתיקות ביותר בעולם ושומרות על אופי היסטורי.",
+    "en": "Boston's MBTA, known as 'The T', is the oldest public transit system in the United States. Opened in 1897, it includes the first subway tunnel in America.\n\nThe system includes four lines: Red, Orange, Blue, and Green. The Green Line is actually light rail - the oldest streetcar system still operating in the US.\n\nDowntown stations like Park Street and Downtown Crossing are among the oldest in the world and maintain their historic character."
+  },
+  "lines": [
+    {
+      "id": "red",
+      "name": {
+        "he": "קו אדום",
+        "en": "Red Line"
+      },
+      "color": "#DA291C",
+      "stations": 22,
+      "length_km": 35,
+      "opened_year": 1912
+    },
+    {
+      "id": "orange",
+      "name": {
+        "he": "קו כתום",
+        "en": "Orange Line"
+      },
+      "color": "#ED8B00",
+      "stations": 20,
+      "length_km": 18,
+      "opened_year": 1901
+    },
+    {
+      "id": "blue",
+      "name": {
+        "he": "קו כחול",
+        "en": "Blue Line"
+      },
+      "color": "#003DA5",
+      "stations": 12,
+      "length_km": 10,
+      "opened_year": 1904
+    },
+    {
+      "id": "green",
+      "name": {
+        "he": "קו ירוק",
+        "en": "Green Line"
+      },
+      "color": "#00843D",
+      "stations": 35,
+      "length_km": 37,
+      "opened_year": 1897
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "מערכת התחבורה הציבורית העתיקה ביותר בארה\"ב",
+      "en": "The oldest public transit system in the US"
+    },
+    {
+      "he": "מנהרת הרכבת התחתית הראשונה באמריקה",
+      "en": "First subway tunnel in America"
+    },
+    {
+      "he": "הקו הירוק הוא החשמלית העתיקה ביותר בשימוש",
+      "en": "Green Line is the oldest streetcar still in use"
+    },
+    {
+      "he": "תחנת Park Street פעילה מ-1897",
+      "en": "Park Street station active since 1897"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1897,
+      "event": {
+        "he": "פתיחת מנהרת Tremont Street - הראשונה בארה\"ב",
+        "en": "Tremont Street tunnel opens - first in US"
+      }
+    },
+    {
+      "year": 1901,
+      "event": {
+        "he": "פתיחת קו ה-Main Line Elevated",
+        "en": "Main Line Elevated opens"
+      }
+    },
+    {
+      "year": 1964,
+      "event": {
+        "he": "הקמת MBTA",
+        "en": "MBTA established"
+      }
+    },
+    {
+      "year": 2022,
+      "event": {
+        "he": "פתיחת הרחבת הקו הירוק",
+        "en": "Green Line Extension opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/boston-mbta.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/MBTA_subway_map.svg/800px-MBTA_subway_map.svg.png",
+    "transitMap": "/transit-maps/boston-mbta.png"
+  },
+  "map_url": "https://www.urbanrail.net/am/bost/boston.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/boston/",
+  "official_website": "https://www.mbta.com/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/הרכבת_התחתית_של_בוסטון",
+    "en": "https://en.wikipedia.org/wiki/MBTA_subway"
+  },
+  "colors": [
+    "#DA291C",
+    "#00843D",
+    "#ED8B00",
+    "#003DA5"
+  ]
+}

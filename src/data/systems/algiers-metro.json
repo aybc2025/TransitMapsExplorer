@@ -1,0 +1,27 @@
+{
+  "id": "algiers-metro",
+  "name": { "he": "מטרו אלג'יר", "en": "Algiers Metro", "native": "مترو الجزائر" },
+  "nicknames": ["Métro d'Alger"],
+  "city": { "he": "אלג'יר", "en": "Algiers" },
+  "country": { "he": "אלג'יריה", "en": "Algeria", "code": "DZ" },
+  "continent": "africa",
+  "type": "metro",
+  "status": "active",
+  "stats": { "length_km": 18, "stations": 19, "lines": 1, "annual_ridership": 45000000, "daily_ridership": 125000, "opened_year": 2011, "avg_fare": { "currency": "DZD", "symbol": "د.ج", "min": 50, "max": 50 }, "propulsion": "electric", "operator": "RATP El Djazaïr" },
+  "coordinates": { "lat": 36.7538, "lng": 3.0588 },
+  "description": { "he": "מטרו אלג'יר הוא השני באפריקה (אחרי קהיר), משרת את בירת אלג'יריה.", "en": "Algiers Metro is Africa's second (after Cairo), serving Algeria's capital." },
+  "lines": [
+    { "id": "1", "name": { "he": "קו 1", "en": "Line 1" }, "color": "#0066B3", "stations": 19, "length_km": 18, "opened_year": 2011 }
+  ],
+  "fun_facts": [
+    { "he": "המטרו השני באפריקה אחרי קהיר", "en": "Africa's second metro after Cairo" },
+    { "he": "נבנה בטכנולוגיה צרפתית", "en": "Built with French technology" }
+  ],
+  "milestones": [{ "year": 2011, "event": { "he": "פתיחה", "en": "Opening" } }],
+  "images": { "header": "/transit-maps/algiers-metro.png", "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Alger_metro_map_2019.svg/800px-Alger_metro_map_2019.svg.png", "transitMap": "/transit-maps/algiers-metro.png" },
+  "map_url": "https://www.urbanrail.net/af/alg/algiers.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/algiers/",
+  "official_website": "https://www.metroalger-dz.com/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/מטרו_אלג'יר", "en": "https://en.wikipedia.org/wiki/Algiers_Metro" },
+  "colors": ["#0066B3"]
+}

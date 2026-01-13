@@ -1,0 +1,148 @@
+{
+  "id": "stockholm-metro",
+  "name": {
+    "he": "מטרו שטוקהולם",
+    "en": "Stockholm Metro",
+    "native": "Stockholms tunnelbana"
+  },
+  "nicknames": [
+    "T-banan",
+    "Tunnelbanan"
+  ],
+  "city": {
+    "he": "שטוקהולם",
+    "en": "Stockholm"
+  },
+  "country": {
+    "he": "שבדיה",
+    "en": "Sweden",
+    "code": "SE"
+  },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 110,
+    "stations": 100,
+    "lines": 3,
+    "annual_ridership": 350000000,
+    "daily_ridership": 960000,
+    "opened_year": 1950,
+    "avg_fare": {
+      "currency": "SEK",
+      "symbol": "kr",
+      "min": 39,
+      "max": 39
+    },
+    "propulsion": "electric",
+    "operator": "Storstockholms Lokaltrafik (SL)"
+  },
+  "coordinates": {
+    "lat": 59.3293,
+    "lng": 18.0686
+  },
+  "description": {
+    "he": "מטרו שטוקהולם הוא מערכת רכבת תחתית המשרתת את בירת שבדיה. נפתחה ב-1950 והיא מפורסמת בתחנות האמנות שלה.\n\nהמערכת ידועה כ'גלריית האמנות הארוכה ביותר בעולם' - יותר מ-90 מ-100 התחנות מעוטרות באמנות ציבורית. סלעי הגרניט החשופים בתחנות יוצרים אווירה ייחודית.\n\nשטוקהולם היא עיר על איים, והמטרו מחבר את כל האיים המרכזיים ואת הפרברים.",
+    "en": "Stockholm Metro is a rapid transit system serving Sweden's capital. Opened in 1950, it is famous for its art stations.\n\nThe system is known as 'the world's longest art gallery' - over 90 of 100 stations feature public art. Exposed granite rock in stations creates a unique atmosphere.\n\nStockholm is a city on islands, and the metro connects all central islands and suburbs."
+  },
+  "lines": [
+    {
+      "id": "blue",
+      "name": {
+        "he": "קו כחול",
+        "en": "Blue Line"
+      },
+      "color": "#0066B3",
+      "stations": 20,
+      "length_km": 24,
+      "opened_year": 1975
+    },
+    {
+      "id": "red",
+      "name": {
+        "he": "קו אדום",
+        "en": "Red Line"
+      },
+      "color": "#E4002B",
+      "stations": 36,
+      "length_km": 41,
+      "opened_year": 1964
+    },
+    {
+      "id": "green",
+      "name": {
+        "he": "קו ירוק",
+        "en": "Green Line"
+      },
+      "color": "#009E49",
+      "stations": 49,
+      "length_km": 49,
+      "opened_year": 1950
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "'גלריית האמנות הארוכה ביותר בעולם'",
+      "en": "'The world's longest art gallery'"
+    },
+    {
+      "he": "90 מ-100 התחנות מעוטרות באמנות",
+      "en": "90 of 100 stations feature art"
+    },
+    {
+      "he": "חלק מהתחנות חצובות בסלע",
+      "en": "Some stations carved into rock"
+    },
+    {
+      "he": "מחברת 14 איים של שטוקהולם",
+      "en": "Connects Stockholm's 14 islands"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1950,
+      "event": {
+        "he": "פתיחת הקו הירוק",
+        "en": "Green Line opens"
+      }
+    },
+    {
+      "year": 1964,
+      "event": {
+        "he": "פתיחת הקו האדום",
+        "en": "Red Line opens"
+      }
+    },
+    {
+      "year": 1975,
+      "event": {
+        "he": "פתיחת הקו הכחול עם תחנות האמנות",
+        "en": "Blue Line opens with art stations"
+      }
+    },
+    {
+      "year": 2017,
+      "event": {
+        "he": "אישור להרחבה משמעותית",
+        "en": "Major extension approved"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/stockholm-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Stockholm_metro_map.svg/800px-Stockholm_metro_map.svg.png",
+    "transitMap": "/transit-maps/stockholm-metro.png"
+  },
+  "map_url": "https://www.urbanrail.net/eu/se/stoc/stockholm.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/stockholm/",
+  "official_website": "https://sl.se/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/מטרו_שטוקהולם",
+    "en": "https://en.wikipedia.org/wiki/Stockholm_metro"
+  },
+  "colors": [
+    "#0066B3",
+    "#E4002B",
+    "#009E49"
+  ]
+}

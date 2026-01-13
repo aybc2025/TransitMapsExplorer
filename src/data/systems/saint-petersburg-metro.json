@@ -1,0 +1,31 @@
+{
+  "id": "saint-petersburg-metro",
+  "name": { "he": "מטרו סנט פטרסבורג", "en": "Saint Petersburg Metro", "native": "Петербургский метрополитен" },
+  "nicknames": ["Metro"],
+  "city": { "he": "סנט פטרסבורג", "en": "Saint Petersburg" },
+  "country": { "he": "רוסיה", "en": "Russia", "code": "RU" },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": { "length_km": 119, "stations": 72, "lines": 5, "annual_ridership": 750000000, "daily_ridership": 2050000, "opened_year": 1955, "avg_fare": { "currency": "RUB", "symbol": "₽", "min": 65, "max": 65 }, "propulsion": "electric", "operator": "St. Petersburg Metro" },
+  "coordinates": { "lat": 59.9311, "lng": 30.3609 },
+  "description": { "he": "מטרו סנט פטרסבורג הוא מהעמוקים בעולם, עם תחנות מפוארות בסגנון סובייטי.", "en": "Saint Petersburg Metro is among the deepest in the world, with ornate Soviet-style stations." },
+  "lines": [
+    { "id": "1", "name": { "he": "קו 1 (אדום)", "en": "Line 1 (Red)" }, "color": "#E4002B", "stations": 19, "length_km": 30, "opened_year": 1955 },
+    { "id": "2", "name": { "he": "קו 2 (כחול)", "en": "Line 2 (Blue)" }, "color": "#0066B3", "stations": 12, "length_km": 19, "opened_year": 1961 },
+    { "id": "3", "name": { "he": "קו 3 (ירוק)", "en": "Line 3 (Green)" }, "color": "#009E49", "stations": 12, "length_km": 19, "opened_year": 1967 },
+    { "id": "4", "name": { "he": "קו 4 (כתום)", "en": "Line 4 (Orange)" }, "color": "#F9A51B", "stations": 11, "length_km": 16, "opened_year": 1985 },
+    { "id": "5", "name": { "he": "קו 5 (סגול)", "en": "Line 5 (Purple)" }, "color": "#9B59B6", "stations": 18, "length_km": 35, "opened_year": 2008 }
+  ],
+  "fun_facts": [
+    { "he": "מהמטרו העמוקים בעולם - עד 86 מטר", "en": "Among the world's deepest - up to 86 meters" },
+    { "he": "תחנות מפוארות בסגנון ארמונות", "en": "Ornate palace-style stations" }
+  ],
+  "milestones": [{ "year": 1955, "event": { "he": "פתיחה", "en": "Opening" } }],
+  "images": { "header": "/transit-maps/saint-petersburg-metro.png", "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Saint_Petersburg_metro_map_en.svg/800px-Saint_Petersburg_metro_map_en.svg.png", "transitMap": "/transit-maps/saint-petersburg-metro.png" },
+  "map_url": "https://www.urbanrail.net/eu/ru/pet/petersburg.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/saint-petersburg/",
+  "official_website": "https://www.metro.spb.ru/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/מטרו_סנקט_פטרבורג", "en": "https://en.wikipedia.org/wiki/Saint_Petersburg_Metro" },
+  "colors": ["#E4002B", "#0066B3", "#009E49", "#F9A51B", "#9B59B6"]
+}

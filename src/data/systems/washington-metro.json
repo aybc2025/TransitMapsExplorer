@@ -1,0 +1,184 @@
+{
+  "id": "washington-metro",
+  "name": {
+    "he": "מטרו וושינגטון",
+    "en": "Washington Metro",
+    "native": "Metrorail"
+  },
+  "nicknames": [
+    "Metro",
+    "WMATA"
+  ],
+  "city": {
+    "he": "וושינגטון",
+    "en": "Washington D.C."
+  },
+  "country": {
+    "he": "ארה\"ב",
+    "en": "United States",
+    "code": "US"
+  },
+  "continent": "northAmerica",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 188,
+    "stations": 98,
+    "lines": 6,
+    "annual_ridership": 150000000,
+    "daily_ridership": 410000,
+    "opened_year": 1976,
+    "avg_fare": {
+      "currency": "USD",
+      "symbol": "$",
+      "min": 2.00,
+      "max": 6.00
+    },
+    "propulsion": "electric",
+    "operator": "Washington Metropolitan Area Transit Authority (WMATA)"
+  },
+  "coordinates": {
+    "lat": 38.9072,
+    "lng": -77.0369
+  },
+  "description": {
+    "he": "מטרו וושינגטון הוא מערכת רכבת תחתית המשרתת את בירת ארה\"ב ואת פרבריה בווירג'יניה ומרילנד. נפתחה ב-1976 והיא שנייה בעומס לניו יורק בחוף המזרחי.\n\nהמערכת ידועה בתחנותיה המרהיבות עם תקרות קשתיות מבטון, עיצוב שנחשב לאחד היפים בעולם. התחנות נבנו בעומק רב, והן מהעמוקות בצפון אמריקה.\n\nהמטרו מחבר את כל האתרים החשובים בעיר כולל הבית הלבן, הקפיטול, ומוזיאוני הסמית'סוניאן.",
+    "en": "Washington Metro is a rapid transit system serving the U.S. capital and its suburbs in Virginia and Maryland. Opened in 1976, it is the second busiest after New York on the East Coast.\n\nThe system is famous for its stunning stations with arched concrete ceilings, a design considered among the most beautiful in the world. Stations were built at great depth, making them among the deepest in North America.\n\nThe Metro connects all major landmarks including the White House, Capitol, and Smithsonian museums."
+  },
+  "lines": [
+    {
+      "id": "red",
+      "name": {
+        "he": "קו אדום",
+        "en": "Red Line"
+      },
+      "color": "#BF0D3E",
+      "stations": 27,
+      "length_km": 52.4,
+      "opened_year": 1976
+    },
+    {
+      "id": "orange",
+      "name": {
+        "he": "קו כתום",
+        "en": "Orange Line"
+      },
+      "color": "#ED8B00",
+      "stations": 26,
+      "length_km": 42.5,
+      "opened_year": 1978
+    },
+    {
+      "id": "blue",
+      "name": {
+        "he": "קו כחול",
+        "en": "Blue Line"
+      },
+      "color": "#009CDE",
+      "stations": 27,
+      "length_km": 48.1,
+      "opened_year": 1977
+    },
+    {
+      "id": "green",
+      "name": {
+        "he": "קו ירוק",
+        "en": "Green Line"
+      },
+      "color": "#00B140",
+      "stations": 21,
+      "length_km": 37.1,
+      "opened_year": 1991
+    },
+    {
+      "id": "yellow",
+      "name": {
+        "he": "קו צהוב",
+        "en": "Yellow Line"
+      },
+      "color": "#FFD100",
+      "stations": 17,
+      "length_km": 16.5,
+      "opened_year": 1983
+    },
+    {
+      "id": "silver",
+      "name": {
+        "he": "קו כסוף",
+        "en": "Silver Line"
+      },
+      "color": "#919D9D",
+      "stations": 28,
+      "length_km": 48.3,
+      "opened_year": 2014
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "תקרות קשתיות מבטון - מהיפות בעולם",
+      "en": "Arched concrete ceilings - among the most beautiful in the world"
+    },
+    {
+      "he": "מחבר את כל המוסדות הפדרליים החשובים",
+      "en": "Connects all major federal institutions"
+    },
+    {
+      "he": "תחנת Forest Glen היא העמוקה ביותר - 60 מטר",
+      "en": "Forest Glen station is the deepest - 196 feet"
+    },
+    {
+      "he": "הקו הכסוף מגיע לנמל התעופה דאלס",
+      "en": "Silver Line reaches Dulles Airport"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1976,
+      "event": {
+        "he": "פתיחת הקו האדום",
+        "en": "Red Line opens"
+      }
+    },
+    {
+      "year": 1977,
+      "event": {
+        "he": "פתיחת הקו הכחול",
+        "en": "Blue Line opens"
+      }
+    },
+    {
+      "year": 2014,
+      "event": {
+        "he": "פתיחת הקו הכסוף",
+        "en": "Silver Line opens"
+      }
+    },
+    {
+      "year": 2022,
+      "event": {
+        "he": "הרחבת הקו הכסוף לנמל דאלס",
+        "en": "Silver Line extended to Dulles Airport"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/washington-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/WMATA_system_map.svg/800px-WMATA_system_map.svg.png",
+    "transitMap": "/transit-maps/washington-metro.png"
+  },
+  "map_url": "https://www.urbanrail.net/am/wash/washington.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/washington/",
+  "official_website": "https://www.wmata.com/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/הרכבת_התחתית_של_וושינגטון",
+    "en": "https://en.wikipedia.org/wiki/Washington_Metro"
+  },
+  "colors": [
+    "#BF0D3E",
+    "#ED8B00",
+    "#009CDE",
+    "#00B140",
+    "#FFD100",
+    "#919D9D"
+  ]
+}

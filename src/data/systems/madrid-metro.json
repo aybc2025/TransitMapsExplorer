@@ -1,0 +1,287 @@
+{
+  "id": "madrid-metro",
+  "name": {
+    "he": "מטרו מדריד",
+    "en": "Madrid Metro",
+    "native": "Metro de Madrid"
+  },
+  "nicknames": [
+    "El Metro"
+  ],
+  "city": {
+    "he": "מדריד",
+    "en": "Madrid"
+  },
+  "country": {
+    "he": "ספרד",
+    "en": "Spain",
+    "code": "ES"
+  },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 294,
+    "stations": 302,
+    "lines": 13,
+    "annual_ridership": 660000000,
+    "daily_ridership": 1800000,
+    "opened_year": 1919,
+    "avg_fare": {
+      "currency": "EUR",
+      "symbol": "€",
+      "min": 1.5,
+      "max": 2
+    },
+    "propulsion": "electric",
+    "operator": "Metro de Madrid S.A."
+  },
+  "coordinates": {
+    "lat": 40.4168,
+    "lng": -3.7038
+  },
+  "description": {
+    "he": "מטרו מדריד היא אחת המערכות הגדולות באירופה, עם 302 תחנות ו-13 קווים המשתרעים על פני 294 ק\"מ. נפתחה בשנת 1919 והיא המערכת הוותיקה ביותר בספרד.\n\nהמערכת ידועה במיזוג האוויר המצוין שלה, במיוחד חשוב בקיץ החם של מדריד. התחנות מעוצבות בסגנון מודרני ונקי, עם אמנות ציבורית מרשימה. המערכת כוללת גם קווים מהירים (Metro Ligero) לאזורים מחוץ למרכז העיר.\n\nהמערכת מתחברת לשדה התעופה באמצעות קו 8 המרחיב, ויש לה מערכת סימון ברורה בספרדית ובאנגלית. התחנות ההיסטוריות מעוטרות באריחי קרמיקה צבעוניים בעיצוב מסורתי.",
+    "en": "The Madrid Metro is one of the largest systems in Europe, with 302 stations and 13 lines spanning 294 km. Opened in 1919, it is Spain's oldest metro system.\n\nThe system is known for its excellent air conditioning, especially important during Madrid's hot summers. Stations are designed in a modern, clean style, with impressive public art. The system also includes light rail lines (Metro Ligero) to areas outside the city center.\n\nThe system connects to the airport via extended Line 8, and has clear signage in Spanish and English. Historic stations are decorated with colorful ceramic tiles in traditional design."
+  },
+  "lines": [
+    {
+      "id": "1",
+      "name": {
+        "he": "קו 1",
+        "en": "Line 1"
+      },
+      "color": "#009CDE",
+      "stations": 33,
+      "length_km": 23.9,
+      "opened_year": 1919
+    },
+    {
+      "id": "2",
+      "name": {
+        "he": "קו 2",
+        "en": "Line 2"
+      },
+      "color": "#FD2D13",
+      "stations": 20,
+      "length_km": 14,
+      "opened_year": 1924
+    },
+    {
+      "id": "3",
+      "name": {
+        "he": "קו 3",
+        "en": "Line 3"
+      },
+      "color": "#FFE114",
+      "stations": 18,
+      "length_km": 16.4,
+      "opened_year": 1936
+    },
+    {
+      "id": "4",
+      "name": {
+        "he": "קו 4",
+        "en": "Line 4"
+      },
+      "color": "#8B4513",
+      "stations": 23,
+      "length_km": 16,
+      "opened_year": 1944
+    },
+    {
+      "id": "5",
+      "name": {
+        "he": "קו 5",
+        "en": "Line 5"
+      },
+      "color": "#008B8B",
+      "stations": 32,
+      "length_km": 23.2,
+      "opened_year": 1968
+    },
+    {
+      "id": "6",
+      "name": {
+        "he": "קו 6",
+        "en": "Line 6"
+      },
+      "color": "#808080",
+      "stations": 28,
+      "length_km": 23.5,
+      "opened_year": 1979
+    },
+    {
+      "id": "7",
+      "name": {
+        "he": "קו 7",
+        "en": "Line 7"
+      },
+      "color": "#FF8C00",
+      "stations": 30,
+      "length_km": 32.9,
+      "opened_year": 1974
+    },
+    {
+      "id": "8",
+      "name": {
+        "he": "קו 8",
+        "en": "Line 8"
+      },
+      "color": "#DA70D6",
+      "stations": 8,
+      "length_km": 16.5,
+      "opened_year": 1998
+    },
+    {
+      "id": "9",
+      "name": {
+        "he": "קו 9",
+        "en": "Line 9"
+      },
+      "color": "#A0522D",
+      "stations": 29,
+      "length_km": 39.5,
+      "opened_year": 1980
+    },
+    {
+      "id": "10",
+      "name": {
+        "he": "קו 10",
+        "en": "Line 10"
+      },
+      "color": "#32CD32",
+      "stations": 31,
+      "length_km": 36.5,
+      "opened_year": 1961
+    },
+    {
+      "id": "11",
+      "name": {
+        "he": "קו 11",
+        "en": "Line 11"
+      },
+      "color": "#00008B",
+      "stations": 7,
+      "length_km": 8.5,
+      "opened_year": 1998
+    },
+    {
+      "id": "12",
+      "name": {
+        "he": "קו 12",
+        "en": "Line 12"
+      },
+      "color": "#006400",
+      "stations": 28,
+      "length_km": 40.9,
+      "opened_year": 2003
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "המערכת הוותיקה ביותר בספרד - נפתחה ב-1919",
+      "en": "Spain's oldest metro system - opened in 1919"
+    },
+    {
+      "he": "מיזוג אוויר מצוין בכל הרכבות והתחנות",
+      "en": "Excellent air conditioning on all trains and stations"
+    },
+    {
+      "he": "התחנות ההיסטוריות מעוטרות באריחי קרמיקה צבעוניים",
+      "en": "Historic stations decorated with colorful ceramic tiles"
+    },
+    {
+      "he": "קו 6 הוא הקו המעגלי של מדריד",
+      "en": "Line 6 is Madrid's circular line"
+    },
+    {
+      "he": "קו 8 מחבר את שדה התעופה למרכז העיר",
+      "en": "Line 8 connects the airport to the city center"
+    },
+    {
+      "he": "מובילה כ-1.8 מיליון נוסעים ביום",
+      "en": "Carries about 1.8 million passengers daily"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1919,
+      "event": {
+        "he": "פתיחת הקו הראשון",
+        "en": "First line opens"
+      }
+    },
+    {
+      "year": 1968,
+      "event": {
+        "he": "פתיחת קו 5",
+        "en": "Line 5 opens"
+      }
+    },
+    {
+      "year": 1979,
+      "event": {
+        "he": "פתיחת קו 6 - הקו המעגלי",
+        "en": "Line 6 opens - the circular line"
+      }
+    },
+    {
+      "year": 1998,
+      "event": {
+        "he": "פתיחת קו 8 לשדה התעופה",
+        "en": "Line 8 opens to the airport"
+      }
+    },
+    {
+      "year": 2003,
+      "event": {
+        "he": "פתיחת קו 12",
+        "en": "Line 12 opens"
+      }
+    },
+    {
+      "year": 2023,
+      "event": {
+        "he": "הגעה ל-302 תחנות",
+        "en": "Reaches 302 stations"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/madrid-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Madrid_Metro_Map.svg/800px-Madrid_Metro_Map.svg.png",
+    "transitMap": "/transit-maps/madrid-metro.png",
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Madrid_Metro_station_Chamberi.jpg/1280px-Madrid_Metro_station_Chamberi.jpg",
+        "caption": {
+          "he": "תחנת צ'אמברי",
+          "en": "Chamberí Station"
+        }
+      }
+    ]
+  },
+  "map_url": "https://www.metromadrid.es/en/lineas-y-horarios/plano",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=-3.9,40.3,-3.5,40.5&layer=transport",
+  "official_website": "https://www.metromadrid.es/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/המטרו_של_מדריד",
+    "en": "https://en.wikipedia.org/wiki/Madrid_Metro"
+  },
+  "colors": [
+    "#009CDE",
+    "#FD2D13",
+    "#FFE114",
+    "#8B4513",
+    "#008B8B",
+    "#808080",
+    "#FF8C00",
+    "#DA70D6",
+    "#A0522D",
+    "#32CD32",
+    "#00008B",
+    "#006400",
+    "#00FF00"
+  ]
+}

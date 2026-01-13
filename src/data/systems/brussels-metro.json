@@ -1,0 +1,49 @@
+{
+  "id": "brussels-metro",
+  "name": { "he": "מטרו בריסל", "en": "Brussels Metro", "native": "Métro de Bruxelles" },
+  "nicknames": ["Metro"],
+  "city": { "he": "בריסל", "en": "Brussels" },
+  "country": { "he": "בלגיה", "en": "Belgium", "code": "BE" },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 40,
+    "stations": 69,
+    "lines": 4,
+    "annual_ridership": 180000000,
+    "daily_ridership": 500000,
+    "opened_year": 1976,
+    "avg_fare": { "currency": "EUR", "symbol": "€", "min": 2.10, "max": 2.10 },
+    "propulsion": "electric",
+    "operator": "STIB-MIVB"
+  },
+  "coordinates": { "lat": 50.8503, "lng": 4.3517 },
+  "description": {
+    "he": "מטרו בריסל הוא מערכת המשרתת את בירת בלגיה ומרכז האיחוד האירופי. מחבר את כל המוסדות האירופיים.",
+    "en": "Brussels Metro serves Belgium's capital and EU headquarters. Connects all European institutions."
+  },
+  "lines": [
+    { "id": "1", "name": { "he": "קו 1 (סגול)", "en": "Line 1 (Purple)" }, "color": "#9B59B6", "stations": 21, "length_km": 13, "opened_year": 1988 },
+    { "id": "2", "name": { "he": "קו 2 (כתום)", "en": "Line 2 (Orange)" }, "color": "#F9A51B", "stations": 20, "length_km": 10, "opened_year": 1988 },
+    { "id": "5", "name": { "he": "קו 5 (צהוב)", "en": "Line 5 (Yellow)" }, "color": "#FFD800", "stations": 21, "length_km": 13, "opened_year": 1976 },
+    { "id": "6", "name": { "he": "קו 6 (כחול)", "en": "Line 6 (Blue)" }, "color": "#0066B3", "stations": 20, "length_km": 10, "opened_year": 1976 }
+  ],
+  "fun_facts": [
+    { "he": "מחבר את מוסדות האיחוד האירופי", "en": "Connects EU institutions" },
+    { "he": "דו-לשוני: צרפתית והולנדית", "en": "Bilingual: French and Dutch" }
+  ],
+  "milestones": [
+    { "year": 1976, "event": { "he": "פתיחת המטרו", "en": "Metro opens" } }
+  ],
+  "images": {
+    "header": "/transit-maps/brussels-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Brussels_metro_map.svg/800px-Brussels_metro_map.svg.png",
+    "transitMap": "/transit-maps/brussels-metro.png"
+  },
+  "map_url": "https://www.urbanrail.net/eu/be/brus/bruxelles.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/brussels/",
+  "official_website": "https://www.stib-mivb.be/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/מטרו_בריסל", "en": "https://en.wikipedia.org/wiki/Brussels_Metro" },
+  "colors": ["#0066B3", "#F9A51B", "#009E49", "#E4002B"]
+}

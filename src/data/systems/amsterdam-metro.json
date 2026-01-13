@@ -1,0 +1,158 @@
+{
+  "id": "amsterdam-metro",
+  "name": {
+    "he": "מטרו אמסטרדם",
+    "en": "Amsterdam Metro",
+    "native": "Amsterdamse Metro"
+  },
+  "nicknames": [],
+  "city": {
+    "he": "אמסטרדם",
+    "en": "Amsterdam"
+  },
+  "country": {
+    "he": "הולנד",
+    "en": "Netherlands",
+    "code": "NL"
+  },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 53,
+    "stations": 62,
+    "lines": 5,
+    "annual_ridership": 120000000,
+    "daily_ridership": 330000,
+    "opened_year": 1977,
+    "avg_fare": {
+      "currency": "EUR",
+      "symbol": "€",
+      "min": 3.2,
+      "max": 7
+    },
+    "propulsion": "electric",
+    "operator": "GVB"
+  },
+  "coordinates": {
+    "lat": 52.3676,
+    "lng": 4.9041
+  },
+  "description": {
+    "he": "מטרו אמסטרדם היא מערכת התחבורה המרכזית של העיר, עם 62 תחנות ו-5 קווים המשתרעים על פני 53 ק\"מ. נפתחה בשנת 1977, והמערכת מתחברת לרכבת הקלה ולאמצעי תחבורה נוספים.\n\nהמערכת מתחברת למרכז העיר ולאזורים הצפוניים והדרומיים. התחנות מעוצבות בסגנון מודרני ונקי, עם אמנות ציבורית ייחודית. המערכת פועלת בשעות ארוכות ומתחברת לכל האזורים המרכזיים של אמסטרדם.\n\nהמערכת היא חלק ממערכת GVB הכוללת גם אוטובוסים, רכבות קלות, ומעבורות. התחנות מעוצבות בסגנון נקי ופונקציונלי, עם סימון ברור בהולנדית ובאנגלית.",
+    "en": "The Amsterdam Metro is the central transportation system of the city, with 62 stations and 5 lines spanning 53 km. Opened in 1977, the system connects to light rail and other transportation means.\n\nThe system connects to the city center and northern and southern areas. Stations are designed in a modern, clean style, with unique public art. The system operates long hours and connects all central areas of Amsterdam.\n\nThe system is part of the GVB system which also includes buses, light rail, and ferries. Stations are designed in a clean, functional style, with clear signage in Dutch and English."
+  },
+  "lines": [
+    {
+      "id": "50",
+      "name": {
+        "he": "קו 50",
+        "en": "Line 50"
+      },
+      "color": "#0063AF",
+      "stations": 20,
+      "length_km": 20.1,
+      "opened_year": 1997
+    },
+    {
+      "id": "51",
+      "name": {
+        "he": "קו 51",
+        "en": "Line 51"
+      },
+      "color": "#FFBA00",
+      "stations": 29,
+      "length_km": 19.4,
+      "opened_year": 1977
+    },
+    {
+      "id": "52",
+      "name": {
+        "he": "קו 52",
+        "en": "Line 52"
+      },
+      "color": "#ED1D25",
+      "stations": 8,
+      "length_km": 9.8,
+      "opened_year": 2018
+    },
+    {
+      "id": "53",
+      "name": {
+        "he": "קו 53",
+        "en": "Line 53"
+      },
+      "color": "#A3238E",
+      "stations": 14,
+      "length_km": 11.3,
+      "opened_year": 1977
+    },
+    {
+      "id": "54",
+      "name": {
+        "he": "קו 54",
+        "en": "Line 54"
+      },
+      "color": "#00A082",
+      "stations": 15,
+      "length_km": 12.1,
+      "opened_year": 1997
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "חלק ממערכת GVB הכוללת גם אוטובוסים ורכבות קלות",
+      "en": "Part of GVB system which also includes buses and light rail"
+    },
+    {
+      "he": "אמנות ציבורית ייחודית בתחנות",
+      "en": "Unique public art at stations"
+    },
+    {
+      "he": "מתחברת למעבורות",
+      "en": "Connects to ferries"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1977,
+      "event": {
+        "he": "פתיחת הקווים הראשונים",
+        "en": "First lines open"
+      }
+    },
+    {
+      "year": 1997,
+      "event": {
+        "he": "פתיחת קווים 50 ו-54",
+        "en": "Lines 50 and 54 open"
+      }
+    },
+    {
+      "year": 2018,
+      "event": {
+        "he": "פתיחת קו 52",
+        "en": "Line 52 opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/amsterdam-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Amsterdam_metro_map.svg/800px-Amsterdam_metro_map.svg.png",
+    "transitMap": "/transit-maps/amsterdam-metro.png"
+  },
+  "map_url": "https://en.gvb.nl/",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=4.7,52.3,5.1,52.4&layer=transport",
+  "official_website": "https://en.gvb.nl/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/המטרו_של_אמסטרדם",
+    "en": "https://en.wikipedia.org/wiki/Amsterdam_Metro"
+  },
+  "colors": [
+    "#0063AF",
+    "#FFBA00",
+    "#ED1D25",
+    "#A3238E",
+    "#00A082"
+  ]
+}

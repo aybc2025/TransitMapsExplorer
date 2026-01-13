@@ -1,0 +1,308 @@
+{
+  "id": "moscow-metro",
+  "name": {
+    "he": "מטרו מוסקבה",
+    "en": "Moscow Metro",
+    "native": "Московский метрополитен"
+  },
+  "nicknames": [
+    "The Palace of the People"
+  ],
+  "city": {
+    "he": "מוסקבה",
+    "en": "Moscow"
+  },
+  "country": {
+    "he": "רוסיה",
+    "en": "Russia",
+    "code": "RU"
+  },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 424,
+    "stations": 259,
+    "lines": 16,
+    "annual_ridership": 2500000000,
+    "daily_ridership": 7000000,
+    "opened_year": 1935,
+    "avg_fare": {
+      "currency": "RUB",
+      "symbol": "₽",
+      "min": 65,
+      "max": 65
+    },
+    "propulsion": "electric",
+    "operator": "Moskovsky Metropoliten"
+  },
+  "coordinates": {
+    "lat": 55.7558,
+    "lng": 37.6173
+  },
+  "description": {
+    "he": "מטרו מוסקבה נחשב לאחד היפים והמפוארים ביותר בעולם, עם תחנות מעוצבות בסגנון סטליניסטי המזכירות ארמונות תת-קרקעיים. נפתח בשנת 1935 והיה סמל לגאווה הסובייטית ולכוחו של העם.\n\nהתחנות ההיסטוריות מעוטרות בשיש, פסלים, יצירות אמנות, נברשות קריסטל, ופרסקאות המהללות את הקומוניזם. תחנות כמו Komsomolskaya, Mayakovskaya ו-Novoslobodskaya נחשבות ליצירות אמנות ארכיטקטוניות.\n\nהמערכת מובילה כ-7 מיליון נוסעים ביום, מה שהופך אותה לאחת העמוסות באירופה. המערכת ידועה גם בעומק שלה - חלק מהתחנות נמצאות בעומק של מעל 80 מטר מתחת לפני הקרקע, ונוצרו במקור גם כמקלטים מפני תקיפות אוויריות.",
+    "en": "The Moscow Metro is considered one of the most beautiful and luxurious in the world, with stations designed in Stalinist style reminiscent of underground palaces. Opened in 1935, it was a symbol of Soviet pride and the power of the people.\n\nThe historic stations are decorated with marble, sculptures, artworks, crystal chandeliers, and frescoes glorifying communism. Stations like Komsomolskaya, Mayakovskaya, and Novoslobodskaya are considered architectural masterpieces.\n\nThe system carries about 7 million passengers daily, making it one of the busiest in Europe. The system is also known for its depth - some stations are located more than 80 meters below ground level, originally created also as air raid shelters."
+  },
+  "lines": [
+    {
+      "id": "sokolnicheskaya",
+      "name": {
+        "he": "סוקולניצ'סקאיה",
+        "en": "Sokolnicheskaya"
+      },
+      "color": "#EF1E25",
+      "stations": 26,
+      "length_km": 44.1,
+      "opened_year": 1935
+    },
+    {
+      "id": "zamoskvoretskaya",
+      "name": {
+        "he": "זאמוסקבורטסקאיה",
+        "en": "Zamoskvoretskaya"
+      },
+      "color": "#44B85C",
+      "stations": 24,
+      "length_km": 42.8,
+      "opened_year": 1938
+    },
+    {
+      "id": "arbatsko-pokrovskaya",
+      "name": {
+        "he": "ארבטסקו-פוקרובסקאיה",
+        "en": "Arbatsko-Pokrovskaya"
+      },
+      "color": "#0078BF",
+      "stations": 22,
+      "length_km": 45.1,
+      "opened_year": 1938
+    },
+    {
+      "id": "filyovskaya",
+      "name": {
+        "he": "פיליובסקאיה",
+        "en": "Filyovskaya"
+      },
+      "color": "#019EE0",
+      "stations": 13,
+      "length_km": 14.7,
+      "opened_year": 1958
+    },
+    {
+      "id": "kolsevaya",
+      "name": {
+        "he": "קולצביה",
+        "en": "Koltsevaya"
+      },
+      "color": "#894E35",
+      "stations": 12,
+      "length_km": 19.4,
+      "opened_year": 1950
+    },
+    {
+      "id": "kaluzhsko-rizhskaya",
+      "name": {
+        "he": "קאלוז'סקו-ריז'סקיה",
+        "en": "Kaluzhsko-Rizhskaya"
+      },
+      "color": "#F58631",
+      "stations": 24,
+      "length_km": 37.8,
+      "opened_year": 1958
+    },
+    {
+      "id": "tagansko-krasnopresnenskaya",
+      "name": {
+        "he": "טגאנסקו-קרסנופנסקאיה",
+        "en": "Tagansko-Krasnopresnenskaya"
+      },
+      "color": "#8E479B",
+      "stations": 23,
+      "length_km": 42,
+      "opened_year": 1966
+    },
+    {
+      "id": "kalininsko-solntsevskaya",
+      "name": {
+        "he": "קאלינינסקו-סולנצבסקאיה",
+        "en": "Kalininsko-Solntsevskaya"
+      },
+      "color": "#FFD803",
+      "stations": 22,
+      "length_km": 40.4,
+      "opened_year": 1979
+    },
+    {
+      "id": "serpukhovsko-timiryazevskaya",
+      "name": {
+        "he": "סרפוחובסקו-טימיריאזבסקאיה",
+        "en": "Serpukhovsko-Timiryazevskaya"
+      },
+      "color": "#B1B1B1",
+      "stations": 25,
+      "length_km": 41.2,
+      "opened_year": 1983
+    },
+    {
+      "id": "lyublinsko-dmitrovskaya",
+      "name": {
+        "he": "ליובלינסקו-דמיטרובסקאיה",
+        "en": "Lyublinsko-Dmitrovskaya"
+      },
+      "color": "#A1B3D4",
+      "stations": 23,
+      "length_km": 38.3,
+      "opened_year": 1995
+    },
+    {
+      "id": "bolshaya-koltsevaya",
+      "name": {
+        "he": "בולשאיה קולצביה",
+        "en": "Bolshaya Koltsevaya"
+      },
+      "color": "#79CDCD",
+      "stations": 31,
+      "length_km": 70,
+      "opened_year": 2018
+    },
+    {
+      "id": "butovskaya",
+      "name": {
+        "he": "בוטובסקאיה",
+        "en": "Butovskaya"
+      },
+      "color": "#BFDD5B",
+      "stations": 7,
+      "length_km": 10,
+      "opened_year": 2003
+    },
+    {
+      "id": "nekrasovskaya",
+      "name": {
+        "he": "נקראסובסקאיה",
+        "en": "Nekrasovskaya"
+      },
+      "color": "#DF477C",
+      "stations": 8,
+      "length_km": 13,
+      "opened_year": 2019
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "התחנות מעוצבות כמו ארמונות תת-קרקעיים עם שיש, פסלים ונברשות קריסטל",
+      "en": "Stations are designed like underground palaces with marble, sculptures, and crystal chandeliers"
+    },
+    {
+      "he": "תחנת Park Pobedy היא התחנה העמוקה ביותר באירופה - 84 מטר מתחת לקרקע",
+      "en": "Park Pobedy station is the deepest in Europe - 84 meters below ground"
+    },
+    {
+      "he": "התחנות ההיסטוריות נבנו גם כמקלטים מפני תקיפות אוויריות",
+      "en": "Historic stations were built also as air raid shelters"
+    },
+    {
+      "he": "קו Koltsevaya (הקו המעגלי) נבנה במיוחד לחיבור כל הקווים הרדיאליים",
+      "en": "Koltsevaya line (the circular line) was built specifically to connect all radial lines"
+    },
+    {
+      "he": "המערכת כוללת יצירות אמנות ייחודיות המהללות את הקומוניזם",
+      "en": "The system features unique artworks glorifying communism"
+    },
+    {
+      "he": "מובילה כ-7 מיליון נוסעים ביום - אחת העמוסות באירופה",
+      "en": "Carries about 7 million passengers daily - one of the busiest in Europe"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1935,
+      "event": {
+        "he": "פתיחת הקו הראשון - 13 תחנות",
+        "en": "First line opens - 13 stations"
+      }
+    },
+    {
+      "year": 1950,
+      "event": {
+        "he": "פתיחת קו Koltsevaya - הקו המעגלי",
+        "en": "Koltsevaya line opens - the circular line"
+      }
+    },
+    {
+      "year": 1960,
+      "event": {
+        "he": "הגעה ל-50 תחנות",
+        "en": "Reaches 50 stations"
+      }
+    },
+    {
+      "year": 1980,
+      "event": {
+        "he": "הגעה ל-120 תחנות",
+        "en": "Reaches 120 stations"
+      }
+    },
+    {
+      "year": 2018,
+      "event": {
+        "he": "פתיחת קו Bolshaya Koltsevaya - הקו המעגלי הגדול",
+        "en": "Bolshaya Koltsevaya line opens - the big circular line"
+      }
+    },
+    {
+      "year": 2023,
+      "event": {
+        "he": "הגעה ל-259 תחנות פעילות",
+        "en": "Reaches 259 active stations"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/moscow-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Moscow_Metro_map_2023.png/800px-Moscow_Metro_map_2023.png",
+    "transitMap": "/transit-maps/moscow-metro.png",
+    "gallery": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Komsomolskaya-Koltsevaya-2016-06.jpg/1280px-Komsomolskaya-Koltsevaya-2016-06.jpg",
+        "caption": {
+          "he": "תחנת קומסולסקאיה - אחת התחנות היפות ביותר",
+          "en": "Komsomolskaya station - one of the most beautiful stations"
+        }
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Mayakovskaya_metro_station_Moscow_01.jpg/1280px-Mayakovskaya_metro_station_Moscow_01.jpg",
+        "caption": {
+          "he": "תחנת מאיאקובסקאיה",
+          "en": "Mayakovskaya station"
+        }
+      }
+    ]
+  },
+  "map_url": "https://metro.ru/",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=37.3,55.6,37.9,55.9&layer=transport",
+  "official_website": "https://mosmetro.ru/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/המטרו_של_מוסקבה",
+    "en": "https://en.wikipedia.org/wiki/Moscow_Metro"
+  },
+  "colors": [
+    "#EF1E25",
+    "#44B85C",
+    "#0078BF",
+    "#019EE0",
+    "#894E35",
+    "#F58631",
+    "#8E479B",
+    "#FFD803",
+    "#B1B1B1",
+    "#A1B3D4",
+    "#79CDCD",
+    "#BFDD5B",
+    "#DF477C",
+    "#4CB4E7",
+    "#6CBFBB",
+    "#EA4F94"
+  ]
+}

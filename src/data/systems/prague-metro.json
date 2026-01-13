@@ -1,0 +1,147 @@
+{
+  "id": "prague-metro",
+  "name": {
+    "he": "מטרו פראג",
+    "en": "Prague Metro",
+    "native": "Metro Praha"
+  },
+  "nicknames": [
+    "Metro"
+  ],
+  "city": {
+    "he": "פראג",
+    "en": "Prague"
+  },
+  "country": {
+    "he": "צ'כיה",
+    "en": "Czech Republic",
+    "code": "CZ"
+  },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 65,
+    "stations": 61,
+    "lines": 3,
+    "annual_ridership": 450000000,
+    "daily_ridership": 1200000,
+    "opened_year": 1974,
+    "avg_fare": {
+      "currency": "CZK",
+      "symbol": "Kč",
+      "min": 30,
+      "max": 40
+    },
+    "propulsion": "electric",
+    "operator": "Dopravní podnik hlavního města Prahy"
+  },
+  "coordinates": {
+    "lat": 50.0755,
+    "lng": 14.4378
+  },
+  "description": {
+    "he": "מטרו פראג הוא מערכת רכבת תחתית המשרתת את בירת צ'כיה. נפתחה ב-1974 בתקופת הקומוניזם והפכה לחלק בלתי נפרד מהעיר.\n\nהמערכת מחברת את כל האתרים ההיסטוריים החשובים כולל גשר קארל, כיכר העיר העתיקה והטירה. תחנת Můstek במרכז היא מרכז ההחלפות.\n\nפראג היא אחת הערים היפות באירופה, והמטרו מאפשר גישה נוחה לכל האטרקציות.",
+    "en": "Prague Metro is a rapid transit system serving the Czech capital. Opened in 1974 during the communist era, it has become an integral part of the city.\n\nThe system connects all major historic sites including Charles Bridge, Old Town Square, and the Castle. Můstek station in the center is the main interchange.\n\nPrague is one of Europe's most beautiful cities, and the metro provides convenient access to all attractions."
+  },
+  "lines": [
+    {
+      "id": "a",
+      "name": {
+        "he": "קו A (ירוק)",
+        "en": "Line A (Green)"
+      },
+      "color": "#009E49",
+      "stations": 17,
+      "length_km": 17,
+      "opened_year": 1978
+    },
+    {
+      "id": "b",
+      "name": {
+        "he": "קו B (צהוב)",
+        "en": "Line B (Yellow)"
+      },
+      "color": "#FFD800",
+      "stations": 24,
+      "length_km": 26,
+      "opened_year": 1985
+    },
+    {
+      "id": "c",
+      "name": {
+        "he": "קו C (אדום)",
+        "en": "Line C (Red)"
+      },
+      "color": "#E4002B",
+      "stations": 20,
+      "length_km": 22,
+      "opened_year": 1974
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "נבנתה בתקופה הסובייטית",
+      "en": "Built during the Soviet era"
+    },
+    {
+      "he": "תחנות עמוקות מאוד - חלקן מעל 50 מטר",
+      "en": "Very deep stations - some over 50 meters"
+    },
+    {
+      "he": "משרתת יותר ממיליון נוסעים ביום",
+      "en": "Serves over a million passengers daily"
+    },
+    {
+      "he": "קו D בבנייה - ייפתח ב-2028",
+      "en": "Line D under construction - opening 2028"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1974,
+      "event": {
+        "he": "פתיחת קו C",
+        "en": "Line C opens"
+      }
+    },
+    {
+      "year": 1978,
+      "event": {
+        "he": "פתיחת קו A",
+        "en": "Line A opens"
+      }
+    },
+    {
+      "year": 1985,
+      "event": {
+        "he": "פתיחת קו B",
+        "en": "Line B opens"
+      }
+    },
+    {
+      "year": 2015,
+      "event": {
+        "he": "הרחבת קו A לנמל התעופה",
+        "en": "Line A extended towards airport"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/prague-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Prague_metro_plan_2017.svg/800px-Prague_metro_plan_2017.svg.png",
+    "transitMap": "/transit-maps/prague-metro.png"
+  },
+  "map_url": "https://www.urbanrail.net/eu/cz/praha/praha.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/prague/",
+  "official_website": "https://www.dpp.cz/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/מטרו_פראג",
+    "en": "https://en.wikipedia.org/wiki/Prague_Metro"
+  },
+  "colors": [
+    "#009E49",
+    "#FFD800",
+    "#E4002B"
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "id": "los-angeles-metro",
+  "name": {
+    "he": "מטרו לוס אנג'לס",
+    "en": "Los Angeles Metro Rail",
+    "native": "LA Metro"
+  },
+  "nicknames": [
+    "LA Metro",
+    "Metro Rail"
+  ],
+  "city": {
+    "he": "לוס אנג'לס",
+    "en": "Los Angeles"
+  },
+  "country": {
+    "he": "ארה\"ב",
+    "en": "United States",
+    "code": "US"
+  },
+  "continent": "northAmerica",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 142,
+    "stations": 101,
+    "lines": 6,
+    "annual_ridership": 85000000,
+    "daily_ridership": 233000,
+    "opened_year": 1990,
+    "avg_fare": {
+      "currency": "USD",
+      "symbol": "$",
+      "min": 1.75,
+      "max": 1.75
+    },
+    "propulsion": "electric",
+    "operator": "Los Angeles County Metropolitan Transportation Authority"
+  },
+  "coordinates": {
+    "lat": 34.0522,
+    "lng": -118.2437
+  },
+  "description": {
+    "he": "מטרו לוס אנג'לס הוא מערכת רכבת המשרתת את העיר ואת מחוז לוס אנג'לס. נפתחה ב-1990, היא כוללת שילוב של קווים תת-קרקעיים, עיליים ובגובה הקרקע.\n\nהמערכת כוללת קווים בצבעים A (כחול), B (אדום), C (ירוק), D (סגול), E (זהב/אקספו) ו-K (קרנשאו). הקווים האדום והסגול הם הקווים התת-קרקעיים הראשיים.\n\nלמרות המוניטין של לוס אנג'לס כעיר של מכוניות, המטרו ממשיך להתרחב עם פרויקטים חדשים כולל הרחבה לנמל התעופה LAX.",
+    "en": "Los Angeles Metro Rail is a rail transit system serving the city and Los Angeles County. Opened in 1990, it includes a mix of underground, elevated, and at-grade lines.\n\nThe system includes lines named A (Blue), B (Red), C (Green), D (Purple), E (Gold/Expo), and K (Crenshaw). The Red and Purple lines are the main underground lines.\n\nDespite LA's reputation as a car city, the Metro continues to expand with new projects including an extension to LAX airport."
+  },
+  "lines": [
+    {
+      "id": "a-blue",
+      "name": {
+        "he": "קו A (כחול)",
+        "en": "A Line (Blue)"
+      },
+      "color": "#0072BC",
+      "stations": 22,
+      "length_km": 35,
+      "opened_year": 1990
+    },
+    {
+      "id": "b-red",
+      "name": {
+        "he": "קו B (אדום)",
+        "en": "B Line (Red)"
+      },
+      "color": "#EB131B",
+      "stations": 14,
+      "length_km": 26,
+      "opened_year": 1993
+    },
+    {
+      "id": "c-green",
+      "name": {
+        "he": "קו C (ירוק)",
+        "en": "C Line (Green)"
+      },
+      "color": "#5DBE59",
+      "stations": 14,
+      "length_km": 32,
+      "opened_year": 1995
+    },
+    {
+      "id": "d-purple",
+      "name": {
+        "he": "קו D (סגול)",
+        "en": "D Line (Purple)"
+      },
+      "color": "#A05DA5",
+      "stations": 8,
+      "length_km": 10,
+      "opened_year": 1996
+    },
+    {
+      "id": "e-expo",
+      "name": {
+        "he": "קו E (זהב/אקספו)",
+        "en": "E Line (Expo)"
+      },
+      "color": "#F6A615",
+      "stations": 26,
+      "length_km": 28,
+      "opened_year": 2012
+    },
+    {
+      "id": "k-crenshaw",
+      "name": {
+        "he": "קו K (קרנשאו)",
+        "en": "K Line (Crenshaw)"
+      },
+      "color": "#E470B8",
+      "stations": 8,
+      "length_km": 14,
+      "opened_year": 2022
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "הקו הכחול היה הראשון לפעול ב-1990",
+      "en": "The Blue Line was the first to operate in 1990"
+    },
+    {
+      "he": "מחבר את מרכז העיר לחוף סנטה מוניקה",
+      "en": "Connects downtown to Santa Monica Beach"
+    },
+    {
+      "he": "הרחבה לנמל התעופה LAX בבנייה",
+      "en": "Extension to LAX airport under construction"
+    },
+    {
+      "he": "משתמש גם ברכבות קלות וגם במטרו כבד",
+      "en": "Uses both light rail and heavy rail"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1990,
+      "event": {
+        "he": "פתיחת הקו הכחול",
+        "en": "Blue Line opens"
+      }
+    },
+    {
+      "year": 1993,
+      "event": {
+        "he": "פתיחת הקו האדום התת-קרקעי",
+        "en": "Red Line underground opens"
+      }
+    },
+    {
+      "year": 2016,
+      "event": {
+        "he": "הרחבה לסנטה מוניקה",
+        "en": "Extension to Santa Monica"
+      }
+    },
+    {
+      "year": 2022,
+      "event": {
+        "he": "פתיחת קו K",
+        "en": "K Line opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/los-angeles-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/LA_Metro_Rail_%26_Busway_map.svg/800px-LA_Metro_Rail_%26_Busway_map.svg.png",
+    "transitMap": "/transit-maps/los-angeles-metro.png"
+  },
+  "map_url": "https://www.urbanrail.net/am/la/los-angeles.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/los-angeles/",
+  "official_website": "https://www.metro.net/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/הרכבת_הקלה_של_לוס_אנג'לס",
+    "en": "https://en.wikipedia.org/wiki/Los_Angeles_Metro_Rail"
+  },
+  "colors": [
+    "#E470B8",
+    "#A05DA5",
+    "#EB131B",
+    "#F6A615",
+    "#0072BC",
+    "#5DBE59"
+  ]
+}

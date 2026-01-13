@@ -1,0 +1,32 @@
+{
+  "id": "santiago-metro",
+  "name": { "he": "מטרו סנטיאגו", "en": "Santiago Metro", "native": "Metro de Santiago" },
+  "nicknames": ["Metro"],
+  "city": { "he": "סנטיאגו", "en": "Santiago" },
+  "country": { "he": "צ'ילה", "en": "Chile", "code": "CL" },
+  "continent": "southAmerica",
+  "type": "metro",
+  "status": "active",
+  "stats": { "length_km": 140, "stations": 136, "lines": 7, "annual_ridership": 700000000, "daily_ridership": 1900000, "opened_year": 1975, "avg_fare": { "currency": "CLP", "symbol": "$", "min": 640, "max": 800 }, "propulsion": "electric", "operator": "Metro S.A." },
+  "coordinates": { "lat": -33.4489, "lng": -70.6693 },
+  "description": { "he": "מטרו סנטיאגו הוא הגדול ביותר בדרום אמריקה מחוץ לברזיל, משרת את בירת צ'ילה.", "en": "Santiago Metro is the largest in South America outside Brazil, serving Chile's capital." },
+  "lines": [
+    { "id": "1", "name": { "he": "קו 1", "en": "Line 1" }, "color": "#E4002B", "stations": 27, "length_km": 20, "opened_year": 1975 },
+    { "id": "2", "name": { "he": "קו 2", "en": "Line 2" }, "color": "#F9A51B", "stations": 22, "length_km": 20, "opened_year": 1978 },
+    { "id": "3", "name": { "he": "קו 3", "en": "Line 3" }, "color": "#795548", "stations": 18, "length_km": 22, "opened_year": 2019 },
+    { "id": "4", "name": { "he": "קו 4", "en": "Line 4" }, "color": "#0066B3", "stations": 22, "length_km": 25, "opened_year": 2005 },
+    { "id": "5", "name": { "he": "קו 5", "en": "Line 5" }, "color": "#009E49", "stations": 17, "length_km": 24, "opened_year": 1997 },
+    { "id": "6", "name": { "he": "קו 6", "en": "Line 6" }, "color": "#9B59B6", "stations": 10, "length_km": 15, "opened_year": 2017 }
+  ],
+  "fun_facts": [
+    { "he": "הגדול ביותר בדרום אמריקה (מחוץ לברזיל)", "en": "Largest in South America outside Brazil" },
+    { "he": "קווים 3 ו-6 אוטומטיים לחלוטין", "en": "Lines 3 and 6 are fully automated" }
+  ],
+  "milestones": [{ "year": 1975, "event": { "he": "פתיחה", "en": "Opening" } }],
+  "images": { "header": "/transit-maps/santiago-metro.png", "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Mapa_metro_de_Santiago.svg/800px-Mapa_metro_de_Santiago.svg.png", "transitMap": "/transit-maps/santiago-metro.png" },
+  "map_url": "https://www.urbanrail.net/am/sant/santiago.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/santiago/",
+  "official_website": "https://www.metro.cl/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/מטרו_סנטיאגו", "en": "https://en.wikipedia.org/wiki/Santiago_Metro" },
+  "colors": ["#E4002B", "#F9A51B", "#795548", "#009E49", "#00A0E4", "#9B59B6", "#0066B3"]
+}

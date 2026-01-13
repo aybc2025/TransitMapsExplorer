@@ -1,0 +1,161 @@
+{
+  "id": "philadelphia-septa",
+  "name": {
+    "he": "מטרו פילדלפיה",
+    "en": "Philadelphia SEPTA",
+    "native": "SEPTA"
+  },
+  "nicknames": [
+    "SEPTA",
+    "The El",
+    "The Subway"
+  ],
+  "city": {
+    "he": "פילדלפיה",
+    "en": "Philadelphia"
+  },
+  "country": {
+    "he": "ארה\"ב",
+    "en": "United States",
+    "code": "US"
+  },
+  "continent": "northAmerica",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 61,
+    "stations": 69,
+    "lines": 4,
+    "annual_ridership": 85000000,
+    "daily_ridership": 233000,
+    "opened_year": 1907,
+    "avg_fare": {
+      "currency": "USD",
+      "symbol": "$",
+      "min": 2.50,
+      "max": 2.50
+    },
+    "propulsion": "electric",
+    "operator": "Southeastern Pennsylvania Transportation Authority"
+  },
+  "coordinates": {
+    "lat": 39.9526,
+    "lng": -75.1652
+  },
+  "description": {
+    "he": "SEPTA של פילדלפיה הוא מערכת רכבת תחתית ועילית המשרתת את פילדלפיה ופרבריה. נפתחה ב-1907, היא כוללת קווים תת-קרקעיים, עיליים ורכבת קלה.\n\nהמערכת כוללת את Market-Frankford Line (הקו הכחול), Broad Street Line (הקו הכתום), ומערכות טרולי (ירוק). הקו ה'עילי' (El) של Market Street הוא אחד הוותיקים ביותר בארה\"ב.\n\nפילדלפיה הייתה מהערים הראשונות באמריקה לאמץ תחבורה ציבורית על מסילות, והמערכת שומרת על אופי היסטורי רב.",
+    "en": "Philadelphia's SEPTA is a subway and elevated rail system serving Philadelphia and its suburbs. Opened in 1907, it includes underground lines, elevated lines, and light rail.\n\nThe system includes the Market-Frankford Line (Blue Line), Broad Street Line (Orange Line), and trolley systems (Green). The Market Street 'El' is one of the oldest in the US.\n\nPhiladelphia was among the first American cities to adopt rail transit, and the system maintains significant historic character."
+  },
+  "lines": [
+    {
+      "id": "market-frankford",
+      "name": {
+        "he": "קו Market-Frankford (כחול)",
+        "en": "Market-Frankford Line (Blue)"
+      },
+      "color": "#0066CC",
+      "stations": 28,
+      "length_km": 21,
+      "opened_year": 1907
+    },
+    {
+      "id": "broad-street",
+      "name": {
+        "he": "קו Broad Street (כתום)",
+        "en": "Broad Street Line (Orange)"
+      },
+      "color": "#FF6600",
+      "stations": 25,
+      "length_km": 16,
+      "opened_year": 1928
+    },
+    {
+      "id": "trolley-green",
+      "name": {
+        "he": "קווי הטרולי (ירוק)",
+        "en": "Trolley Lines (Green)"
+      },
+      "color": "#009900",
+      "stations": 30,
+      "length_km": 24,
+      "opened_year": 1906
+    },
+    {
+      "id": "norristown",
+      "name": {
+        "he": "קו Norristown (סגול)",
+        "en": "Norristown High Speed Line"
+      },
+      "color": "#993399",
+      "stations": 22,
+      "length_km": 21,
+      "opened_year": 1907
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "קו ה-Market Street El מ-1907 עדיין פעיל",
+      "en": "The 1907 Market Street El is still operating"
+    },
+    {
+      "he": "מערכת הטרולי היא מהוותיקות בעולם",
+      "en": "The trolley system is among the oldest in the world"
+    },
+    {
+      "he": "מנהרת Broad Street היא הארוכה ביותר בארה\"ב",
+      "en": "Broad Street tunnel is the longest in the US"
+    },
+    {
+      "he": "משרתת יותר מ-300,000 נוסעים ביום",
+      "en": "Serves over 300,000 riders daily"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1907,
+      "event": {
+        "he": "פתיחת קו Market Street Elevated",
+        "en": "Market Street Elevated opens"
+      }
+    },
+    {
+      "year": 1928,
+      "event": {
+        "he": "פתיחת קו Broad Street",
+        "en": "Broad Street Line opens"
+      }
+    },
+    {
+      "year": 1968,
+      "event": {
+        "he": "הקמת SEPTA",
+        "en": "SEPTA established"
+      }
+    },
+    {
+      "year": 1984,
+      "event": {
+        "he": "חיבור מנהרת המרכז",
+        "en": "Center City tunnel connection"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/philadelphia-septa.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/SEPTA_system_map.svg/800px-SEPTA_system_map.svg.png",
+    "transitMap": "/transit-maps/philadelphia-septa.png"
+  },
+  "map_url": "https://www.urbanrail.net/am/phil/philadelphia.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/philadelphia/",
+  "official_website": "https://www.septa.org/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/SEPTA",
+    "en": "https://en.wikipedia.org/wiki/SEPTA"
+  },
+  "colors": [
+    "#0066CC",
+    "#FF6600",
+    "#009900",
+    "#993399"
+  ]
+}

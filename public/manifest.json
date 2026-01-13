@@ -1,0 +1,22 @@
+{
+  "name": "מפות תחבורה מכל העולם",
+  "short_name": "מפות תחבורה",
+  "description": "אוסף מקיף של מערכות התחבורה ההמונית בעולם - מפות, נתונים והיסטוריה",
+  "lang": "he",
+  "dir": "rtl",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#2563eb",
+  "orientation": "any",
+  "categories": ["travel", "education", "utilities"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

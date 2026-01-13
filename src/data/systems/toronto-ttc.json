@@ -1,0 +1,160 @@
+{
+  "id": "toronto-ttc",
+  "name": {
+    "he": "מטרו טורונטו",
+    "en": "Toronto Subway",
+    "native": "Toronto Subway"
+  },
+  "nicknames": [
+    "The Subway",
+    "TTC"
+  ],
+  "city": {
+    "he": "טורונטו",
+    "en": "Toronto"
+  },
+  "country": {
+    "he": "קנדה",
+    "en": "Canada",
+    "code": "CA"
+  },
+  "continent": "northAmerica",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 77,
+    "stations": 75,
+    "lines": 4,
+    "annual_ridership": 420000000,
+    "daily_ridership": 1150000,
+    "opened_year": 1954,
+    "avg_fare": {
+      "currency": "CAD",
+      "symbol": "C$",
+      "min": 3.25,
+      "max": 3.25
+    },
+    "propulsion": "electric",
+    "operator": "Toronto Transit Commission (TTC)"
+  },
+  "coordinates": {
+    "lat": 43.6532,
+    "lng": -79.3832
+  },
+  "description": {
+    "he": "מטרו טורונטו הוא מערכת התחבורה הציבורית של העיר הגדולה בקנדה, עם 75 תחנות ו-4 קווים המשתרעים על פני 77 ק\"מ. נפתחה בשנת 1954 והייתה למערכת המטרו הראשונה בקנדה.\n\nהמערכת כוללת את קו Yonge-University, קו Bloor-Danforth, קו Scarborough, וקו Sheppard. המערכת ידועה בקווים הרחבים שלה ובתחנות המרווחות. התחנות מעוצבות בסגנון מודרני ונקי.\n\nהמערכת היא חלק מ-TTC (Toronto Transit Commission), הכוללת גם אוטובוסים ורכבות קלות. המערכת פועלת בשעות ארוכות ומתחברת לכל האזורים המרכזיים של טורונטו.",
+    "en": "The Toronto Subway is the public transportation system of Canada's largest city, with 75 stations and 4 lines spanning 77 km. Opened in 1954, it was Canada's first metro system.\n\nThe system includes the Yonge-University line, Bloor-Danforth line, Scarborough line, and Sheppard line. The system is known for its wide corridors and spacious stations. Stations are designed in a modern, clean style.\n\nThe system is part of TTC (Toronto Transit Commission), which also includes buses and light rail. The system operates long hours and connects all central areas of Toronto."
+  },
+  "lines": [
+    {
+      "id": "line1",
+      "name": {
+        "he": "קו Yonge-University",
+        "en": "Yonge-University Line"
+      },
+      "color": "#FFD200",
+      "stations": 32,
+      "length_km": 38.8,
+      "opened_year": 1954
+    },
+    {
+      "id": "line2",
+      "name": {
+        "he": "קו Bloor-Danforth",
+        "en": "Bloor-Danforth Line"
+      },
+      "color": "#008C4A",
+      "stations": 31,
+      "length_km": 26.2,
+      "opened_year": 1966
+    },
+    {
+      "id": "line3",
+      "name": {
+        "he": "קו Scarborough",
+        "en": "Scarborough Line"
+      },
+      "color": "#8D5D35",
+      "stations": 6,
+      "length_km": 6.4,
+      "opened_year": 1985
+    },
+    {
+      "id": "line4",
+      "name": {
+        "he": "קו Sheppard",
+        "en": "Sheppard Line"
+      },
+      "color": "#0082C8",
+      "stations": 5,
+      "length_km": 5.5,
+      "opened_year": 2002
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "המערכת הראשונה בקנדה - נפתחה ב-1954",
+      "en": "Canada's first metro system - opened in 1954"
+    },
+    {
+      "he": "חלק ממערכת TTC הכוללת גם אוטובוסים ורכבות קלות",
+      "en": "Part of TTC system which also includes buses and light rail"
+    },
+    {
+      "he": "תחנות מרווחות עם קווים רחבים",
+      "en": "Spacious stations with wide corridors"
+    },
+    {
+      "he": "מובילה כ-1.15 מיליון נוסעים ביום",
+      "en": "Carries about 1.15 million passengers daily"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1954,
+      "event": {
+        "he": "פתיחת הקו הראשון - Yonge",
+        "en": "First line opens - Yonge"
+      }
+    },
+    {
+      "year": 1966,
+      "event": {
+        "he": "פתיחת קו Bloor-Danforth",
+        "en": "Bloor-Danforth line opens"
+      }
+    },
+    {
+      "year": 1985,
+      "event": {
+        "he": "פתיחת קו Scarborough",
+        "en": "Scarborough line opens"
+      }
+    },
+    {
+      "year": 2002,
+      "event": {
+        "he": "פתיחת קו Sheppard",
+        "en": "Sheppard line opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/toronto-ttc.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/TTC_subway_map_2019.svg/800px-TTC_subway_map_2019.svg.png",
+    "transitMap": "/transit-maps/toronto-ttc.png"
+  },
+  "map_url": "https://www.ttc.ca/",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=-79.6,43.5,-79.2,43.8&layer=transport",
+  "official_website": "https://www.ttc.ca/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/רכבת_התחתית_של_טורונטו",
+    "en": "https://en.wikipedia.org/wiki/Toronto_subway"
+  },
+  "colors": [
+    "#FFD200",
+    "#008C4A",
+    "#0082C8",
+    "#8D5D35"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "helsinki-metro",
+  "name": { "he": "מטרו הלסינקי", "en": "Helsinki Metro", "native": "Helsingin metro" },
+  "nicknames": ["Metro"],
+  "city": { "he": "הלסינקי", "en": "Helsinki" },
+  "country": { "he": "פינלנד", "en": "Finland", "code": "FI" },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 35,
+    "stations": 25,
+    "lines": 2,
+    "annual_ridership": 70000000,
+    "daily_ridership": 190000,
+    "opened_year": 1982,
+    "avg_fare": { "currency": "EUR", "symbol": "€", "min": 2.80, "max": 4.10 },
+    "propulsion": "electric",
+    "operator": "HKL"
+  },
+  "coordinates": { "lat": 60.1699, "lng": 24.9384 },
+  "description": {
+    "he": "מטרו הלסינקי הוא המטרו הצפוני ביותר בעולם. נפתח ב-1982 והורחב לאחרונה לעיר אספו.",
+    "en": "Helsinki Metro is the world's northernmost metro. Opened in 1982 and recently extended to Espoo."
+  },
+  "lines": [
+    { "id": "m1", "name": { "he": "M1 (כתום)", "en": "M1 (Orange)" }, "color": "#F9A51B", "stations": 17, "length_km": 21, "opened_year": 1982 },
+    { "id": "m2", "name": { "he": "M2 (כתום)", "en": "M2 (Orange)" }, "color": "#F9A51B", "stations": 13, "length_km": 14, "opened_year": 2017 }
+  ],
+  "fun_facts": [
+    { "he": "המטרו הצפוני ביותר בעולם", "en": "World's northernmost metro" },
+    { "he": "פועל גם בחורף הקשה של פינלנד", "en": "Operates even in Finland's harsh winter" }
+  ],
+  "milestones": [
+    { "year": 1982, "event": { "he": "פתיחת המטרו", "en": "Metro opens" } },
+    { "year": 2017, "event": { "he": "הרחבה לאספו", "en": "Extension to Espoo" } }
+  ],
+  "images": {
+    "header": "/transit-maps/helsinki-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Helsinki_metro_map_2017.svg/800px-Helsinki_metro_map_2017.svg.png",
+    "transitMap": "/transit-maps/helsinki-metro.png"
+  },
+  "map_url": "https://www.urbanrail.net/eu/fi/helsinki/helsinki.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/helsinki/",
+  "official_website": "https://www.hsl.fi/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/מטרו_הלסינקי", "en": "https://en.wikipedia.org/wiki/Helsinki_Metro" },
+  "colors": ["#F9A51B", "#0066B3"]
+}

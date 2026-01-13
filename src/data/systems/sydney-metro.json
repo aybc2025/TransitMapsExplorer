@@ -1,0 +1,119 @@
+{
+  "id": "sydney-metro",
+  "name": {
+    "he": "מטרו סידני",
+    "en": "Sydney Metro",
+    "native": "Sydney Metro"
+  },
+  "nicknames": [],
+  "city": {
+    "he": "סידני",
+    "en": "Sydney"
+  },
+  "country": {
+    "he": "אוסטרליה",
+    "en": "Australia",
+    "code": "AU"
+  },
+  "continent": "oceania",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 66,
+    "stations": 31,
+    "lines": 2,
+    "annual_ridership": 45000000,
+    "daily_ridership": 120000,
+    "opened_year": 2019,
+    "avg_fare": {
+      "currency": "AUD",
+      "symbol": "A$",
+      "min": 3.79,
+      "max": 7.2
+    },
+    "propulsion": "electric",
+    "operator": "Sydney Metro"
+  },
+  "coordinates": {
+    "lat": -33.8688,
+    "lng": 151.2093
+  },
+  "description": {
+    "he": "מטרו סידני היא מערכת מטרו אוטומטית חדשה, עם 31 תחנות ו-2 קווים המשתרעים על פני 66 ק\"מ. נפתחה בשנת 2019 והיא המערכת הראשונה מסוגה באוסטרליה.\n\nהמערכת היא אוטומטית לחלוטין (Driverless) וחדשה לחלוטין, עם טכנולוגיה מתקדמת. התחנות מעוצבות בסגנון מודרני ונקי, עם דלתות בטיחות, מיזוג אוויר מתקדם, ותצוגות דיגיטליות.\n\nהמערכת מתחברת למרכז העיר ולאזורים הצפוניים והמערביים של סידני. המערכת מתוכננת להתרחב בעתיד לכיסוי אזורים נוספים בעיר.",
+    "en": "Sydney Metro is a new fully automated metro system, with 31 stations and 2 lines spanning 66 km. Opened in 2019, it is Australia's first system of its kind.\n\nThe system is fully automated (Driverless) and brand new, with advanced technology. Stations are designed in a modern, clean style, with platform screen doors, advanced air conditioning, and digital displays.\n\nThe system connects to the city center and northern and western areas of Sydney. The system is planned to expand in the future to cover additional areas of the city."
+  },
+  "lines": [
+    {
+      "id": "metro-northwest",
+      "name": {
+        "he": "מטרו צפון-מערב",
+        "en": "Metro North West"
+      },
+      "color": "#068784",
+      "stations": 13,
+      "length_km": 36,
+      "opened_year": 2019
+    },
+    {
+      "id": "metro-city",
+      "name": {
+        "he": "מטרו העיר",
+        "en": "Metro City"
+      },
+      "color": "#008289",
+      "stations": 18,
+      "length_km": 30,
+      "opened_year": 2024
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "המערכת הראשונה מסוגה באוסטרליה - נפתחה ב-2019",
+      "en": "Australia's first system of its kind - opened in 2019"
+    },
+    {
+      "he": "אוטומטית לחלוטין - ללא נהג",
+      "en": "Fully automated - driverless"
+    },
+    {
+      "he": "טכנולוגיה חדשה ומתקדמת",
+      "en": "New and advanced technology"
+    },
+    {
+      "he": "דלתות בטיחות בכל התחנות",
+      "en": "Platform screen doors at all stations"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 2019,
+      "event": {
+        "he": "פתיחת הקו הראשון - Metro North West",
+        "en": "First line opens - Metro North West"
+      }
+    },
+    {
+      "year": 2024,
+      "event": {
+        "he": "פתיחת קו העיר",
+        "en": "City line opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/sydney-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Sydney_Metro_network_map.svg/800px-Sydney_Metro_network_map.svg.png",
+    "transitMap": "/transit-maps/sydney-metro.png"
+  },
+  "map_url": "https://transportnsw.info/routes/metro",
+  "interactive_map_url": "https://www.openstreetmap.org/export/embed.html?bbox=151.0,-34.0,151.3,-33.7&layer=transport",
+  "official_website": "https://transportnsw.info/routes/metro",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/מטרו_סידני",
+    "en": "https://en.wikipedia.org/wiki/Sydney_Metro"
+  },
+  "colors": [
+    "#068784",
+    "#008289"
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "id": "chicago-l",
+  "name": {
+    "he": "הרכבת של שיקגו",
+    "en": "Chicago L",
+    "native": "Chicago 'L'"
+  },
+  "nicknames": [
+    "The L",
+    "The El",
+    "CTA Rail"
+  ],
+  "city": {
+    "he": "שיקגו",
+    "en": "Chicago"
+  },
+  "country": {
+    "he": "ארה\"ב",
+    "en": "United States",
+    "code": "US"
+  },
+  "continent": "northAmerica",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 165,
+    "stations": 145,
+    "lines": 8,
+    "annual_ridership": 230000000,
+    "daily_ridership": 630000,
+    "opened_year": 1892,
+    "avg_fare": {
+      "currency": "USD",
+      "symbol": "$",
+      "min": 2.50,
+      "max": 2.50
+    },
+    "propulsion": "electric",
+    "operator": "Chicago Transit Authority (CTA)"
+  },
+  "coordinates": {
+    "lat": 41.8781,
+    "lng": -87.6298
+  },
+  "description": {
+    "he": "ה-L של שיקגו הוא מערכת רכבת עילית ותחתית המשרתת את שיקגו ופרבריה. נפתחה ב-1892, היא אחת ממערכות התחבורה הציבורית הוותיקות בעולם.\n\nהמערכת ידועה ב'לופ' - הלולאה המרכזית של מסילות עיליות במרכז העיר שממנה שואבים הקווים את שמותיהם. הקווים נקראים על שם צבעים: אדום, כחול, חום, ירוק, כתום, ורוד, סגול וצהוב.\n\nה-L הוא סמל תרבותי של שיקגו והופיע בסרטים רבים. המסילות העיליות מעל הרחובות הן חלק בלתי נפרד מנוף העיר.",
+    "en": "Chicago's L is an elevated and subway rapid transit system serving Chicago and its suburbs. Opened in 1892, it is one of the oldest public transit systems in the world.\n\nThe system is famous for 'The Loop' - the central loop of elevated tracks in downtown from which the lines derive their names. Lines are named after colors: Red, Blue, Brown, Green, Orange, Pink, Purple, and Yellow.\n\nThe L is a cultural icon of Chicago and has appeared in many films. The elevated tracks above the streets are an integral part of the city's landscape."
+  },
+  "lines": [
+    {
+      "id": "red",
+      "name": {
+        "he": "קו אדום",
+        "en": "Red Line"
+      },
+      "color": "#C60C30",
+      "stations": 33,
+      "length_km": 38.5,
+      "opened_year": 1969
+    },
+    {
+      "id": "blue",
+      "name": {
+        "he": "קו כחול",
+        "en": "Blue Line"
+      },
+      "color": "#00A1DE",
+      "stations": 33,
+      "length_km": 43.4,
+      "opened_year": 1895
+    },
+    {
+      "id": "brown",
+      "name": {
+        "he": "קו חום",
+        "en": "Brown Line"
+      },
+      "color": "#62361B",
+      "stations": 27,
+      "length_km": 18,
+      "opened_year": 1907
+    },
+    {
+      "id": "green",
+      "name": {
+        "he": "קו ירוק",
+        "en": "Green Line"
+      },
+      "color": "#009B3A",
+      "stations": 28,
+      "length_km": 34,
+      "opened_year": 1892
+    },
+    {
+      "id": "orange",
+      "name": {
+        "he": "קו כתום",
+        "en": "Orange Line"
+      },
+      "color": "#F9461C",
+      "stations": 8,
+      "length_km": 18.5,
+      "opened_year": 1993
+    },
+    {
+      "id": "pink",
+      "name": {
+        "he": "קו ורוד",
+        "en": "Pink Line"
+      },
+      "color": "#E27EA6",
+      "stations": 22,
+      "length_km": 16.9,
+      "opened_year": 2006
+    },
+    {
+      "id": "purple",
+      "name": {
+        "he": "קו סגול",
+        "en": "Purple Line"
+      },
+      "color": "#522398",
+      "stations": 8,
+      "length_km": 24.5,
+      "opened_year": 1908
+    },
+    {
+      "id": "yellow",
+      "name": {
+        "he": "קו צהוב",
+        "en": "Yellow Line"
+      },
+      "color": "#F9E300",
+      "stations": 3,
+      "length_km": 8,
+      "opened_year": 1925
+    }
+  ],
+  "fun_facts": [
+    {
+      "he": "אחת ממערכות התחבורה הוותיקות ביותר בעולם",
+      "en": "One of the oldest transit systems in the world"
+    },
+    {
+      "he": "ה'לופ' במרכז העיר הוא סמל של שיקגו",
+      "en": "The Loop downtown is an iconic Chicago symbol"
+    },
+    {
+      "he": "הופיעה בסרטים רבים כולל 'האיש העכביש'",
+      "en": "Featured in many movies including 'Spider-Man'"
+    },
+    {
+      "he": "פועלת 24 שעות ביממה בקווים מסוימים",
+      "en": "Operates 24 hours on certain lines"
+    }
+  ],
+  "milestones": [
+    {
+      "year": 1892,
+      "event": {
+        "he": "פתיחת הקו הראשון העילי",
+        "en": "First elevated line opens"
+      }
+    },
+    {
+      "year": 1897,
+      "event": {
+        "he": "השלמת הלופ המרכזי",
+        "en": "Loop completed"
+      }
+    },
+    {
+      "year": 1943,
+      "event": {
+        "he": "הקמת CTA",
+        "en": "CTA established"
+      }
+    },
+    {
+      "year": 1993,
+      "event": {
+        "he": "פתיחת הקו הכתום",
+        "en": "Orange Line opens"
+      }
+    }
+  ],
+  "images": {
+    "header": "/transit-maps/chicago-l.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/CTA_rail_map.png/800px-CTA_rail_map.png",
+    "transitMap": "/transit-maps/chicago-l.png"
+  },
+  "map_url": "https://www.urbanrail.net/am/chic/chicago.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/chicago/",
+  "official_website": "https://www.transitchicago.com/",
+  "wikipedia": {
+    "he": "https://he.wikipedia.org/wiki/הרכבת_התחתית_של_שיקגו",
+    "en": "https://en.wikipedia.org/wiki/Chicago_%22L%22"
+  },
+  "colors": [
+    "#C60C30",
+    "#00A1DE",
+    "#62361B",
+    "#009B3A",
+    "#F9461C",
+    "#E27EA6",
+    "#522398",
+    "#FFDA0A"
+  ]
+}

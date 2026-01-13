@@ -1,0 +1,28 @@
+{
+  "id": "bangalore-metro",
+  "name": { "he": "מטרו בנגלור", "en": "Bangalore Metro", "native": "ನಮ್ಮ ಮೆಟ್ರೋ" },
+  "nicknames": ["Namma Metro"],
+  "city": { "he": "בנגלור", "en": "Bangalore" },
+  "country": { "he": "הודו", "en": "India", "code": "IN" },
+  "continent": "asia",
+  "type": "metro",
+  "status": "active",
+  "stats": { "length_km": 73, "stations": 62, "lines": 2, "annual_ridership": 150000000, "daily_ridership": 410000, "opened_year": 2011, "avg_fare": { "currency": "INR", "symbol": "₹", "min": 10, "max": 60 }, "propulsion": "electric", "operator": "Bangalore Metro Rail Corporation" },
+  "coordinates": { "lat": 12.9716, "lng": 77.5946 },
+  "description": { "he": "מטרו בנגלור (נמה מטרו) משרת את עיר הטכנולוגיה של הודו.", "en": "Bangalore Metro (Namma Metro) serves India's tech capital." },
+  "lines": [
+    { "id": "purple", "name": { "he": "קו סגול", "en": "Purple Line" }, "color": "#9B59B6", "stations": 37, "length_km": 43, "opened_year": 2011 },
+    { "id": "green", "name": { "he": "קו ירוק", "en": "Green Line" }, "color": "#009E49", "stations": 29, "length_km": 30, "opened_year": 2014 }
+  ],
+  "fun_facts": [
+    { "he": "משרת את עיר הסיליקון של הודו", "en": "Serves India's Silicon Valley" },
+    { "he": "מגיע לנמל התעופה", "en": "Reaches the airport" }
+  ],
+  "milestones": [{ "year": 2011, "event": { "he": "פתיחה", "en": "Opening" } }],
+  "images": { "header": "/transit-maps/bangalore-metro.png", "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Namma_Metro_Map.svg/800px-Namma_Metro_Map.svg.png", "transitMap": "/transit-maps/bangalore-metro.png" },
+  "map_url": "https://www.urbanrail.net/as/in/bang/bangalore.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/bangalore/",
+  "official_website": "https://www.bmrc.co.in/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/מטרו_בנגלור", "en": "https://en.wikipedia.org/wiki/Namma_Metro" },
+  "colors": ["#9B59B6", "#009E49"]
+}

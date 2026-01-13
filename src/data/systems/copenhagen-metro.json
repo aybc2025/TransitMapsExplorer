@@ -1,0 +1,50 @@
+{
+  "id": "copenhagen-metro",
+  "name": { "he": "מטרו קופנהגן", "en": "Copenhagen Metro", "native": "Københavns Metro" },
+  "nicknames": ["Metro"],
+  "city": { "he": "קופנהגן", "en": "Copenhagen" },
+  "country": { "he": "דנמרק", "en": "Denmark", "code": "DK" },
+  "continent": "europe",
+  "type": "metro",
+  "status": "active",
+  "stats": {
+    "length_km": 38,
+    "stations": 39,
+    "lines": 4,
+    "annual_ridership": 90000000,
+    "daily_ridership": 250000,
+    "opened_year": 2002,
+    "avg_fare": { "currency": "DKK", "symbol": "kr", "min": 24, "max": 36 },
+    "propulsion": "electric",
+    "operator": "Metroselskabet"
+  },
+  "coordinates": { "lat": 55.6761, "lng": 12.5683 },
+  "description": {
+    "he": "מטרו קופנהגן הוא מערכת אוטומטית לחלוטין המשרתת את בירת דנמרק. נפתחה ב-2002 והיא פועלת 24/7.",
+    "en": "Copenhagen Metro is a fully automated system serving Denmark's capital. Opened in 2002, it operates 24/7."
+  },
+  "lines": [
+    { "id": "m1", "name": { "he": "M1 (ירוק)", "en": "M1 (Green)" }, "color": "#009E49", "stations": 15, "length_km": 13, "opened_year": 2002 },
+    { "id": "m2", "name": { "he": "M2 (צהוב)", "en": "M2 (Yellow)" }, "color": "#FFD800", "stations": 16, "length_km": 14, "opened_year": 2002 },
+    { "id": "m3", "name": { "he": "M3 (אדום-מעגלי)", "en": "M3 (Red-Circle)" }, "color": "#E4002B", "stations": 17, "length_km": 16, "opened_year": 2019 },
+    { "id": "m4", "name": { "he": "M4 (כחול)", "en": "M4 (Blue)" }, "color": "#0066B3", "stations": 8, "length_km": 8, "opened_year": 2020 }
+  ],
+  "fun_facts": [
+    { "he": "פועל 24 שעות ביממה, 7 ימים בשבוע", "en": "Operates 24/7" },
+    { "he": "אוטומטי לחלוטין - ללא נהגים", "en": "Fully automated - driverless" }
+  ],
+  "milestones": [
+    { "year": 2002, "event": { "he": "פתיחת M1 ו-M2", "en": "M1 and M2 open" } },
+    { "year": 2019, "event": { "he": "פתיחת הקו המעגלי M3", "en": "Circle line M3 opens" } }
+  ],
+  "images": {
+    "header": "/transit-maps/copenhagen-metro.png",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Copenhagen_Metro_map.svg/800px-Copenhagen_Metro_map.svg.png",
+    "transitMap": "/transit-maps/copenhagen-metro.png"
+  },
+  "map_url": "https://www.urbanrail.net/eu/dk/kobenhavn/copenhagen.htm",
+  "interactive_map_url": "https://www.metrolinemap.com/metro/copenhagen/",
+  "official_website": "https://www.m.dk/",
+  "wikipedia": { "he": "https://he.wikipedia.org/wiki/מטרו_קופנהגן", "en": "https://en.wikipedia.org/wiki/Copenhagen_Metro" },
+  "colors": ["#009E49", "#FFD800", "#E4002B", "#0066B3"]
+}
